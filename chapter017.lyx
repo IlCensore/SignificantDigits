@@ -1,0 +1,777 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master significantDigits_eng.lyx
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans Myriad Pro
+\font_typewriter Latin Modern Mono
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing onehalf
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.85in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Taking Flight
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Every State shall make provisions for expeditious transport to the John
+ Snow Center for Medicine (alias The Tower) for any injured or ailing persons
+ (hereafter Users) of the following types:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Full-blooded witch or wizard.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Half-blooded witch or wizard.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Muggleborn witch or wizard.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Such Beings as qualify under the text of Article 1, Section 2.
+ (Amended)
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Squibs or other non-magical relatives, as defined in the text of Article
+ 1, Section 4.
+ (Amended)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+This transport shall be provided under the following terms:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Transport shall be free of charge for all Users.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Should it be necessary, States may impose a monetary penalty or criminal
+ charges to those Users who are deemed to be abusing the service.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Such penalty shall, nonetheless, not be incurred on any User's first trip
+ to the John Snow Center for Medicine.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Transport shall be expeditious, as defined in the text of Article 1, Section
+ 7.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Transport shall be safe, taking place only under such circumstances or employing
+ such means as will assure the well-being, both physical and mental, of
+ Users, as specified by the parameters of Appendix F.
+ (Amended)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Any attempts to sabotage, disrupt, delay, repurpose, alter, or otherwise
+ interfere with the operations of the aforementioned transport, regardless
+ of whether or not said sabotage, disruption, delay, repurposing, alteration,
+ or interference is within the bounds of the signatory State or any other
+ State, including both signatories and non-signatories, shall incur a penalty
+ commensurate with the number of preceding penalties already incurred, according
+ to the chart of Appendix B, and as determined by an impartial vote of represent
+atives of all signatory States.
+ (Amended)
+\end_layout
+
+\begin_layout Standard
+\align right
+From Article 3 of the Treaty for Health and Life.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+April 16
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1999
+\begin_inset Newline newline
+\end_inset
+
+Hogwarts School for Witchcraft and Wizardry
+\end_layout
+
+\begin_layout Standard
+Hogwarts is a dangerous place, even at the best of times.
+ Even aside from the menagerie of dangerous creatures that live in and around
+ its grounds.
+ The castle itself is a vast labyrinth of ever-changing corridors, dimly-lit
+ dungeons, and variable staircases.
+ Wizards and witches are supernaturally hardy in many ways, but Madame Pomfrey,
+ the matron, always had her hands full -- even without classroom mishaps.
+\end_layout
+
+\begin_layout Standard
+It was tragic, then, but hardly suspicious when Sammy Meroveni-Bowles slipped
+ on the stairs on his way down from Divination and Probability, felt the
+ railing give way in his hand, and fell down the gaping center of the tower's
+ spiral staircase.
+ Several children were behind him on the stairs, and could see the accident.
+ The witnesses should probably count themselves as fortunate, since if they'd
+ left class first, they might have been the ones to slip on the small puddle
+ of castor oil on the staircase.
+ Sammy was always the first to rush down to luncheon, though, so that was
+ unlikely.
+\end_layout
+
+\begin_layout Standard
+Sammy fell like a stone, followed by a piece of railing, his Divinations
+ and Probability textbooks, and the bracket that had torn free.
+ He bounced off of the staircase on the opposite side of the tower after
+ a moment, his skull smashing into the stone and rebounding him back the
+ other direction.
+ By the time he hit the floor of the tower, he was unrecognizable -- a tangle
+ of battered bones, meat, and robes.
+\end_layout
+
+\begin_layout Standard
+Lawrence Bradwian was the first to reach the boy.
+ He'd been in the lavatory, returning to class, and so he was kneeling next
+ to Sammy and gingerly turning the boy over by the time their other classmates
+ arrived.
+ Sammy and Lawrence were known to be dire enemies, and so many thought it
+ was a mark of great kindness that Lawrence shouted for a Safety Stick.
+ Professor Placela bustled halfway down the stairs with one, his black-and-gold
+ robes gathered up in his fists, before he realized that it would be faster
+ to simply drop it.
+ Lawrence caught it awkwardly with the tips of his fingers.
+\end_layout
+
+\begin_layout Standard
+“How do I do this, without going along?” he asked, looking around.
+ He seemed quite upset.
+\end_layout
+
+\begin_layout Standard
+His friend Annabeth huffed in frustration, and grabbed his hand.
+ “Just 
+\emph on
+go!
+\emph default
+” she said, and yanked his hand and the Stick down into Sammy's bloody chest.
+ It snapped, and with a slippery pop, all three of the children disappeared.
+\end_layout
+
+\begin_layout Standard
+The rest of the class looked at each other, uncertain, as Professor Placela
+ reached the bottom of the stairs.
+ He was puffing and red-faced, but he still had wind enough to insist they
+ have an impromptu lesson on the availability heuristic.
+ Just because events like these sprang quickly to mind when one thought
+ of stairs, did not make stairs any more dangerous than before, since so
+ many people used them without incident on a daily basis.
+ Everyone groaned and complained that they weren't planning on reconsidering
+ the use of stairs, but the excitement and mild shock of the accident had
+ made them tractable.
+ The students found seats on the stairs, scrunching together and grimacing,
+ as their teacher discussed base rates.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+At any given time, more than half of the aurors stationed at the Tower were
+ positioned in the Receiving Room.
+ At night and in the wee hours, the flow of patients transported by individual
+ Safety Sticks or one of the two dozen fixed Safety Poles slowed significantly,
+ as trauma cases were replaced by scheduled rejuvenations, long-term illness
+ treatments, and the highly complex changes in magical nature that the Tower
+ made possible (such as restoring vampires and lycanthropes).
+ During those hours, there might be as few as twenty aurors in the Receiving
+ Room.
+\end_layout
+
+\begin_layout Standard
+Weekday afternoons, on the other hand, were often quite busy, and a full
+ fifty aurors were bustling around the reception area.
+ The vast majority were native British aurors, as usual, although an increasing
+ number of foreign aurors were being posted at the Tower, as well.
+ Exceptional Transfiguration skills were considered the most important asset
+ in any potential Tower auror, as well as warding, scanning, and a general
+ aptitude for learning new magics.
+ Foreign aurors -- and healers, too -- were ready, willing, and able to
+ assist in the implementation of the Treaty for Health and Life, and so
+ they were made welcome… after passing an assessment by the Director of
+ the 
+\noun on
+dmle
+\noun default
+, Cedric Diggory, and by the head of Tower security, Alastor Moody.
+ It was only fair to permit their countries to send them, but they still
+ had to meet the Tower's high standards.
+\end_layout
+
+\begin_layout Standard
+Political considerations made their inclusion a smart move, anyway.
+ As new countries joined, and their citizens saw the physical disabilities
+ of their neighbors vanish and magical hospitals empty, replaced by a stream
+ of fresh-faced, healthy, and delighted young witches and wizards, it was
+ important to make sure that each state felt fully invested in the process,
+ and that the entire clinic operation be as transparent as possible in order
+ to allay suspicion.
+\end_layout
+
+\begin_layout Standard
+Fairness and politics aside, the foreigners were necessary.
+ There were just too many sick, wounded, and elderly for the British aurors
+ to handle -- even with the aggressive recruiting that had doubled their
+ ranks.
+ Every hour of every day, aurors were needed for the reception squad, the
+ scanning squad, the chizpurfle squad, the traffic squad, and the detector
+ squad -- plus those additional aurors who simply remained vigilant and
+ directed traffic.
+ One experienced and level-headed auror -- in short supply, these days --
+ was also necessary to be the cryptically-named “Mayor of Terminus,” usually
+ just called the “Terminus,” for any given shift.
+ The Terminus was in command of the Receiving Room, and the post had become
+ highly sought-after in recent years.
+\end_layout
+
+\begin_layout Standard
+This particular Friday afternoon, forty-two aurors were on duty in the Receiving
+ Room.
+ The cavernous hall, which had seemed silly in its enormous scale when the
+ Tower opened, was bustling with people working efficiently.
+ Every ten or twenty seconds, a new arrival would spin into place in an
+ empty spot, flickering with red as he or she was rendered unconscious,
+ and an auror trained in triage would swoop in, visually inspect them, cast
+ a quick scan, and check their 
+\noun on
+abc
+\noun default
+s (airway, breathing, circulation).
+ If there was no pressing emergency -- and there usually wasn't -- then
+ the patient would be passed off to a pair of colleagues, who would start
+ the autonomous patient record and begin security scans.
+ The patient record, a specialized Quotes Quill and pre-printed parchment
+ form, followed the patient and filled in information obediently after the
+ scans as bottled chizpurfles were used to ferret out any magical items
+ or spells that the scanners had missed.
+ Wands and any dangerous contraband were confiscated and bagged and tagged.
+ Then the patient was floated on into the Tower proper, where the real work
+ could begin (and sometimes continue, holding stable long into the night,
+ waiting for Harry to come inspect the healing).
+\end_layout
+
+\begin_layout Standard
+They'd already caught Moody once, today, but everyone was still doing their
+ best work, highly conscious of the fact that he would sometimes make more
+ than one attempt to breach security.
+ Last year, he'd tried thirty-two separate times in a single twenty-four-hour
+ period, and his last attempt had taken the form of conjoined twins, one
+ of whom was apparently in cardiac arrest, trying to smuggle in a wand.
+\end_layout
+
+\begin_layout Standard
+He wasn't the only security concern, either.
+ There were frequent intoxicated people “running safety,” occasional attempts
+ at organized protests, and even the rare assassin or two.
+\end_layout
+
+\begin_layout Standard
+Truly novel attacks were rare.
+ That may be why this one was so successful at disrupting the Receiving
+ Room.
+\end_layout
+
+\begin_layout Standard
+Three children spun into existence, two crouching over a third bloody body
+ for a moment, before they all fell limp.
+ Half a heartbeat later, a large burlap sack and a big mahogany cabinet
+ both erupted from the pocket of the injured child, sprouting sideways as
+ though they were the fruit of some monstrous plant in the injured child's
+ garments.
+ And half a heartbeat after that, the doxies trapped inside of the bag burst
+ free.
+\end_layout
+
+\begin_layout Standard
+Harry Madagascar was Terminus this afternoon, and he was highly competent.
+ His wand already was in his hand before the sack had finished its emergence,
+ and his eyes flickered around the room to pick out additional threats and
+ to make sure everyone was on task.
+ They were: two aurors physically moved to block the golden entrance into
+ the Tower proper, calling out a warning to the guards within, who rolled
+ the barrier into place; the reception squad and scanning squad focused
+ on shielding and stabilizing their patients; the chizpurfle squad handled
+ incoming patients in the same way; and everyone else concentrated on the
+ threat.
+ It appeared to be an isolated attack, rather than a distraction -- no one
+ was trying to make a break for it, and the various wards and jinxes on
+ the Room all seemed to be functional.
+ The cabinet that had also sprung from the child's clothes seemed to be
+ inert, thank Merlin.
+\end_layout
+
+\begin_layout Standard
+However minor the threat, two dozen doxies had escaped from the bag in the
+ few seconds before an auror hit it with an 
+\emph on
+Immobilus
+\emph default
+, containing the rest of them.
+ And unfortunately for the annoyed aurors, the escapees scattered throughout
+ the room.
+ Biting Faeries, as they were also known, were nasty little pests… covered
+ in coarse “hairs” of black chitin, they had shiny brown beetle-wings and
+ a hard little nugget for a head.
+ They were small and didn't do much damage when they bit, but they were
+ venomous.
+ Each needle-like tooth was covered in an oily venom; doxies had two rows
+ of them at any time, shedding one row and growing another each month.
+ Not particularly fearsome creatures, although their venom could cause serious,
+ persistent swelling if left untreated.
+ Doxycide was the usual treatment, since the blasted critters were so hard
+ to hit.
+\end_layout
+
+\begin_layout Standard
+Madagascar kept a careful watch as the situation was dealt with by the professio
+nals in the Receiving Room.
+ No additional instructions seemed to be necessary, as the aurors on task
+ were ably freezing or killing each doxy.
+ They were quick and agile beasts, and they managed to bite a few people
+ as they buzzed around the room, whipping and weaving to avoid attacks,
+ but there was never any real threat.
+ 
+\emph on
+Maybe just a prank
+\emph default
+, Madagascar thought.
+ Was that lazy thinking? How could someone benefit from this? As a diversion,
+ while an assassination attempt was underway? Well, that wasn't his look-out:
+ he was Terminus, and so he just needed to wrap this up as soon as possible.
+ The bloody little things were zipping around and trying to find places
+ to hide for a moment, so they could bite.
+\end_layout
+
+\begin_layout Standard
+Perhaps seven or eight minutes later, the last elusive doxy was obliterated
+ with a short-range blast of fire by an angry auror named Pilar.
+ She'd been keeping a badly-injured older woman stable during the fight,
+ but had seen an opportunity to end the conflict before it dragged on any
+ further.
+ She'd swept up her wand, cast her curse, and returned her wand to her patient
+ in the span of a moment… but it was still a bad risk.
+ Outside of the Tower, and without whatever wandless magic Harry Potter
+ used to complete the Higher Transfiguration spells within its walls, Transfigur
+ation sickness could have caused serious problems even in the span of that
+ moment.
+ Madagascar would have to scold her.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+No apparent remaining threats
+\emph default
+, he thought, 
+\emph on
+glancing around the room again.
+ But that kid is going to pay for this prank.
+ Unless -- for whatever insane reason -- he had some valid excuse.
+\end_layout
+
+\begin_layout Standard
+“Harry!” called out Geraldine Stein, an auror normally on chizpurfle duty
+ whom he'd once taken out for a quiet drink.
+ She was standing next to the burlap sack, looking inside at the frozen
+ pests that hadn't escaped.
+ “Mr.
+ Madagascar, sir!” she corrected herself immediately.
+ He didn't believe anyone would actually think she was being too familiar,
+ but Stein was a careful woman.
+ “The rest of the doxies are dying!”
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Poison, gaseous attack, trap --
+\emph default
+ his mind span through some possibilities, and he opened his mouth.
+ Then it snapped shut as he realized.
+ “Transfiguration sickness,” he called to her.
+ “That's how they got here and were triggered… they were Transfigured into
+ something small, and the transfiguration was dispelled when the caster
+ was stunned.
+ That means it was someone here.
+ Better put up the first precaution, though, just in case.
+ Bubblehead the three kids.
+ And keep a close eye on them… one of them did this stupid prank.” He paused,
+ eyeing the cabinet.
+ “And seal that piece of furniture, too.”
+\end_layout
+
+\begin_layout Standard
+Stein followed through on his commands, putting the Bubblehead Charm on
+ the three unconscious teenagers and putting up the air ward of the first
+ precaution to make sure that anything dangerous didn't spread any further.
+ Then she touched her wand to the large wooden cabinet, dark wood with scrollwor
+k along the top, that had also made the trip, and cast a full-strength 
+\emph on
+Colloportus
+\emph default
+.
+ Whatever strange attack the cabinet was intended to convey, it was now
+ locked-up.
+\end_layout
+
+\begin_layout Standard
+Madagascar glanced around the Receiving Room, looking for any other threats.
+ He didn't see any.
+ Just a swift of aurors all huddled or standing, attending to their patients.
+ They needed to get everything clear and moving again, or the incoming injured
+ were going to start backing up in such great of numbers that those present
+ wouldn't be able to care for them.
+\end_layout
+
+\begin_layout Standard
+“All clear, I think,” said Gregor Nimue, who was standing by the door, looking
+ bored.
+ His arms were crossed, and his wand dangled casually from loose fingers.
+\end_layout
+
+\begin_layout Standard
+“Give the knock, then,” said Madagascar.
+ His voice was a bit short, since he didn't particularly like Nimue.
+ The man regarded himself as too good for his current circumstances, since
+ he was competent and experienced, but had been stuck at the bottom of the
+ duty roster for years.
+ 
+\emph on
+Never knew that quadruple pay was going to cost so much, down the line,
+ did you?
+\emph default
+, thought Madagascar.
+ 
+\emph on
+Serves you right.
+\end_layout
+
+\begin_layout Standard
+Nimue shrugged, and went to the heavy silver plate that had been rolled
+ into place across the Tower entrance by the door guards just inside.
+ He knocked three times, then five times.
+ It sounded like someone was thumping on the bottom of some immense cauldron.
+ After a response from within, Nimue knocked two more times.
+\end_layout
+
+\begin_layout Standard
+The door didn't open, and Nimue looked even more annoyed as he realized
+ something.
+\end_layout
+
+\begin_layout Standard
+“What is it, Gregor?” Madagascar asked, frowning.
+\end_layout
+
+\begin_layout Standard
+The older auror scowled.
+ “This is the same alert pattern as earlier this month, when those protesters
+ overwhelmed the guard in Bloemfontein and tried to just send as many Muggles
+ through as possible, to swamp us with bodies.
+ Diggory didn't change it, and now I bet they're realizing that.”
+\end_layout
+
+\begin_layout Standard
+“Well, they'll need to fix that protocol, I suppose,” said Madagascar, trying
+ not to lay blame anywhere -- not in such a public way, that is.
+ 
+\emph on
+He
+\emph default
+ certainly didn't want 
+\emph on
+his
+\emph default
+ career to dead-end, just because he didn't have enough sense to shut up.
+ He was going to add something else, but at that moment a silvery bat flapped
+ its way out of some unknowable place and into sight right in front of his
+ face.
+ Its leathery, translucent wings shed a glittering mist as it flew in place,
+ and spoke in the voice of Director Diggory: “What is going on?”
+\end_layout
+
+\begin_layout Standard
+Madagascar looked around the room, hesitating, then said resolutely, “We
+ gave the correct knock, Mr.
+ Diggory, I'm sure of it.
+ The situation is under control.”
+\end_layout
+
+\begin_layout Standard
+The bat flapped out of existence, only to return a moment later, saying,
+ “Monkey monkey monkey.”
+\end_layout
+
+\begin_layout Standard
+He sighed and replied, “I like bananas, dress me like a doll.” The call-and-respo
+nse phrases were supposedly randomly generated by Mad-Eye Moody using funny
+ little black-and-white cubes and a dictionary, but all the aurors were
+ certain that he kept rolling the cubes until he got a sufficiently embarrassing
+ result.
+\end_layout
+
+\begin_layout Standard
+“Sir… look at this,” said Auror Stein.
+ She was kneeling down next to the injured boy in the trio of teenagers
+ who had started this mess, a bottle of chizpurfles in one hand.
+ She held up a signal abacus in the other, just like the ones possessed
+ by senior aurors.
+ “Someone must have forgotten to report a loss, sir.”
+\end_layout
+
+\begin_layout Standard
+“And 
+\emph on
+that
+\emph default
+,” said Nimue, from the other side of the room, “is a Vanishing Cabinet.
+ That boy with the doxies and abacus seems to have had quite a plan.” He
+ clucked his tongue.
+ “And it almost worked,” he added, even though the scheme plainly had not
+ even come 
+\emph on
+close
+\emph default
+ to working.
+\end_layout
+
+\begin_layout Standard
+“There's a note here, too, sir,” said Stein.
+ She'd set down the abacus, and had a tightly-folded piece of parchment.
+ She glanced up at Madagascar, raising her eyebrows significantly.
+ “It's in code.”
+\end_layout
+
+\begin_layout Standard
+“Put the three kids under arrest,” said Madagascar, sighing.
+ Four aurors surrounded them.
+ He rubbed his eyes with his off hand.
+ At least it didn't seem like it was another Moody attack.
+ Once in a day was enough.
+ Although it 
+\emph on
+had
+\emph default
+ been fun to give Pip credit, since no one saw Madagascar cast the stunner.
+ Madagascar grinned, remembering, as the door guards rolled back the silver
+ plate blocking the Tower.
+ The enchanted barrier scraped the stone as it rolled, as if it was reluctant
+ to be moved.
+\end_layout
+
+\begin_layout Standard
+J.C.
+ Kraeme, one of the guards, came to stand in the open doorway, still in
+ the Tower.
+ She had her bubbler in hand, and she reported into it with a wry tone,
+ “There are prisoners! And they're 
+\emph on
+students!
+\emph default
+” She lowered the bubbler, looking at the big dresser, the teenagers sealed
+ off with Transfiguration precautions, the burlap sack full of dead doxies,
+ and the twenty-four deceased ones littering the Receiving Room.
+ “What in Merlin's name is going on here, Mr.
+ Madagascar?”
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,432 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{32}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\newfontfamily\llo{Linux Libertine O}
+\end_preamble
+\use_default_options true
+\master significantDigits_eng.lyx
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Griffy"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+renewcommand{
+\backslash
+chaptername}{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Author's Notes
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Author's Notes}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+chaptername}{Chapter}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Chapter Seven
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+You possess all necessary information to solve the puzzle.
+\end_layout
+
+\begin_layout Subsection*
+Chapter Eleven
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+I am aware of the flaws in this sort of security.
+ Please think before pointing them out to me.
+ Levels and levels.
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+The foam used is based on the foams described in 
+\noun on
+u.s.
+
+\noun default
+ Patent 4,202,279 by Peter Rand.
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+This will never be revealed in the story, and it's probably impossible to
+ independently deduce, so I'll just tell you: “Maschaechgo” is the phonetic
+ spelling for the word for “red” in one of the Native American Algonquin
+ languages, Mahican.
+ These redcaps were captured in the Berkshires in Western Massachusetts,
+ nowhere near Boston, and they still speak the old language they crudely
+ appropriated from the first humans they knew.
+\end_layout
+
+\begin_layout Subsection*
+Chapter Twelve
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+Below are explanations for the riddle answers.
+ If you didn't get them, or got a slightly different answer, don't feel
+ bad.
+ Any answer at all simply caused a stunning effect, so there was no “right
+ answer.” The only way to win was not to play.
+\end_layout
+
+\begin_layout Standard
+“Change my beginning, and subtract my end and all color, and chase me away
+ for good.”
+\begin_inset Newline newline
+\end_inset
+
+Nogtail, minus its “end” is nog.
+ Change the first letter to dog, and make sure it's white by taking away
+ all color, and it can chase away nogtails.
+ Only a pure white dog can do that, allegedly.
+ It was an obscure bit of 
+\noun on
+hp
+\noun default
+ trivia, so I reminded you of it in Chapter 2.
+\end_layout
+
+\begin_layout Standard
+“Grindelwald's fall less Urg's fall less price of Tower's rise.”
+\begin_inset Newline newline
+\end_inset
+
+Grindelwald fell in 1945 (as we were reminded last chapter), and Urg fell
+ in 1722 (as we were reminded three chapters ago), and 37 Death Eaters plus
+ Voldemort died in 1992 to lay the foundation for the Tower's rise.
+ Harry didn't kill all of them, but that's not common knowledge.
+\end_layout
+
+\begin_layout Standard
+“What have I got in my pocket?”
+\begin_inset Newline newline
+\end_inset
+
+This is a direct reference to J.R.R.
+ Tolkien's 
+\emph on
+The Hobbit
+\emph default
+.
+ Bilbo cheats during the riddle contest with Gollum.
+ The answer is “a ring” – the One Ring, which he's found and taken.
+ I did not remind you of The Hobbit, but you're a Muggle, so you have no
+ excuse.
+\end_layout
+
+\begin_layout Subsection*
+Chapter Seventeen
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+This is the complete contents of the parchment that Stein found in Sammy's
+ pocket:
+\end_layout
+
+\begin_layout Quote
+33tuccnimechlx\SpecialChar softhyphen
+bguhvpesyvb\SpecialChar softhyphen
+suxihryccmcp\SpecialChar softhyphen
+t\SpecialChar softhyphen
+w\SpecialChar softhyphen
+k\SpecialChar softhyphen
+x\SpecialChar softhyphen
+c\SpecialChar softhyphen
+f\SpecialChar softhyphen
+m\SpecialChar softhyphen
+b\SpecialChar softhyphen
+p\SpecialChar softhyphen
+e\SpecialChar softhyphen
+m\SpecialChar softhyphen
+v\SpecialChar softhyphen
+j\SpecialChar softhyphen
+v\SpecialChar softhyphen
+h\SpecialChar softhyphen
+a\SpecialChar softhyphen
+h\SpecialChar softhyphen
+x\SpecialChar softhyphen
+d\SpecialChar softhyphen
+w\SpecialChar softhyphen
+v\SpecialChar softhyphen
+q\SpecialChar softhyphen
+m\SpecialChar softhyphen
+b\SpecialChar softhyphen
+r\SpecialChar softhyphen
+f\SpecialChar softhyphen
+w\SpecialChar softhyphen
+f\SpecialChar softhyphen
+k\SpecialChar softhyphen
+k\SpecialChar softhyphen
+i\SpecialChar softhyphen
+i\SpecialChar softhyphen
+w\SpecialChar softhyphen
+b\SpecialChar softhyphen
+i\SpecialChar softhyphen
+v\SpecialChar softhyphen
+p\SpecialChar softhyphen
+l\SpecialChar softhyphen
+v\SpecialChar softhyphen
+o\SpecialChar softhyphen
+g\SpecialChar softhyphen
+i\SpecialChar softhyphen
+y\SpecialChar softhyphen
+
+e\SpecialChar softhyphen
+e\SpecialChar softhyphen
+l\SpecialChar softhyphen
+w\SpecialChar softhyphen
+a\SpecialChar softhyphen
+l\SpecialChar softhyphen
+v\SpecialChar softhyphen
+j\SpecialChar softhyphen
+m\SpecialChar softhyphen
+v\SpecialChar softhyphen
+a\SpecialChar softhyphen
+e\SpecialChar softhyphen
+w\SpecialChar softhyphen
+d\SpecialChar softhyphen
+i\SpecialChar softhyphen
+i\SpecialChar softhyphen
+b\SpecialChar softhyphen
+e\SpecialChar softhyphen
+e\SpecialChar softhyphen
+x\SpecialChar softhyphen
+b\SpecialChar softhyphen
+vrtote\SpecialChar softhyphen
+wrkecbxrfuuk\SpecialChar softhyphen
+e\SpecialChar softhyphen
+p\SpecialChar softhyphen
+j\SpecialChar softhyphen
+g\SpecialChar softhyphen
+j\SpecialChar softhyphen
+s\SpecialChar softhyphen
+f\SpecialChar softhyphen
+j\SpecialChar softhyphen
+k\SpecialChar softhyphen
+a\SpecialChar softhyphen
+x\SpecialChar softhyphen
+d\SpecialChar softhyphen
+m\SpecialChar softhyphen
+cztbafmnqfstfkb\SpecialChar softhyphen
+tnxkmssurna
+\end_layout
+
+\begin_layout Subsection*
+Chapter Twenty-One
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+I am aware that graphene wasn't yet produced in a real way until years after
+ 1999, but it was observed and studied for many decades before that, and
+ scientists began trying to synthesize it in the seventies.
+\end_layout
+
+\begin_layout Subsection*
+Chapter Twenty-Five
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+Yes, I know that Novaya Zemlya is not in Siberia.
+ Sloppy reporting, really.
+\end_layout
+
+\begin_layout Subsection*
+Chapter Thirty-Two
+\end_layout
+
+\begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+I'm sorry.
+\end_layout
+
+\end_body
+\end_document

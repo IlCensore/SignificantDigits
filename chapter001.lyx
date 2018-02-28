@@ -1,0 +1,1723 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master significantDigits_eng.lyx
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "EB Garamond"
+\font_sans "default" "CoelacanthHeavy"
+\font_typewriter "default" "Latin Modern Mono"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing onehalf
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.85in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Frontloading Mysteries
+\end_layout
+
+\begin_layout Standard
+Ninety percent of everything was terrible.
+ This was also true for people: ninety percent of them were dumb.
+\end_layout
+
+\begin_layout Standard
+Reg Hig contemplated this unhappy fact as he stared at a copy of the 
+\emph on
+Daily Prophet
+\emph default
+.
+ The headline read, 
+\noun on
+unity approaches
+\noun default
+.
+ Underneath, a smiling duo of clear importance were dipping their heads
+ in identical bows before a dozen witches and wizards in trailing robes.
+ The Tower and the Goddess, adding another country to their growing global
+ hegemony.
+\end_layout
+
+\begin_layout Standard
+It was tempting to crumple the paper in one angry fist, or perhaps to burn
+ it into theatrical ashes.
+ But he intended to scrutinize the lead story carefully, and he was certainly
+ not going to buy a second copy of this propaganda sheet.
+ The 
+\emph on
+Daily Prophet
+\emph default
+ had been a mouthpiece of the British ruling class since the time of his
+ grandfather, and it was no different these days, now that a new Dark Lord
+ and Lady had taken control.
+\end_layout
+
+\begin_layout Standard
+It was almost comical the way each new Dark Lord followed the same playbook.
+ The first step was to eliminate the main opposition, through assassination
+ or spellcraft.
+ The second step was to stack the local Thing (in Britain, it was the Wizengamot
+) with their followers.
+ The third step was to take control of the leading newspaper.
+ And last of all, almost as an afterthought, they would take over the local
+ Ministry of Magic.
+\end_layout
+
+\begin_layout Standard
+Still, Reg thought, it certainly made sense to use a tried-and-true method.
+ History showed the wisdom.
+ At the height of the Reign of the Eleusinian Mysteries, Sulla the Fortunate
+ marched on Rome and took power by force, wresting it from the Optimates
+ in the name of the Muggle masses.
+ He ruled with absolute power.
+ Forty years later, a successor did the same thing, championing the Muggle
+ cause in the Senate and seizing power by force.
+ Twenty years after that… well, you get the picture.
+\end_layout
+
+\begin_layout Standard
+All else equal, a winning move would stay a winning move...
+ until and unless you changed the rules.
+ That's why the third successor of Sulla the Fortunate had quietly murdered
+ all of his opposition, and had launched centuries of tyranny.
+ Augustus Caesar had decided to change the rules, and he had done so with
+ admirable effectiveness.
+\end_layout
+
+\begin_layout Standard
+Reg stood from his desk chair, walking to the fireplace.
+ He stamped his foot on a bright-green bellows at the fireplace entrance,
+ barely breaking stride as he stepped into the flare of green flame and
+ said, 
+\begin_inset Quotes eld
+\end_inset
+
+Westphalian Council.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There was a brief moment as he walked from the travel room into the council
+ chamber itself.
+ For obvious reasons of security, the Floo network was not connected directly
+ to a place of such power and discretion as the Westphalian Council's meeting
+ chamber, or with the offices of any of the councilors.
+\end_layout
+
+\begin_layout Standard
+Walking into the chamber, through a shower of Thieves' Downfall, Reg saw
+ that there was only one other councilor present, sitting behind one of
+ the tiny desks.
+ Limpel Tineagar was a gangly woman, and she always looked a trifle silly
+ folded up on the little chairs of the meeting chamber.
+ As she leaned forward to peer at a parchment, her limbs seem to be too
+ long and thin.
+ Limpel resembled nothing so much as a robed spider.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Reg,
+\begin_inset Quotes erd
+\end_inset
+
+ she said warmly, 
+\begin_inset Quotes eld
+\end_inset
+
+how are you this morning?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Very well,
+\begin_inset Quotes erd
+\end_inset
+
+ he replied, walking down the tiers until he was on the level below her.
+ He was almost a foot shorter than her, and if he had tried to take advantage
+ of a rare opportunity to loom over someone by standing next to her, it
+ would have seemed ridiculous to them both.
+ Power should not be obvious.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+I assume you've heard of the French capitulation?
+\begin_inset Quotes erd
+\end_inset
+
+ she asked, her tone less cheerful.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The cowards fall, one by one.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+That is why I am here,
+\begin_inset Quotes erd
+\end_inset
+
+ he said.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+We must call a meeting, and we must discuss what the Americas will do.
+ Inaction is no longer an option – not with Thing after Thing formally agreeing
+ to the darkest of rituals! If we wait much longer, then it will be too
+ late.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+A preview of your speech?
+\begin_inset Quotes erd
+\end_inset
+
+ Limpel asked, her mouth twisting with amusement.
+ She was a cynic, and had no native passion in her.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You rouse me with your stirring words.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reg frowned slightly, and leaned forward, putting his hands on her desk
+ and looking at her with frank directness.
+ He was not an intimidating man, he knew.
+ Short and ill-favored, he had a broad face with a plum nose and dark eyes.
+ The dense black stubble around his mouth was irregular and resistant to
+ every razor and charm.
+ He was not charismatic and he was not scary.
+\end_layout
+
+\begin_layout Standard
+But he was very persuasive.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+It's no joke, Limpel.
+ Blocking the international statute only delayed Britain for a few years.
+ Europe has now agreed to the Tower's demands almost as a whole, saving
+ only the brave Cappadocians.
+ France has already begun putting in place the necessary procedures to comply
+ with the treaty.
+ Thus far, it's only the harmless things – Healer's Kits and all that –
+ but it won't be too much longer before Safety Poles are set up in Quiberon,
+ Beauxbatons, Aix-en-Provence, and throughout Paris! Brainwashing available
+ at the touch of a finger!
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reg lifted a finger in the air.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+One Thing stands in the way: our council.
+ We've been fighting this Atlantean nonsense for centuries, and we're about
+ to lose for good.
+ History will mark down this council as the one that failed… unless we take
+ a stand.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+I don't know if you've ever noticed that, in an emergency, people in a crowd
+ are slow to help.
+ Someone gets hit by a Quaffle and falls into the stands, and everyone just
+ stands back and looks shocked.
+ No one in the crowd feels responsible – they're just watching.
+ But when there's only one bystander, that person knows that it's on them.
+ They have to intervene.
+ And that's us, now.
+ That's the Westphalian Council.
+ We've spent years fighting for the rights of nonhumans and Muggles! We
+ sent dozens to fight Grindelwald, and after Boston, we sent dozens to fight
+ Voldemort.
+ We're the only ally of the goblins that hasn't already sold their souls
+ to this new Dark Lord.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+It's us.
+ We're it.
+ And if we fail, then that's the end of everything.
+ Goblins in chains, Muggles start dying by the millions, and Westphalian
+ Council becomes one more footnote at the bottom of the page, reading, `Also
+ destroyed in 1999 was the Westphalian Council, a once-important American
+ wizarding union'.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Limpel's smirk had left her face, and she was solemn.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You're right, of course.
+ Sorry.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+No need for apologies, Limpel,
+\begin_inset Quotes erd
+\end_inset
+
+ Reg said, shaking his head and leaning back.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Just give me your word that you're with me.
+ The next Dark Lord has risen, and we need to stop him.
+ There is no one else… we are the battle line, here in this council.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+She was nodding now, her mouth tight.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+So this isn't a speech, Limpel, but a request,
+\begin_inset Quotes erd
+\end_inset
+
+ he said, looking her in the eye and speaking with the earnestness of an
+ honest man.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Will you help me stop Harry Potter-Evans-Verres, before he destroys the
+ world as we know it?
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+You smile too much, `Harry',
+\begin_inset Quotes erd
+\end_inset
+
+ Hermione Granger said to Nymphadora Tonks, lightly.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+For anyone who knows the real fellow, it's a dead giveaway.
+ You should spend more time looking serious or thoughtful.
+ Alastor says that it's important to put yourself in the right mood, and
+ so when he's being Harry he just pretends everyone else in the room is
+ a child.
+ He says Harry acts that way anyway, and it helps him be the right kind
+ of condescending.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Mad-Eye Moody says the meanest things I've ever heard 
+\emph on
+anyone
+\emph default
+ say about someone that they love like a son,
+\begin_inset Quotes erd
+\end_inset
+
+ Tonks said.
+ She was running her finger up and down the lightning-bolt scar on her forehead.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+It would be cute if it wasn't exactly as creepy as everything else Mad-Eye
+ does.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione shrugged.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I think it's sweet, really.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+She pushed through the swinging wooden door as they exited Prestidigitation
+ and Practicals.
+ They were already being stared at, the moment they stepped out into Diagon
+ Alley but that was okay.
+ That was useful.
+\end_layout
+
+\begin_layout Standard
+Hermione and Tonks-as-Harry made a beeline for the Safety Pole that had
+ been fixed in Diagon Alley nearly two years ago.
+ Their pace slowed as word spread.
+ The Goddess was well-known and often out in public, but the Tower rarely
+ ever left Hogwarts School for Witchcraft and Wizardry.
+ To see him, you normally had to be either incredibly important or incredibly
+ ill.
+\end_layout
+
+\begin_layout Standard
+Harry was essentially in prison, Hermione reflected, as she gingerly moved
+ through the crowd.
+ He was trapped in his rooms at Hogwarts, forced to send magical doppelgangers
+ to major events.
+ If an official envoy insisted on meeting him in person, and that encounter
+ seemed likely to require Harry's unique gifts, then that envoy simply had
+ to come visit.
+ As it turned out, this was better for everyone, on all counts.
+ Harry was still not known for his social skills.
+ There were other benefits, too.
+ For example, the arrangement made it impossible for anyone to pressure
+ a fake-Harry into an on-the-spot decision.
+\end_layout
+
+\begin_layout Standard
+Ordinarily, Harry himself might have been the one to point out the advantages
+ of being forced to confer and consider on any major decisions – of being
+ pre-committed to that deliberation.
+ It was right out of Schelling's 
+\emph on
+The Strategy of Conflict
+\emph default
+, after all (page 30, her mind automatically supplied).
+\end_layout
+
+\begin_layout Standard
+But Harry couldn't actually understand the whole concept, as she'd discovered
+ when she'd tried to talk to him about it.
+ Once he'd gotten important enough, he'd simply stopped wanting to leave
+ the safety of Hogwarts.
+ His Unbreakable Vow wouldn't permit him to 
+\begin_inset Quotes eld
+\end_inset
+
+take any chances
+\begin_inset Quotes erd
+\end_inset
+
+ with the destruction of the world, and at some point he had begun to consider
+ that there was a small chance his presence might be necessary to save it.
+ It was a very small chance, but it was a chance.
+ He was too unique, perhaps – the single point of failure in too many possible
+ systems.
+ Hermione knew that this was why he did so much teaching.
+ She had never felt the same constraint, though, despite her similar Vow.
+ Was that humility on her part… or realism?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Unbreakable Vows,
+\begin_inset Quotes erd
+\end_inset
+
+ Harry had said, when she had tried to encourage him to grapple with the
+ situation, 
+\begin_inset Quotes eld
+\end_inset
+
+are very effective.
+ They don't work like genies in stories – I'm bound by the terms of the
+ vow as it was meant, I think, in a way that makes me do my best with it.
+ So while I understand what you're saying in the abstract, I don't 
+\emph on
+want
+\emph default
+ to want to leave Hogwarts or evade the Vow.
+ Sorry.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It was sad.
+ He was his own jailer.
+\end_layout
+
+\begin_layout Standard
+Automatically, Hermione was smiling radiantly and giving small nods to people.
+ At this point, basic public relations were on autopilot for her.
+ It was easy.
+ Her beauty helped.
+ Maturity would probably have evened out her features anyway, but she also
+ got a teensy-weensy bit of help from the dark ritual that had infused her
+ with the unearthly magnificence of a unicorn.
+ Plus, she'd been a world-renowned hero for several years now.
+ As the old adage (and Sunshine Army slogan) had it, 
+\begin_inset Quotes eld
+\end_inset
+
+Practice makes perfect.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Thank heavens for you,
+\begin_inset Quotes erd
+\end_inset
+
+ a young woman said, reaching out to touch Hermione's arm.
+ The woman looked to be something like thirty, but she stood with self-conscious
+ straightness.
+ She was probably one of the healed.
+ Hermione nodded at her graciously, and eased by.
+\end_layout
+
+\begin_layout Standard
+The prickling sensation in her arm began a moment later.
+\end_layout
+
+\begin_layout Standard
+She glanced down, and saw a streak of something granular and colorless.
+ Hermione's head whipped around, and she scanned for the young woman.
+ Gone in the crowd.
+ The prickling had already become a burning, and she even thought she could
+ smell smoke.
+ Some of the people nearby, already pressing close (which is how this happened,
+ she thought) were backing away, their wands coming to hand and fear coming
+ to their faces.
+\end_layout
+
+\begin_layout Standard
+Hermione ripped the sleeve off of her robe, and scraped some of the substance
+ off her skin.
+ As she did so, she heard Tonks-as-Harry casting spells, waving her wand
+ and calling, 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Protego Totalum! Evanesco! Cave Inicum!
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ But there didn't seem to be any further immediate danger, and now the surface
+ of Hermione's arm and robe were both burning with an oily black smoke.
+ Even scarier: it didn't hurt that badly.
+\end_layout
+
+\begin_layout Standard
+She plucked out her own wand, and spared a moment for the Fresh-Air Charm;
+ a mint-scented breeze ruffled up around her and swept away the smoke.
+ Keep the crowd safe.
+ And she had to keep them safe from their own panic.
+ She knew she was just being silly, and that she was buying into her own
+ hype, and that wizards were essentially immune to crowd crushing (there
+ weren't ever enough gathered in one place outside of a Quidditch arena,
+ first of all, and wizards were naturally tough), but she couldn't help
+ herself: she hunched over her arm and raised her wand to her throat.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Sonorus!
+\emph default
+ Everyone, don't worry!
+\begin_inset Quotes erd
+\end_inset
+
+ Her amplified voice was clear and strong, and accompanied by a reassuring
+ smile.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Stay calm.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Your arm is burning, and you can't really be seriously worried about them.
+ On the other hand, they don't regenerate and we have an image to maintain.
+
+\emph default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Everything is all right.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+It's a powder, not acid, and it doesn't smell like Faux Floo.
+ Is this a distraction?
+\emph default
+ She glanced around.
+ Tonks was next to her, wand raised, glancing back and forth from her to
+ the crowd.
+ The gathered wizards and witches were either frozen in place or backing
+ away, with a few taking a cue from her freshening charm to put on Bubblehead
+ Charms.
+ No one was taking advantage of the disturbance to attack.
+\end_layout
+
+\begin_layout Standard
+Almost too late, she saw the black knapsack lying on the ground at her feet.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Waddiwassi!
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ The knapsack rocketed up into the air as Hermione cast the spell on it.
+ It was an incredibly easy and quick spell to cast, a light tripping of
+ syllables from the lips to the back of the mouth.
+ Twice as fast as 
+\emph on
+depulso
+\emph default
+ and eight times as fast as 
+\emph on
+wingardium leviosa
+\emph default
+ – Hermione didn't know why anyone would use anything else.
+\end_layout
+
+\begin_layout Standard
+With a cracking boom that sounded much like a thunderbolt, the backpack
+ detonated.
+\end_layout
+
+\begin_layout Standard
+Tonks-as-Harry turned to Hermione, even as the boom echoed around them and
+ people were screaming, and hissed one angry word.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Malfoy.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Percy Weasley was maybe the best government employee imaginable, Harry Potter-Ev
+ans-Verres thought to himself.
+ He watched the young man admiringly as Percy described the new accords
+ reached within the International Magical Trading Standards Body.
+ One could always find witches and wizards with the necessary competence
+ and leadership, but it was so rare to find someone with actual 
+\emph on
+perspective
+\emph default
+ – someone who knew that unexciting things like standards for cauldron thickness
+ really and truly mattered, and that a three percent increase in the cauldron
+ failure rate meant thousands of Galleons in lost wealth (and perhaps even
+ actual loss of life, if some poor potion brewer couldn't make it to a Safety
+ Pole).
+\end_layout
+
+\begin_layout Standard
+These attributes are why Percy was effectively in charge of the Ministry
+ of Magic from his position as Senior Undersecretary to the Minister for
+ Magic.
+ He didn't think about outcomes in terms of narratives or story.
+ He thought about them in more absolute terms: so many Galleons saved, people
+ saved, options saved.
+ Even better, Harry thought, Percy was absolutely loyal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space ~
+\end_inset
+
+moved more quickly,
+\begin_inset Quotes erd
+\end_inset
+
+ the young man was saying, solemnly.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+These larger Vanishing Cabinets – we're calling them Vanishing Rooms – do
+ present a serious security risk, though.
+ And there's a risk of splinching, with such a volume, if anyone is inside
+ when the shipment goes through.
+ You were absolutely right, though… we can move a thousand times as much
+ now.
+ It actually brings up an interesting problem.
+ Apparently we're shipping 
+\emph on
+out
+\emph default
+ more than we're shipping 
+\emph on
+in
+\emph default
+.
+ It all comes down to…
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reflexively, Harry considered if his appreciation of Percy's loyalty was
+ a Voldemort thought, tuning Percy's report on trade deficits out of mind
+ for a moment.
+ Was it wrong to consider personal loyalty to himself as an inherently valuable
+ trait in an ally? Perhaps it was, he thought.
+ It was not consistent with how he valued his other lieutenants.
+ Amelia or Mad-Eye would turn against him quickly if they thought he was
+ corrupt or evil, and that was good.
+ While obstacles in general wouldn't do him much good, experience had often
+ shown that he tended to underestimate his own biases.
+ Capable allies who could be relied upon to defy him, if needed, were invaluable.
+\end_layout
+
+\begin_layout Standard
+Harry went to work, mentally, picking apart the thought and turning the
+ instinct to his own use.
+ In his youth, he had treated his mental simulation of Voldemort (his 
+\begin_inset Quotes eld
+\end_inset
+
+dark side,
+\begin_inset Quotes erd
+\end_inset
+
+ he remembered with amusement) as a closed programming loop that would accept
+ input (
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+This is my problem
+\emph default
+.
+\begin_inset Quotes erd
+\end_inset
+
+) and output an answer (
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Try killing everyone in your way, maybe?
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+ That answer would sometimes need to be rejected or modified in the fact
+ of contrary ethical guidelines, of course, but at its core, he had treated
+ the Voldemort thought-patterns as an opaque sort of special reasoning.
+\end_layout
+
+\begin_layout Standard
+That had been silly, and the huge disadvantages had become obvious after
+ a year spent clumsily clomping around the intricate plans of two geniuses.
+ He had acted with the absolute self-assurance and total obliviousness of
+ a first-year psychology student, and it was only thanks to the advantage
+ of actually 
+\emph on
+knowing the future
+\emph default
+ that one of those geniuses had managed to succeed in saving the world (almost
+ despite Harry's best ignorant efforts).
+\end_layout
+
+\begin_layout Standard
+So, he had spent some time integrating the Voldemort simulation into his
+ own psyche, and now routinely examined his thinking to critically assess
+ his success.
+ Sunlight is the best disinfectant, after all, and he would have been a
+ fool to ignore Amelia's concerns (
+\begin_inset Quotes eld
+\end_inset
+
+Young man, if there is a Voldemort in your head, then you can either crush
+ it into submission or we can carve it out.
+ The choice is yours.
+\begin_inset Quotes erd
+\end_inset
+
+) Harry glanced down at the ring on his finger, an unadorned metal band.
+\end_layout
+
+\begin_layout Standard
+Harry returned his full attention to Percy, hoping nothing important had
+ been said in the meantime and feeling a little shabby about having let
+ his thoughts wander.
+ Fortunately, much of the report had been for the benefit of others.
+ Harry had already studied sufficient economics, but much of his council
+ was still learning the essentials.
+ The education was necessary, since economics were a weapon and a tool of
+ state.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space ~
+\end_inset
+
+so this is actually to our advantage, and we may be able to use it as leverage.
+\begin_inset Quotes erd
+\end_inset
+
+ Percy concluded.
+ He glanced around the room for questions, then settled his rawboned frame
+ back into his chair.
+ He was a striking young man, tall and thin with the vivid red Weasley hair
+ and freckles.
+ He had once been balding and bespectacled, but Harry had taken care of
+ that.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Thank you,
+\begin_inset Quotes erd
+\end_inset
+
+ Harry said, smiling.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+It's always good to have another tool to use, should we need it.
+\begin_inset Quotes erd
+\end_inset
+
+ Truth be told, it probably was never going to be useful.
+ It was hard to even say that a trade deficit was a bad thing for anyone
+ involved, and that was especially true with an economy nearly decoupled
+ from labor.
+ But it might be a propaganda point, to be brought up in a negotiation or
+ something.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Now let us turn to the next item on the agenda,
+\begin_inset Quotes erd
+\end_inset
+
+ he said, glancing down at the parchment.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Amelia, you had Ms.
+ Bogdanova and Ms.
+ Covenant meet with their respective Muggle equivalents in the Medicines
+ and Health Products Regulatory Agency? How did that go?
+\begin_inset Quotes erd
+\end_inset
+
+ Ilya Bogdanov and Tilly Covenant were in charge of the Office for the Detection
+ and Confiscation of Counterfeit Defensive Spells and Protective Objects.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Not very well, Harry,
+\begin_inset Quotes erd
+\end_inset
+
+ Amelia Bones said, rising from her seat in turn.
+ She was a plain-looking young woman, with a square jaw and chestnut hair
+ pulled back into a tight bun.
+ She looked (unsurprisingly) much like Susan Bones, her niece.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Bogdanova didn't give it a chance, and came to me to tell me that it was,
+ and I quote, `a tragic mistake to think that Muggles should be in charge
+ of any part of the Department of Magical Law Enforcement.' She specifically
+ mentioned that the Muggles had proposed that anyone who tests magical devices
+ should be blinded.
+\begin_inset Quotes erd
+\end_inset
+
+ Amelia leaned forward and glared at Harry.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I told you that this would happen, Harry.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry sighed.
+ He'd thought they were further along than this.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The Muggles didn't mean that the testers should be literally blind.
+ A blind study is ju-
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+A blind study is a study where the examiners keep themselves ignorant of
+ the origin of what they're measuring, yes I know,
+\begin_inset Quotes erd
+\end_inset
+
+ Amelia interrupted, curtly.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You know that and 
+\emph on
+I know that
+\emph default
+ but these witches weren't looking for knowledge.
+ They were just looking for an excuse not to change their minds.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Yes… `most people would rather die than think, and many do'.
+\begin_inset Quotes erd
+\end_inset
+
+ Harry quoted.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+But Amelia, we can't just fire the heads of every office, just because they're
+ not working with us as smoothly as we'd like.
+\begin_inset Quotes erd
+\end_inset
+
+ They'd had this argument before.
+ Harry thought it was better to have the dozens of recalcitrant officials
+ dragging their heels on the inside, rather than agitating on the outside.
+ All the real troublemakers might have been decapitated in a single night,
+ long ago, but that didn't mean it would be a good idea to give some of
+ wizarding Britain's most prominent witches and wizards a direct reason
+ to oppose the new regime.
+ Amelia would have none of it, though.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+We don't have to fire them all.
+ But we fired Shacklebolt, to make an example, and it wasn't enough.
+ How about we just demote some of this dead weight, instead.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+And get around the Peter Principle? Hm.
+\begin_inset Quotes erd
+\end_inset
+
+ Harry paused for a moment.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You have a point there, actually.
+ Table this now, maybe, and we'll work out the possibilities?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia nodded, just as the door burst open.
+ Hermione and Tonks strode into the meeting room, clothes still damp from
+ rapidly evaporating Thieves' Downfall.
+ Tonks looked furious, and as her hair lengthened into her typical shoulder-leng
+th, multicolored long locks, it framed a iron scowl.
+ Something had gone wrong, it would seem.
+\end_layout
+
+\begin_layout Standard
+Like all rooms in the Tower, the meeting room was an uneven quadrangle.
+ It was an odd side-effect of the most important aspect of their security
+ protocol, which required the entire Tower complex to be shaped as one giant
+ triangle.
+ It was strange, but it did mean that entrances could be particularly dramatic,
+ which was useful for negotiations.
+ The very shape of the room pointed everyone's attention at the narrow wall,
+ where the open door framed an irritated Hermione Granger.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Hello, everyone.
+ Sorry for the rude entrance,
+\begin_inset Quotes erd
+\end_inset
+
+ she said.
+ She glanced around at the group, which collectively represented most of
+ the power of magical Britain, not to mention the greater part of Europe.
+ Her eye paused for a second on Charlevoix, one of her Returned and a witch
+ who had been instrumental in the recent French agreement.
+ The excitable woman was almost out of her seat in alarm, scarred hands
+ clenched on her chair.
+ Hermione's glance communicated peace, and Charlevoix's face softened.
+ Hermione turned to Harry, who had risen and was waiting patiently for her
+ to speak.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Harry,
+\begin_inset Quotes erd
+\end_inset
+
+ she said.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Malfoy just blew up a bomb in the middle of Diagon Alley.
+ No one was hurt, but dozens could have been injured or killed.
+ I know you have a plan, but that couldn't have been part of it.
+ What is going on?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+She watched as he absorbed this information.
+ Harry looked slightly surprised for a moment, and then his mouth pursed,
+ and then his face relaxed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+A Muggle device that casts 
+\emph on
+Deprimo
+\emph default
+,
+\begin_inset Quotes erd
+\end_inset
+
+ murmured Percy Weasley to the rest of the table.
+ Amelia Bones already seemed to know, as did a few others (like the Muggle
+ Liaison), but most had seemed uncomprehending.
+ There was quiet murmuring in response.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Was any property destroyed?
+\begin_inset Quotes erd
+\end_inset
+
+ Harry asked, seriously.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+No,
+\begin_inset Quotes erd
+\end_inset
+
+ she said.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Thanks to Hermione,
+\begin_inset Quotes erd
+\end_inset
+
+ Tonks said indignantly, from her spot behind the Goddess.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+No one was hurt and no property destroyed… was it a very small bomb? No,
+ you took care of it.
+ Did you put it into a pouch with an Undetectable Extension Charm, or something?
+\begin_inset Quotes erd
+\end_inset
+
+ He looked thoughtful.
+\end_layout
+
+\begin_layout Standard
+She shook her head.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+No.
+ Wait, would that even work?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+They both paused for a second to consider it, but he was the first to shake
+ his head.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Not really, I don't think… although it might contain the blast and direct
+ its force out of the opening of the pouch.
+\begin_inset Quotes erd
+\end_inset
+
+ He made a note on the margin of the parchment in front of him – an agenda
+ to their meeting, she thought.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+We should look into that.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Especially now that Malfoy's started using bombs,
+\begin_inset Quotes erd
+\end_inset
+
+ Hermione said, archly.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Harry, you look like you understand what's going on, and that you're not
+ worried.
+ That makes me worried.
+ This is a new level, and it could have killed a lot of people.
+ But you don't seem to be taking it seriously.
+ Just what is going on?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry shook his head, reaching up to tuck a lock of his hair back behind
+ his ear.
+ She had noticed that he usually tied it back these days, but he'd left
+ it loose this morning.
+ Also, he was wearing Muggle clothes – a three-piece grey suit, with a blue
+ silk tie.
+ It looked rather well on his short and spare frame, but he tended to favor
+ wizard's robes, these days.
+ Were these subtle signs of distress at his imprisonment? Maybe he – or
+ his subconscious – was feeling the effects of the long confinement.
+ She set the thought aside for later consideration.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+We're at war, Hermione.
+ You know that.
+\begin_inset Quotes erd
+\end_inset
+
+ At least Harry no longer looked so sure of himself, although it was probably
+ only because he was worried about her.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+They're going to keep ramping things up until they get a reaction, or until
+ we capitulate on something.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cedric Diggory spoke up from the end of the table, his voice kind but firm.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+And that doesn't worry you, Harry?
+\begin_inset Quotes erd
+\end_inset
+
+ The young Chief Auror looked skeptical.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+There's a plan.
+ We're on track – two new Unspeakables arrived with reports just today,
+ and there are new breakthroughs.
+\begin_inset Quotes erd
+\end_inset
+
+ Harry looked around the room.
+ No one looked reassured.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I know I've been saying that for a long time
+\begin_inset space ~
+\end_inset
+
+–
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+For years,
+\begin_inset Quotes erd
+\end_inset
+
+ Tonks interrupted.
+ She sounded frustrated.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+– I've been saying that for years, yes.
+\begin_inset Quotes erd
+\end_inset
+
+ Harry smoothly continued.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+But you have to trust me on this.
+ We can beat Malfoy and the whole faction… it will happen.
+\begin_inset Quotes erd
+\end_inset
+
+ His eyes moved from face to face, asking their trust.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+There's a plan.
+ It has been extremely complicated and unbelievably secret, but very soon
+ now we will beat Narcissa, once and for all.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sometime later, a young man with a lightning-bolt scar on his forehead sat
+ down with a sigh on a small wooden stool.
+ He was alone, and this room was private, admissible only to him.
+ He could slump wearily without worrying about his posture.
+ No one could see.
+\end_layout
+
+\begin_layout Standard
+In front of him, on another wooden stool identical to his own, was a small
+ black box.
+ It was smooth and shiny, marred only by the pair of small hinges and the
+ ornate lock that held its lid on.
+ He stared at the box sightlessly for a while as he thought, letting his
+ eyes glaze over and his mind wander.
+\end_layout
+
+\begin_layout Standard
+Harry sat like that for a long time.
+ Eventually, he blinked rapidly and returned to himself.
+ He spoke to the box, quietly.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+I'd like to talk.
+ But I won't let you out.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+And I declare my faith:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+I mock Plotinus’ thought
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+And cry in Plato’s teeth,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Death and life were not
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Till man made up the whole,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Made lock, stock and barrel
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Out of his bitter soul,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Aye, sun and moon and star, all,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+And further add to that
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+That, being dead, we rise,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Dream and so create
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Translunar Paradise.
+\end_layout
+
+\begin_layout Standard
+– W.
+\begin_inset space \thinspace{}
+\end_inset
+
+B.
+\begin_inset space \thinspace{}
+\end_inset
+
+Yeats
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

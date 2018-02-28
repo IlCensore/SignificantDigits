@@ -1,0 +1,235 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass classicthesis
+\use_default_options true
+\master ClassicThesis.lyx
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begingroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+let
+\backslash
+clearpage
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+let
+\backslash
+cleardoublepage
+\backslash
+relax
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pdfbookmark[1]{Preface}{Preface}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Preface}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Preface
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\lang american
+It's easy to make big plans and ask big questions, but a lot harder to follow
+ them through.
+ Find out what happens to Harry Potter-Evans-Verres, Hermione, Draco, and
+ everyone else once they grow into their roles as leaders, leave the shelter
+ of Hogwarts, and venture out into a wider world of intrigue, politics,
+ and war.
+ Not official.
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+
+\lang american
+\begin_inset Quotes eld
+\end_inset
+
+The best 
+\noun on
+hpmor
+\noun default
+ continuation fic.
+\begin_inset Quotes erd
+\end_inset
+
+ --
+\begin_inset space ~
+\end_inset
+
+Eliezer Yudkowsky
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+
+\lang american
+\begin_inset Quotes eld
+\end_inset
+
+[A]bout half of the chapters leave me wondering if I've been pranked by
+ the love child of Andy Kaufman and Milan Kundera,who shuttled back and
+ forth between his parents and had David Foster Wallace as a babysitter.
+\begin_inset Quotes erd
+\end_inset
+
+ --
+\begin_inset space ~
+\end_inset
+
+TaoGaming
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

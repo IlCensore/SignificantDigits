@@ -1,0 +1,287 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{32}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\newfontfamily\llo{Linux Libertine O}
+\end_preamble
+\use_default_options true
+\master significantDigits_eng.lyx
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans Griffy
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+renewcommand{
+\backslash
+chaptername}{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Did not read 
+\emph on
+\noun on
+hpmor
+\emph default
+\noun default
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Did not read 
+\backslash
+itshape{hpmor}?}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+chaptername}{Chapter}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Before 
+\emph on
+Significant Digits
+\emph default
+\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\emph on
+If you have read the 
+\emph default
+Harry Potter
+\emph on
+ books but not 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph default
+Harry Potter and the Methods of Rationality
+\emph on
+
+\begin_inset Quotes erd
+\end_inset
+
+\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\align block
+The Boy-Who-Lived was raised by Petunia Evans and her husband, Oxford professor
+ of physics Michael Verres.
+ He grew up in a loving home and was raised to revere the scientific method
+ and its results.
+ When he discovered he was a wizard, Harry Potter-Evans-Verres was shocked
+ at the backwards world he found -- a society that was almost feudal, a
+ school hardly worthy of the name, and a distinct lack of optimization.
+ Harry's quest to rectify these flaws was quickly derailed by the plotting
+ of his mentor Professor Quirrell, a Defense Against the Dark Arts teacher
+ who was actually the Dark Lord Voldemort, and who seeks the Philosopher's
+ Stone.
+\end_layout
+
+\begin_layout Standard
+\align block
+Working with Hermione Granger and (separately and secretly) with Draco Malfoy,
+ Harry did his best to navigate the challenges of his first year: fighting
+ in mock battles in Defense class, inventing partial Transfiguration, denouncing
+ the abusive Professor Snape, devising a new Patronus that can destroy Dementors
+, breaking an innocent out of Azkaban, and angrily pointing out the flaws
+ of Quidditch.
+ But his worst fears are realized when Hermione is murdered.
+ Harry vows that he will keep to the old words of the Potter family...
+ 
+\begin_inset Quotes eld
+\end_inset
+
+the last enemy that shall be defeated is death.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+At the climax of the story, Voldemort's plot to retrieve the Philosopher's
+ Stone succeeded.
+ In the process, Dumbledore was defeated and banished beyond time, while
+ Hermione was resurrected and imbued with the regenerative powers of a troll
+ and a unicorn to keep her alive.
+ Voldemort revealed that the Philosopher's Stone's power was actually to
+ make any Transfiguration permanent, even a human one, and that his overriding
+ concern was to prevent a prophecy that predicts Harry will destroy the
+ very stars in heaven in his vain questing to optimize the world.
+ He further revealed that the curse he cast on Harry as a child left an
+ imprint of Voldemort's own thinking on the child, explaining some of Harry's
+ mysterious 
+\begin_inset Quotes eld
+\end_inset
+
+dark side.
+\begin_inset Quotes erd
+\end_inset
+
+ Harry was surrounded by Death Eaters, and Voldemort demanded any secrets
+ he might possess,
+\end_layout
+
+\begin_layout Standard
+\align block
+Calling upon all his ingenuity, Harry used partial Transfiguration to kill
+ all of his enemies at a blow, except Voldemort, whom he captured.
+ He took up the Stone of Permanency, and returned to school to take control:
+ to discover the source of magic, to end the injustices in the world, and
+ to destroy death.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1433 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master significantDigits_eng.lyx
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "tgpagella" "default"
+\font_sans "tgheros" "default"
+\font_typewriter "tgcursor" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf true
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing onehalf
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.85in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Watchers
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: Sir! Sir! What say you to the fact that our families are snapping in half,
+ sir? I say to you what I have said a thousand times, and that is this:
+ tradition is the glue which holds magical society together! When you burn
+ away tradition, sweeping it off with Muggle machines and cold numbers,
+ then you dissolve the ties which bind magical Britain! I myself have visited
+ the Registrars of Marriages and Unions of Godric's Hollow and Diagon Alley,
+ to name only two, and I am told that they have seen twice as many divorces
+ this year as they saw in 1989! Twice as many! Homes are being broken, children
+ are finding themselves Flooing back and forth on alternate weeks, and happy
+ unions are being destroyed in the wake of all this haphazard and destructive
+ change.
+ So I ask you then, what say you to that?
+\end_layout
+
+\begin_layout Verse
+[scattered applause]
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: Thank you for that question.
+ I do have a response.
+ First, I believe that you show the same care for metaphor as you do for
+ logic.
+ Are we burning, sweeping, or dissolving? And if we're burning, how do we
+ do that with cold numbers? Clear articulation is a sign of clear thought,
+ and vice-versa.
+\end_layout
+
+\begin_layout Verse
+[scattered applause]
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: Mockery is no substitute for an answer! You
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Sir
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: You
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Sir, please let Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Potter finish speaking.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: You cannot
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Sir, please let
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: Yes, yes.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: I do have an answer.
+ But before I give it, let me also point out that two points of data, two
+ numbers, do not make a trend.
+ There might have been unusually few divorces in 1989, for example.
+ Or maybe the divorce rate was even higher in 1979.
+ It's hard to compare anything unless you have more numbers.
+ But that's not
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: The pleading of a child!
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: But that's not the only flaw in your thinking, Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow.
+ There's a hoary old phrase to use at this point: correlation is
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: Yes, ply us with
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: Correlation
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: –
+\begin_inset space ~
+\end_inset
+
+your condescension, Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Potter.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Sir, I must ask you
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: Correlation
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: –
+\begin_inset space ~
+\end_inset
+
+is not causation.
+ That means that there are many sorts of reasons why the divorce rate might
+ have risen over a whole decade.
+ Not every change in the world can be laid at my feet, and
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: All of this complicated jargon, but the words you need are so simple.
+ Apologies have the virtue of brevity, as well.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow, sir, I need to ask you to let Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Potter speak.
+ Remember your name and the honour of your house, sir.
+ We are here for a civil discussion.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: Yes.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: My honour and that of my house is unbroken, Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Hughes.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Potter, please continue.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: Then let me just say this, then, Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow: the largest flaw – no, the biggest mistake you're making is that
+ you haven't even stopped to ask yourself whether or not this is a bad thing.
+ If it is true, and if it is truly my fault, neither of which points I am
+ willing to concede on the basis of two fiddly numbers out of context
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: You
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: –
+\begin_inset space ~
+\end_inset
+
+then it is almost certainly the result of money.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: Money?!
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: Gringott's began issuing loans near the end of 1993, Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow, and by 1995 the economy of magical Britain was twice as large.
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: Money is only worth what it can be – and it cannot buy tradition, or happiness
+, or a family life.
+ If we have made the trade you suggest, then I would say it is a bad bargain…
+ and so much the worse for the shopkeep!
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: You don't understand.
+ The money has given people freedom.
+ Even a small sum of money – the possibility of taking on the responsibility
+ of debt – can be enough to allow someone to change their job or start a
+ new business or even just change their situation.
+ The freedom of money leads to a lot of other disruptive freedoms.
+ Including the freedom to leave their spouse.
+ People who might otherwise have felt trapped
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: You mudblood piece of
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow! Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow!
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+potter
+\noun default
+: Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow, you seem
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow, this is
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: She never
+\begin_inset space ~
+\end_inset
+
+–
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+hughes
+\noun default
+: Mr.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Carrow!
+\end_layout
+
+\begin_layout Verse
+
+\noun on
+carrow
+\noun default
+: <unintelligible>
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+—
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+Partial excerpt from the unedited transcript of the second of the 
+\emph on
+Tower Debates on the Future of Magical Britain
+\emph default
+, as recorded by a certified-impartial Quotes Quill.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+“I know it's a bit unfair,” Hermione Granger said, staring at the five Honourabl
+e, “but it certainly does seem that we tend to find you lot in skeevy little
+ places, doing skeevy little things.” She glanced pointedly down at the floor,
+ where trickles of golden potion were slowly spreading around under the
+ feet of Margaret Bulstrode, Edgar Erasmus, Geoffrey Gem, and his two assistants.
+ She could smell the shrivelfig.
+ Euphoria Elixir.
+\end_layout
+
+\begin_layout Standard
+“Auror Kwannon?” Hermione called over her shoulder, past where Hyori was
+ standing at the door.
+ The Returned witch stepped aside to admit the auror, without ever taking
+ her eyes or wand or glower off of the captured wizards and witches.
+ Kwannon also had to edge past the gentleman she'd brought with her from
+ the 
+\noun on
+dmle
+\noun default
+, Gerald.
+ He was some sort of recorder, taking notes of raids like this one.
+ An ineffectual attempt at holding aurors accountable, Hermione thought.
+ Kwannon looked irritated at the whole production.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+The aurors feel like they should be running the show, first through the
+ door.
+ But there's just no reason to let them take those kind of risks, not when
+ I'm here
+\emph default
+, she thought.
+ She glanced over at the auror again.
+ Kwannon was relatively tall, considering her Japanese heritage, with a
+ round face, a scattering of light freckles, and a flat nose.
+ She was one of Alastor's, and was usually in the Tower.
+ For the time being, though, she was here on Harry's behalf, along with
+ four more aurors from the 
+\noun on
+dmle
+\noun default
+.
+ Harry had needed someone here, after all – needed some eyes and ears on
+ her Honourable hunt… what would he do with himself otherwise, locked up
+ in that Tower and buried in healing and research, if he couldn't divert
+ himself with some crude manipulations of everyone around him?
+\end_layout
+
+\begin_layout Standard
+Not that manipulation, per se, was her complaint.
+ It was just… Harry never 
+\emph on
+learned
+\emph default
+.
+ After their first year, including the trial and the troll and that terrible
+ time at the end, he never really changed.
+ He just became more… well, Harry-like.
+ He hadn't learned the real lesson she thought he'd take away: if you try
+ to use secret knowledge to manipulate complex situations about which you
+ have incomplete information, then things will get very bad, very quickly.
+ It was very hard for any person to be smart enough to manage that – and
+ it was stupid to try when you had 
+\emph on
+friends
+\emph default
+.
+ It was “nihil supernum,” after all, not “nihil par.”
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+But the stubborn man hadn't learned then, and so Walpurgisnacht had happened,
+ and he 
+\emph default
+still
+\emph on
+ hasn't learned
+\emph default
+, she thought, bitterly
+\emph on
+.
+ Even after the price we paid.
+
+\emph default
+ Hermione almost lifted her hand to touch her neck, but stopped as she realized
+ what she was doing.
+ No time for this sort of dithering.
+\end_layout
+
+\begin_layout Standard
+She brought her thoughts back to the present situation.
+ 
+\emph on
+Time for me to butt out a bit.
+ I'll make myself her asset, rather than her superior.
+ She's probably better at this than I, anyway.
+\end_layout
+
+\begin_layout Standard
+“Auror Kwannon, this isn't really my sort of thing,” she said, turning and
+ smiling at the auror, slightly lifting her shoulders to indicate her ignorance
+ about the next proper thing to do.
+ “You were kind enough to let me pop through here quickly, to keep the miscreant
+s here… maybe you could take the lead from here?”
+\end_layout
+
+\begin_layout Standard
+“Yes, well…” said the auror, looking around the room before focusing back
+ in on the five Honourable.
+ “This is some trouble, here.”
+\end_layout
+
+\begin_layout Standard
+Gem noticeably shrank back into himself, seeming almost to fold his thin
+ body over.
+ The witch and wizard that were his assistants took things a little bit
+ more in stride – as though stunned and out of place, with confused expressions.
+ Hermione was fairly sure they were still riding down a dose of Euphoria.
+\end_layout
+
+\begin_layout Standard
+Erasmus, on the other hand, puffed up his chest.
+ He was red in the face, and with the colouring of his hair, he looked humorousl
+y similar to a large carrot.
+ “There's no crime in printing and distributing a newsletter, or in conducting
+ private researches, I think.
+ Even in today's Britain!”
+\end_layout
+
+\begin_layout Standard
+Kwannon turned her sharp attention to the researcher.
+ “Mr.
+ Erasmus, you are correct.
+ However, it is illegal to operate a private Floo network, it is illegal
+ to conduct dangerous research within one hundred meters of a residence,
+ and it is extremely illegal to sell Euphoric Elixir without a license.”
+\end_layout
+
+\begin_layout Standard
+“All unjust prohibitions!” said Erasmus.
+ He had brilliant blue eyes that were narrowed in indignation.
+ To emphasize his point, he thumped his fist down on the stack of boxes
+ he'd been carrying when Hermione had torn up the entrance hatch and knocked
+ down their door.
+ “Who is the Government to say what I do with a Floo, where I can do my
+ research, or what potions I brew, eh? My research is my research!”
+\end_layout
+
+\begin_layout Standard
+“I recall your research, sir,” said Kwannon, her mouth tight.
+\end_layout
+
+\begin_layout Standard
+The former Tower researcher had been studying the construction of magical
+ machines, Hermione recalled, before he had been fired, his research confiscated
+, and key memories Obliviated.
+ Erasmus had ignored safety concerns entirely, and had insisted on just
+ bullying through and continuing to build his wind-machines.
+ They used fluid dynamics: tight swirls of air spinning as gears, fed by
+ small warming columns of heat from below; flywheels of pressurized zones
+ to store and transfer energy; and shifts between small turbulent flows
+ and laminar flows as switches.
+\end_layout
+
+\begin_layout Standard
+The machines had been brilliant – Erasmus was brilliant – but they had also
+ been maddeningly dangerous.
+ One 
+\emph on
+Ventus
+\emph default
+ could power them for days, and the 
+\emph on
+very first
+\emph default
+ thing they were designed to do was consume waste matter of 
+\emph on
+any type
+\emph default
+ and incinerate it for more power.
+ If Erasmus had moved his investigations of Muggle science out of engineering
+ and aerodynamics, and into something like computer programming… the danger
+ had been unbelievable, even by magical standards.
+ He was almost a cartoonish figure: the mad scientist with no concern for
+ consequences.
+ Harry had not only been apoplectic, he'd been outright offended.
+\end_layout
+
+\begin_layout Standard
+Hermione supposed that the setbacks they'd given Erasmus, including the
+ changes to his memory, were probably enough to ensure everyone's safety.
+ But to see him right back at it, only now without any supervision… they'd
+ need to do something, somehow.
+ It needed thought.
+ For now, at least, it looked like Erasmus wouldn't be a danger for a while.
+\end_layout
+
+\begin_layout Standard
+“In the States, anyone can set up a Floo.
+ It's not right that there's only one Floo Network in Britain,” offered
+ Margaret Bulstrode.
+ She was a beautiful young woman, but clearly quite out of her depth.
+ Hermione knew Margaret, slightly – she'd been several years ahead at Hogwarts,
+ and the aurors in charge of investigating the Diagon bombing had brought
+ her before the Wizengamot for examination on the basis of an informant's
+ accusations.
+ Nothing had come of it.
+\end_layout
+
+\begin_layout Standard
+“I wouldn't know about that, I'm afraid,” said Kwannon, her voice hard.
+ “But I do know it's illegal here, just like Faux Floo is illegal.
+ Is that the genuine two-Sickles-a-scoop on your mantel?”
+\end_layout
+
+\begin_layout Standard
+“Yes,” said Erasmus, puffing out his cheeks.
+\end_layout
+
+\begin_layout Standard
+“Mm,” said Kwannon, noncommittally.
+ She walked around the room, looking sharply into corners and at everything
+ around.
+ “What else you have here, eh? Come on, Gerald.” She headed through the other
+ door, into a hallway or another room.
+ Gerald followed her with his floating parchment and Quotes Quill, looking
+ nervous.
+\end_layout
+
+\begin_layout Standard
+“This is a private facility,” called out the weasely Gem, hugging himself.
+ He'd put down the crate he'd been holding.
+ “You have no call to go snooping…” He trailed off, uneasily.
+ His fear of the Goddess and Hermione's supernatural air of innocence were
+ probably confusing him.
+ That sometimes happened.
+\end_layout
+
+\begin_layout Standard
+“She's an auror,” said Hermione.
+ “The Tower and I have proper search warrants and 
+\emph on
+habeas corpus
+\emph default
+ and seizure rules planned out, but we haven't gotten there yet.
+ For now, you're stuck with the traditional system, as we found it.
+ Seems to mostly date back to the eighteenth century, with some modern bits
+ like Hit Wizards stuck on.
+ But tradition is best, after all… isn't that right?”
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Need to taunt as a distraction… best not take it too far, though.
+
+\emph default
+ Susie seemed to think it was funny, though, smirking as she walked to the
+ crates of copies of 
+\emph on
+Unbreakable Honour
+\emph default
+ and sat on one.
+ “‘Good for thee, but not for me,' as the saying goes, love.” said the Returned.
+\end_layout
+
+\begin_layout Standard
+Erasmus huffed again.
+ “Under any system of justice, Muggle or magical, this is out of order.”
+\end_layout
+
+\begin_layout Standard
+Hermione approached him.
+ “How so? I'd be interested to hear you defend this, Edgar.” She gestured
+ at the crate of broken potion, and clasped her hands in front of herself.
+ “Did your research ever lead you to encounter the notion of ‘wireheading,'
+ I wonder?”
+\end_layout
+
+\begin_layout Standard
+“You were famous for fighting bullies, back when you were at Hogwarts,”
+ said Margaret, suddenly and loudly.
+ “
+\noun on
+s.p.h.e.w.
+
+\noun default
+ and all that.
+ But now you 
+\emph on
+are
+\emph default
+ a bully.”
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ah, that'll do nicely.
+
+\emph default
+ Hermione smiled again, and turned to face Bulstrode.
+ She approached very close, and stared at the woman.
+ She was a little taller than Margaret, and she knew she was quite intimidating.
+ She let the smile fade from her face, and lifted a finger.
+ She poked it into Margaret's chest, and said – coldly, now – “Don't hide
+ behind loose categorizations.
+ Say what you mean.
+ You're being persecuted, are you?” She plucked at Margaret's robe at the
+ shoulder, and then again at one of the pockets, contemptuously and dismissively
+… as though the woman were a bit of lint.
+ “You and all of Draco's loathsome death-worshippers, piling all your prejudices
+ and ignorance up into a single lot.” She walked around Margaret as she spoke,
+ and took the opportunity to surreptitiously drop a button – one she'd removed
+ from Margaret's pocket, and palmed – into her own robes.
+\end_layout
+
+\begin_layout Standard
+“I'll say what I mean, all right,” replied Margaret.
+ Her voice barely shook.
+ “You lot have taken over.
+ And you've done a lot of good things.
+ But there's a natural order to the world, and you've broken it.
+ You've… you've done some of the darkest of rituals.
+ It's the only way things even make sense.
+ And you're eating up all the rest of the world, state by state.
+ If you keep going, the world won't even be recognizable… no traditions
+ left, no people thinking their own thoughts in their own ways… you want
+ everyone to be the same, like the porcelain dolls that come out of the
+ Tower.
+ ‘Rejuvenation'...
+ it's just control and replacement!”
+\end_layout
+
+\begin_layout Standard
+“Draco has always had a silver tongue,” said Hermione, scornfully.
+ 
+\emph on
+She's just parroting back what she hears.
+ This was the danger of letting things go this way, Harry… they're cementing
+ in these ideas.
+ It's hard enough to get people on our side, but to win over those who actually
+ 
+\emph default
+hate
+\emph on
+ us this much?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+You knew I'd never agree with this plan.
+ That I'd point out it was extravagant and risky and impractical.
+ The slow victory is better than the fast loss, Harry.
+\end_layout
+
+\begin_layout Standard
+But Harry wasn't here, and there was no point venting now.
+ Bend before the storm, and surprise her.
+\end_layout
+
+\begin_layout Standard
+“You might be right in some ways, Ms.
+ Bulstrode,” she said, walking away.
+ She saw Hyori raise an eyebrow from her position by the entrance, and flashed
+ a quick smile at the Returned.
+ Hermione turned back around to face the Honourable.
+ “It's dangerous to discard a lot of traditions.
+ Many of them survive from century to century because they serve an important
+ purpose.
+ Memetic survival: mutation, variation, and evolution.
+ ‘Unconscious memes have ensured their own survival by virtue of the same
+ qualities of ruthlessness that successful genes display,'
+\begin_inset Quotes erd
+\end_inset
+
+ she quoted.
+ (
+\emph on
+The Selfish Gene
+\emph default
+ by Richard Dawkins, page 198, her brain automatically supplied).
+ “It's something we should be more careful about, and we want to avoid when
+ we can.
+ Was there any specific tradition that you are unhappy about losing?”
+\end_layout
+
+\begin_layout Standard
+Margaret was silent for a long moment.
+ Hermione folded her arms, and waited patiently.
+ It wasn't even an act: she was honestly interested to hear the answer.
+\end_layout
+
+\begin_layout Standard
+“How about Quidditch?” said Margaret, after a while.
+ “The Tower wants to get rid of that.”
+\end_layout
+
+\begin_layout Standard
+“Well, he did want to change it, yes,” Hermione said.
+ “Not get rid of it.
+ Harry isn't much for sports in general, I'm afraid, and I don't think he
+ ever quite understood it – especially the snitch.
+ Muggles have a similar sort of thing called test cricket, but I doubt Harry
+ has ever played or even watched it.”
+\end_layout
+
+\begin_layout Standard
+“They sacked all the Quidditch regulators!” said Margaret in reply, strength
+ coming into her voice.
+ “Closed down the whole games section of the Ministry!”
+\end_layout
+
+\begin_layout Standard
+“That wasn't the Tower, that was a decision by Minister Fudge,” said Hermione.
+ But when Margaret and Erasmus gave her a look, she smiled slightly.
+ “But yes, he supported it.
+ As I recall, though, Quidditch is doing just fine… better than ever, in
+ fact, now that it's being run privately.
+ Most of the same people working for it, I think.”
+\end_layout
+
+\begin_layout Standard
+Kwannon returned at that moment, Gerald in tow, shaking her head.
+ “Fairly plain about the research being done here, and the Euphoria being
+ brewed.
+ We'll get some people in here to collect all this, but I think you should
+ all try to think of a good solicitor, if you know one.” She headed up to
+ the entrance, and waved in the aurors who were standing idle in the corridor.
+ “Come on through.
+ Back rooms there… bag up the lot.
+ Leave the experiments inside the circles until we can have someone bring
+ them out with precautions.”
+\end_layout
+
+\begin_layout Standard
+“I imagine they know some people who can help,” said Susie.
+\end_layout
+
+\begin_layout Standard
+“Malfoy,” said Hyori from behind Hermione, scornfully.
+\end_layout
+
+\begin_layout Standard
+“Be careful with my research,” said Erasmus, urgently.
+ He was turning red again with anxiety.
+ “I'm within a hair of a working Zimara machine!”
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Perpetual motion? Maybe I can stay and take a look
+\emph default
+, thought Hermione.
+\end_layout
+
+\begin_layout Standard
+“Any way we can help, Hedley?” she asked, hopefully.
+ “We can stick around if you would like some assistance?”
+\end_layout
+
+\begin_layout Standard
+“Thank you, but I think we have it in hand,” said Kwannon.
+ Hermione probably should have let her go first; there would have been relativel
+y little danger.
+ Lesson learned.
+\end_layout
+
+\begin_layout Standard
+“Then I suppose we do have things we can get up to.
+ Thank you,” said Hermione.
+ She nodded at her Returned, and they all headed for the exit.
+\end_layout
+
+\begin_layout Standard
+It was true, after all.
+ They had some parchments to read.
+ As they made their way out, Hermione reached into her robe and picked up
+ the Everlasting Eye.
+ When she'd seen Bulstrode out on the streets of Knockturn Alley, it had
+ been easy enough to step aside, slip on the Cloak of Invisibility, and
+ sprint on around ahead of her.
+ She'd dropped the listening device into Margaret's pocket after tripping
+ her with an invisible foot.
+\end_layout
+
+\begin_layout Standard
+“Let's find out who escaped our raid, shall we?” she asked the two Returned
+ witches.
+ Susie smiled.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+We are faced, right from the beginning, with a difficult task.
+ It is a task so immense that most wizards never even notice it, any more
+ than they notice their eyelids.
+ Indeed, when I began this chapter, I sought out dozens of the most learned
+ wizards in Britain, only to discover that no more than one or two had ever
+ given any thought to the problem.
+ Madame Hopkirk of the Department of Mysteries herself was able only to
+ point me to three or four dusty volumes of consideration – none of which
+ I could read (the obstacle was the same one previously encountered, dear
+ reader, when I attempted to research the history of Hogwarts: no consideration
+ is given to those for whom the Interdict is a forever-insuperable obstacle).
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Subsequent conversations will allow us to piece together some basic ideas,
+ if they must be rudimentary of necessity.
+ So then: what is magic? The physical realization of an inner spirit? The
+ action of a daemon working on one's behalf? A demand made on some hidden
+ set of rules to the universe? We set our education and wits to the task
+ of explaining many things we might see in magic:
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+A large proportion of magical effects conform, depend, or otherwise interact
+ with the emotions, expectations, wishes, or willpower of the caster.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Magic seems to operate almost entirely on a human scale, even including
+ wholly subjective aspects of modern life.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+The linguistic components of spells are all well-suited to the human tongue,
+ and most even seem to derive from Latin or Greek roots.
+ The history of magic begins in Greece, as Madame Bagshot has instructed
+ us, but was that necessity or coincidence?
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Magically-created matter is mundane matter in most respects.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Magic interferes with Muggle machines in some unknown way, yet to be discovered
+ or classified, and thus seems inherently inimical to machinery in a spiritual
+ sense.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+The ability of humans to do magic varies, with most people unable to do
+ any magic at all, others having only the very tiny magic of a Squib, and
+ some having enough magic to cast spells.
+ Many plants and animals also possess magic where others do not.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Magic is hereditary, and so must be a trait like hair color or height that
+ is passed from parent to child.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+It is widely known that magic has been decreasing over time, which means
+ that it must be going somewhere.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+When these phenomena are fully internalized and realized, we may thus see
+ that the daemon theory of which we spoke earlier must be the correct one.
+ It explains all of the above conditions, as the daemons consume magic to
+ live, make war on rival machines, live within the body to touch upon the
+ mind, and are passed from parent to child like a Sallowfax infection.
+\end_layout
+
+\begin_layout Standard
+—
+\begin_inset space ~
+\end_inset
+
+excerpted from Chapter Three of 
+\emph on
+A Squib's-Eye View
+\emph default
+, by A.
+ F.
+ Leiding
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+It is abundantly clear that Mr.
+ Leiding is not only a Squib, but also a fool.
+ We may pity him for his limitations in magic, but we should pity him even
+ more for his limitations in reasoning.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+It is impossible to understand the true nature of magic.
+ Atlantis' fall put the source of that knowledge out of time and out of
+ our reach.
+ This may be the ultimate tragedy of this book: left with no purpose, what
+ else is Mr.
+ Leiding to do, but construct fantasies and try to know the unknowable?
+\end_layout
+
+\begin_layout Standard
+—
+\begin_inset space ~
+\end_inset
+
+excerpted from 
+\emph on
+American Mage
+\emph default
+'s review of 
+\emph on
+A Squib's-Eye View
+\end_layout
+
+\end_body
+\end_document

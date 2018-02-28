@@ -1,0 +1,1531 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{fmtcount}
+\usepackage[final,factor=1100,stretch=10,shrink=10]{microtype}
+
+%% per aumentare tracking delle lettere
+\usepackage{soul}
+\DeclareRobustCommand{\spacedlowsmallcaps}[1]{\MakeTextLowercase{\caps{#1}}}
+%\DeclareRobustCommand{\spacedlowsmallcaps}[1]{\scshape {\MakeTextLowercase{#1}}}
+
+%% testo su colonne parallele
+\usepackage{paracol}
+
+%% new local font
+\newfontfamily\ancientEnglishFont[RawFeature={+hlig,+clig,+dlig,+cv11,+cv90,+cv04,+cv05,+cv11,+cv21,+cv27,+calt,+ccmp},Ligatures=TeX,Numbers={Proportional,OldStyle}]{Linux Libertine O}
+\newfontfamily\chapterTitleFont[RawFeature={+clig,+dlig,+hlig,+cv11,+cv90,+cv04,+cv05,+cv11,+cv21,+cv27,+calt,+ccmp},Ligatures=TeX,Numbers={Proportional,OldStyle}, UprightFeatures={SmallCapsFont={Alegreya SC}}, ItalicFeatures={SmallCapsFont={Alegreya SC}}]{Alegreya}
+\newfontfamily\droidFont{Droid Serif}
+\newfontfamily\greekFont{GFS Porson}
+\newfontfamily\hebrewFont{Linux Libertine O}
+\newfontfamily\japaneseFont{TakaoPGothic}
+\newfontfamily\koreanFont{Baekmuk Batang}
+\newfontfamily\mainTitleFont{Alegreya SC}
+\newfontfamily\partTitleFont{Alegreya}
+\newfontfamily\russianFont{EB Garamond}
+\newfontfamily\thaiFont{Norasi}
+
+
+
+\renewcommand{\chaptermark}[1]{ \markboth{\footnotesize \textsc{Chapter\ \liningnums{\thechapter}}\ ·\ \color{NavyBlue} #1}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\copypagestyle{chapter}{plain} % make chapter a page style of its own
+\makeevenfoot{chapter}{}{}{\textit{\color{NavyBlue}\large\thepage}}
+\makeoddfoot{chapter}{}{}{\chapterTitleFont\textit{\color{NavyBlue}\Large\oldstylenums{\thepage}}}
+\makeevenhead{chapter}{}{}{}
+\makeoddhead{chapter}{}{}{}
+
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+
+
+
+%%% Part
+
+\renewcommand{\thepart}{\numberstring{part}}
+\renewcommand*{\partnamefont}{\normalfont\large\scshape}
+\renewcommand*{\partnumfont}{\normalfont\large\scshape}
+%\renewcommand*{\parttitlefont}{\sffamily\color{NavyBlue}\fontsize{1.2cm}{1.32cm}\selectfont}
+\renewcommand*{\parttitlefont}{\partTitleFont \color{NavyBlue}\fontsize{1.2cm}{1.32cm}\selectfont}
+
+%% "Arc"
+\renewcommand*{\printpartname}{ \raisebox{0.2cm}{\partnamefont \lowercase{Arc}}}
+%% spazio
+%%\renewcommand*{\partnamenum}{}
+%% "numero"
+\renewcommand*{\printpartnum}{ \raisebox{0.2cm}{\partnumfont \lowercase{\thepart}}}
+%% nome della parte
+\renewcommand{\printparttitle}[1]{\parttitlefont  #1\nobreak}
+%% elimina salto tra numero e nome
+\renewcommand{\midpartskip}{\enspace}
+
+
+
+%%% Chapter
+%% increasewidth per incrementare larghezza testo in titolo capitolo
+\newenvironment{increasewidth}[2]{%
+  \begin{list}{}{%
+    \@ifmtarg{#1}{\setlength{\leftmargin}{\z@}}%
+                 {\setlength{\leftmargin}{#1}}%
+    \@ifmtarg{#2}{\setlength{\rightmargin}{\z@}}%
+                 {\setlength{\rightmargin}{#2}}%
+    }
+    \item[]}{\end{list}}
+
+\makechapterstyle{zapf}{%
+        \setlength{\afterchapskip}{0pt}
+        \setlength{\chapindent}{\marginparsep}
+        %\addtolength{\chapindent}{\marginparwidth}
+        \renewcommand{\printchaptertitle}[1]{%
+                \chaptitlefont ##1\nobreak
+        \end{increasewidth}}
+
+        \renewcommand{\chapterheadstart}{}
+        \renewcommand{\printchapternonum}{\begin{increasewidth}{}{-5\chapindent}  \raisebox{0.25cm}{\chapnamefont \MakeLowercase{\@chapapp}}}
+        \renewcommand{\printchaptername}{\begin{increasewidth}{}{-5\chapindent} \raisebox{0.25cm}{\chapnamefont \MakeLowercase{\@chapapp}}}
+        \renewcommand{\printchapternum}{\raisebox{0.25cm}{\chapnumfont \thechapter} \enspace }
+
+
+        %% font della parola "Chapter"
+        \renewcommand*{\chapnamefont}{\normalfont\large\scshape}
+        %% font del numero del capitolo
+        \renewcommand*{\chapnumfont}{\normalfont\large\scshape}
+        %% converti da cifre a parole
+        \renewcommand{\thechapter}{\numberstring{chapter}}
+        %% font del titolo del capitolo
+%        \renewcommand*{\chaptitlefont}{\sffamily\color{NavyBlue}\fontsize{1.2cm}{1.32cm}\selectfont}
+        \renewcommand*{\chaptitlefont}{\chapterTitleFont\itshape\color{NavyBlue}\fontsize{1.2cm}{1.32cm}\selectfont}
+        \renewcommand{\afterchapternum}{}
+
+}
+%zapf
+
+\chapterstyle{zapf}
+
+% sections and subsections:
+\setsecnumformat{\normalfont\csname the#1\endcsname\quad}
+
+% the section style:
+\newcommand\uppercasehead[1]{%
+  \noindent\normalfont\scshape\MakeLowercase{#1}}
+\setsecindent{0pt}
+\setsecheadstyle{\uppercasehead}
+
+% the subsection style:
+\newcommand\itshapehead[1]{\normalfont\itshape#1}
+\setsubsecheadstyle{\itshapehead}
+\setsecnumdepth{subsection}
+
+% the subsubsection style:
+%\setsubsubsecheadstyle{\itshapehead}
+
+
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{url}%url lunga
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+
+
+\newlength\partlength
+\newlength\chapterlength
+\setlength\partlength{5em}
+\setlength\chapterlength{3em}
+\renewcommand{\cftdot}{\ensuremath{\ast}}
+\renewcommand{\cftchapterleader}{}
+\renewcommand{\cftchapterafterpnum}{\cftparfillskip}
+\renewcommand*{\cftchapterformatpnum}[1]{%
+  \hbox to \chapterlength{\hfill{\cftchapterpagefont #1}}}
+\renewcommand{\cftsectionleader}{}
+\renewcommand{\cftsectionafterpnum}{\cftparfillskip}
+\renewcommand{\cftpartleader}{}
+\renewcommand{\cftpartafterpnum}{\cftparfillskip}
+\renewcommand*{\cftpartformatpnum}[1]{%
+  \hbox to \partlength{\hfill{\cftpartpagefont #1}}}
+
+
+
+\frenchspacing
+
+
+%% ToC
+\renewcommand\partnumberline[1]{Arc #1~\raisebox{.2ex}{\scalebox{0.75}{·}~}}
+\renewcommand\chapternumberline[1]{#1~\raisebox{.2ex}{\scalebox{0.75}{·}~}}
+\renewcommand\cftchapterpagefont{\normalfont}
+\renewcommand\cftchapterfont{\normalfont\scshape\small}
+\renewcommand\cftpartpagefont{\normalfont\large}
+\renewcommand\cftpartfont{\normalfont\Large}
+
+\newlength\ToCindent
+\setlength\ToCindent{4.0em}
+
+\makeatletter
+\renewcommand*{\l@part}[2]{%
+  \ifnum \c@tocdepth >-2\relax
+    \cftpartbreak
+    \begingroup
+      {\leftskip0pt\noindent
+       \interlinepenalty\@M
+       \leavevmode
+       \parbox[t]{\ToCindent}{\makebox[2em][r]{\cftpartpagefont #2}\hfill}%
+       \parbox[t]{\dimexpr\textwidth-\ToCindent\relax}{\cftpartfont #1}%
+       }
+      \par\nobreak
+        \global\@nobreaktrue
+        \everypar{\global\@nobreakfalse\everypar{}}%
+    \endgroup
+  \fi}
+
+\newcommand*{\l@mychap}[3]{%
+  \def\@chapapp{#3}
+  \vskip2ex%
+  \par%
+  \noindent\parbox[t]{\ToCindent}{\makebox[2em][r]{\cftchapterpagefont#2}\hfill}%
+  \parbox[t]{\dimexpr\textwidth-\ToCindent\relax}{\cftchapterfont#1}\par%
+}
+
+\renewcommand*{\l@chapter}[2]{%
+  \l@mychap{#1}{#2}{\chaptername}%
+}
+
+\renewcommand*{\l@appendix}[2]{%
+  \l@mychap{#1}{#2}{\appendixname}%
+}
+\makeatother
+
+
+
+\widowpenalties 2 10000 0
+%\raggedbottom
+\clubpenalty 10000
+
+%% descrizioni senza bold
+\renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textit{#1}\ ---}
+
+
+\renewcommand{\theenumi}{\arabic{enumi}} \renewcommand{\theenumii}{\arabic{enumii}}
+
+
+
+\epigraphfontsize{\small}
+\setlength\epigraphwidth{8cm}
+\setlength\epigraphrule{0pt}
+
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+
+%% disable Th ligature, works with LuaLateX only
+\usepackage{selnolig}
+\nolig{Th}{T|h} % suppress "Th" ligature globally
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding \font_roman Garamond Premier Pro
+\font_roman "default" "Linux Libertine O"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Linux Libertine Mono O"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement bp
+\paperfontsize 10
+\spacing other 1.35
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Figure
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 55.5mm
+\topmargin 33mm
+\rightmargin 55.5mm
+\bottommargin 66mm
+\headsep 5mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newgeometry{top=1.2in}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+Significant Digits
+\size default
+
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+restoregeometry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Titlepage.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\size footnotesize
+Harry Potter © 1997 Joanne Rowling.
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\emph on
+Harry Potter and the Methods of Rationality
+\emph default
+ © 2010–2015 Eliezer Yukowsky.
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\emph on
+Significant Digits
+\emph default
+ © 2015–2016 Alexander Deebus.
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+Original text: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://www.anarchyishyperbole.com/p/significant-digits.html}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+Typesetted by Cato Philosophus (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{cato.philosophus@gmail.com}
+\end_layout
+
+\end_inset
+
+) with \SpecialChar LyX
+ & 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+, using Minion Pro, 
+\family sans
+Jauria
+\family default
+, and 
+\family typewriter
+CMU Typewriter Text
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+renewcommand{
+\backslash
+chaptername}{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+chaptername}{Chapter}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "preface.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "didNotRead.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newgeometry{left=1.69cm,bottom=2.493cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+Significant Digits
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+restoregeometry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{myheadings}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+addcontentsline{toc}{part}{Arc One: Thesis}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+part{Thesis}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter001.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter002.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter003.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter004.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter005.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter006.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter007.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter008.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter009.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter010.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter010bonus.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter011.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter011bonus.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter012.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter013.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter014.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+part{Antithesis}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter015.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter016.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter017.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter018.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter018bonus.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter019.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter020.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter021.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter022.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter023.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter023bonus.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter024.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter025.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter026.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter026bonus.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter027.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter028.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter029.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter030.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter031.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter032.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter033.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+part{Synthesis}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter034.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter034bonus.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter035.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter036.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter037.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter038.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter038bonus.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter039.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter040.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter041.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter042.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter043.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter044.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter045.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter046.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter047.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter048.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter049.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter050.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter051-epilogue.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "afterwords.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+backmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "bibliografia.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "notes.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "glossary.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+miranda
+\emph default
+\noun default
+ O, wonder!
+\begin_inset Newline newline
+\end_inset
+
+How many goodly creatures are there here!
+\begin_inset Newline newline
+\end_inset
+
+How beauteous mankind is! O brave new world,
+\begin_inset Newline newline
+\end_inset
+
+That has such people in't!
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+prospero
+\emph default
+ 
+\noun default
+'Tis new to thee.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PublisherLogo.png
+	lyxscale 30
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,902 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master significantDigits_eng.lyx
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans Myriad Pro
+\font_typewriter Linux Libertine O
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing onehalf
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.85in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+renewcommand{
+\backslash
+chaptername}{Bonus chapter~~}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+chapter*{Draco}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+chaptername}{Chapter}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+markboth{
+\backslash
+footnotesize 
+\backslash
+textsc{Bonus chapter} · 
+\backslash
+color{NavyBlue} Draco}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{bonus chapter · Draco}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+ancientEnglishFont
+\end_layout
+
+\end_inset
+
+
+\emph on
+Pursuant to an agreement, I grant and confirm to Armand 
+\emph default
+Malfoi
+\emph on
+ the Vale of 
+\emph default
+Haxburn Downs
+\emph on
+, with the Manor of 
+\emph default
+Haxburn
+\emph on
+, and the Chapel of 
+\emph default
+Haxburn
+\emph on
+, &c of the gift of 
+\emph default
+Osmundus Æþelindus
+\emph on
+, Earl of 
+\emph default
+Haxburn
+\emph on
+.
+ I commend it to the 
+\emph default
+Use
+\emph on
+ of the selfsame Armand 
+\emph default
+Malfoi
+\emph on
+ with all good thanks for his 
+\emph default
+Service
+\emph on
+ for he has ever been a 
+\emph default
+True Friend
+\emph on
+ and 
+\emph default
+Loyal Servant
+\emph on
+ of my 
+\emph default
+House
+\emph on
+, and I know it shall ever be 
+\emph default
+So
+\emph on
+, and I do charge Armand 
+\emph default
+Malfoi
+\emph on
+ with the good 
+\emph default
+maintenance
+\emph on
+ and 
+\emph default
+safekeep
+\emph on
+ of the 
+\emph default
+Treasury of the South West
+\emph on
+ with all my Trust.
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+--- Grant of Lord-Enchanter Assurence de Chute, two years before his untimely
+ death
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Malfoy Manor, Wiltshire, England
+\begin_inset Newline newline
+\end_inset
+
+February 12
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1997
+\begin_inset Newline newline
+\end_inset
+
+A year ago
+\end_layout
+
+\begin_layout Standard
+“Put the samovar on,” Draco said, gesturing at the tapered silver device
+ and glancing at Gregory.
+ Three domovoi were visiting that evening, and they tended to be particular
+ about such niceties.
+ It was probably part of their unrelenting feelings of inferiority towards
+ the British, as though Merlin’s heirs were to blame for their position
+ on top of the Confederation or their legacy of powerful magic.
+ The Russians always wanted to be treated with every little courtesy, and
+ bristled at any perceived slight.
+\end_layout
+
+\begin_layout Standard
+Not that Draco would have it any other way.
+ It was an easy lever to use, and required nothing of him but a bit of forethoug
+ht.
+ Everyone should be so pliable.
+\end_layout
+
+\begin_layout Standard
+Gregory Goyle obliged, twisting one of the handles of the samovar.
+ The device was an elegant piece, with two stylized dragon’s heads protruding
+ from the top.
+ It began to heat itself with a quiet hiss.
+ “What’s the plan?”
+\end_layout
+
+\begin_layout Standard
+“You bring them in, and then go and tag their brooms.
+ The Thunderer has been spreading gold around, looking for ways to co-opt
+ the Honourable.
+ I want to know who’s been helpful enough to be the point person for his
+ emissaries,” said Draco.
+ “Once you've done that -- and check out their people, see if there’s any
+ opportunities there -- then you’ll join us and play the heavy.”
+\end_layout
+
+\begin_layout Standard
+Draco paused, then spoke to the air, curtly.
+ “Dobby.”
+\end_layout
+
+\begin_layout Standard
+Barely a breath passed before the elf appeared, stepping out from behind
+ a curtain.
+ It was rude to apparate into the middle of a room, of course… proper house
+ elf etiquette required a furtive entrance.
+ The bedraggled little creature’s bony face was pained with anxiety.
+ “Master?”
+\end_layout
+
+\begin_layout Standard
+“Pack for a journey.
+ Mother and I, both.
+ Cold weather.
+ Riding, formal blacks, formal greens, and lounging,” Draco commanded.
+ “I’ll want to be ready to go by the time my meeting tonight is concluded.”
+ He turned away, gesturing dismissively.
+\end_layout
+
+\begin_layout Standard
+“Yes, Master,” said Dobby, eyes wide.
+ He gently stepped back behind the curtain.
+\end_layout
+
+\begin_layout Standard
+“Will Carrow be here for the meeting?” Gregory asked, looking uncomfortable.
+\end_layout
+
+\begin_layout Standard
+“Yes,” said Draco, giving Gregory a direct and cold look.
+ 
+\emph on
+What of it?
+\emph default
+, his face said.
+\end_layout
+
+\begin_layout Standard
+“Fine,” said Gregory.
+ Nothing more.
+ He busied himself with arranging the furniture appropriately.
+ He removed the two light wooden chairs from the room, levitating them out
+ and replacing them with heavier armchairs.
+ There were five of these: two set in close pairs and one separate, near
+ the fire.
+ Draco would take the single chair, of course, and allow the visitors to
+ choose their own seats.
+\end_layout
+
+\begin_layout Standard
+How the Russians arranged themselves would be valuable information.
+ If two sat and one stood nearby, it would show that they were choosing
+ solidarity in some respect -- usually indicating nervousness or conscious
+ opposition.
+ If all three sat immediately, it would show comfort and ease, suggesting
+ Draco could easily advance the relationship by taking the domovoi into
+ his confidence that very evening.
+ If there was hesitation, the process and order in which they sat could
+ be observed: who was the leader, who deferred to others, and so on.
+\end_layout
+
+\begin_layout Standard
+Poor little domovoi, coming to Malfoy Manor.
+\end_layout
+
+\begin_layout Standard
+They were necessary for the future, though -- not just entertainment.
+ Draco had a significant power base in Britain and many admirers abroad
+ -- the international subscriptions to 
+\emph on
+Unbreakable Honour
+\emph default
+ were almost equal to the domestic numbers -- but he’d never be a credible
+ player on the world stage until he had some firmer connections with some
+ of the globe’s more reliable leaders.
+ Voters were all well and good, but if you wanted iron in the glove, you
+ needed some of the better sort on your side.
+ You needed some tyrants.
+\end_layout
+
+\begin_layout Standard
+There was a creak in the hallway outside, and Draco froze.
+ Gregory snatched his wand up, his face hard.
+\end_layout
+
+\begin_layout Standard
+“It’s I,” came the smooth voice of Amycus Carrow, “your Uncle Amycus.”
+\end_layout
+
+\begin_layout Standard
+“Come,” said Draco.
+\end_layout
+
+\begin_layout Standard
+The door opened, and Amycus Carrow entered.
+ Tall and gaunt, the spymaster of the Honourable and old ally of the Malfoys
+ was wearing black robes with shiny buttons, fastened tight up to his chin.
+ The dark shadow of some scraggly whiskers were visible on his upper lip,
+ and his hair was clipped very short.
+\end_layout
+
+\begin_layout Standard
+“Draco, my boy,” said Carrow.
+ “So good to see you.” His eyes flickered over the length of Draco’s body,
+ the way they always did -- a possessive and lingering look.
+ “Nacreous liver,” he murmured, bizarrely and almost inaudibly.
+ He seemed almost hungry.
+\end_layout
+
+\begin_layout Standard
+“Hullo, Mr.
+ Carrow,” said Gregory, just a touch too loudly.
+ He put a smile on his face as a shield.
+\end_layout
+
+\begin_layout Standard
+Carrow started slightly, as though he hadn't realized Gregory was there,
+ and swiveled his head to glance at the other man.
+ “Gregory,” he said in acknowledgment.
+\end_layout
+
+\begin_layout Standard
+As usual, Draco was forced to admire the performance of Mad-Eye Moody.
+ It wasn't simply the perfection of the acting, although that was so masterful
+ that not even Amycus Carrow’s nieces suspected the subterfuge (it helped
+ that they were never permitted to spend much time with him, or to ever
+ be alone with him: the uneasy parent’s usual precaution against an “acrohandula
+”).
+ No, the true magnificence of the performance was that Draco knew -- he
+ 
+\emph on
+knew
+\emph default
+ -- that Moody was putting on this perfect imitation of Carrow at the same
+ time as he played the part of Draco’s spymaster while 
+\emph on
+also
+\emph default
+ watching out for Harry Potter’s interests 
+\emph on
+and
+\emph default
+ remaining constantly vigilant of immediate threats.
+ It was the virtuoso exhibition of a masterful fanatic.
+\end_layout
+
+\begin_layout Standard
+“Was your excursion useful, Amycus?” Draco asked.
+\end_layout
+
+\begin_layout Standard
+Moody -- no, it was impossible to think of him as anything other than Amycus
+ Carrow -- Carrow pursed his lips.
+ “Yes… I think so.
+ You are the only one who can credibly promise such gifts to the Thai.
+ They won't step out ahead of China, for fear of being left alone in the
+ cold, but they will drag their feet as much as they may.
+ The Ten Thousand are never quick on the stick, but I don't believe we need
+ to worry about them joining the ranks of our enemies, any time soon.”
+\end_layout
+
+\begin_layout Standard
+The dragons’ heads on top of the samovar opened their mouths, hissing twin
+ streams of steam.
+ Their eyes glowed a dull red.
+\end_layout
+
+\begin_layout Standard
+Draco walked to one of the room’s tall windows, and stood there for a moment,
+ looking out at the night.
+ He could see one of the towers of 
+\emph on
+The Declaration of Intent
+\emph default
+, and it was a sharp reminder of the importance of the stewardship of assets.
+\end_layout
+
+\begin_layout Standard
+“We will give them nothing they can use -- ideas of promise, but no application.
+ Dead ends,” said Draco.
+ “A taste of power, but nothing to tip our hand or upset the balance in
+ the Ten Thousand.”
+\end_layout
+
+\begin_layout Standard
+“They aren't fools, my boy,” said Carrow.
+ “They won't be so easily misled.
+ If a bitch will bear no pups, you don't just cut its throat… you also give
+ your elf a lesson with the knife.”
+\end_layout
+
+\begin_layout Standard
+Draco thought of Dobby, and smirked.
+ “If an elf is left so poorly trained, then there’s no one to blame but
+ yourself.” He reversed Carrow's metaphor, making it more to his liking:
+ “We will throw a treat to our foreign friends.
+ The Thais, the Russians, those Americans… old allies and new, they’ll learn
+ the potential power of joining us.
+ We have people within the Tower and in the Department of Mysteries to assist.”
+\end_layout
+
+\begin_layout Standard
+“Such as Umbridge won't get you what we need,” said Carrow, stroking his
+ chin.
+\end_layout
+
+\begin_layout Standard
+“Stolen secrets won't be the sole bait.
+ There will also be simple advancements harvested from the Muggles.
+ There is remarkable power in these techniques… power that will astonish
+ even you, Amycus,” said Draco, turning to the side and regarding Carrow
+ again.
+ “The principles of Mendel can reshape the flesh of beasts in a fashion
+ more safe and more stable than even the feats of the fabled sarkamancers
+ of the Eleusinian Mysteries.
+ You think it is an accident that Loony Lovegood is meddling with Devil’s
+ Snare? The methods behind her madness are a coin for us, too.” He snapped
+ his fingers.
+ “And we will also buy trust with deceit.
+ Already and at this very moment, I am acting to set up a rival to the Honourabl
+e -- a rival that will conspicuously fail, and in the process cost our erstwhile
+ allies any investment they might make.”
+\end_layout
+
+\begin_layout Standard
+“Your lovely mother...
+ she's off selecting your chosen fools,” said Amycus, nodding slowly.
+\end_layout
+
+\begin_layout Standard
+“Taking a meeting -- she is considerably enthused about the project.
+ I believe it amuses her to hand-craft a rival.
+ Traps made of people are an elegant thing.”
+\end_layout
+
+\begin_layout Standard
+“I would have been able to assist in this, had I known ahead of time, my
+ boy.” Carrow folded his hands in front of himself, tilting his head slightly
+ to the side.
+ His right eye twitched.
+ “A mistake.”
+\end_layout
+
+\begin_layout Standard
+Draco’s expression became cold, and his eyes narrowed.
+\end_layout
+
+\begin_layout Standard
+Carrow stared back, unblinking.
+\end_layout
+
+\begin_layout Standard
+There was a long pause.
+ Then Draco drew a breath, and spoke with cold care.
+ “You presume too much, 
+\emph on
+Carrow
+\emph default
+.”
+\end_layout
+
+\begin_layout Standard
+Gregory stood up a little straighter, and squared his shoulders; a subtle
+ and appreciated signal.
+\end_layout
+
+\begin_layout Standard
+Draco turned to face Carrow, and brought his palms together in front of
+ himself.
+ He drew them apart across his chest, and as they parted, his father’s cane
+ appeared in the gap, growing as Draco spread his hands, until the Lord
+ Malfoy could grasp the snake-headed silver handle and bring the other end
+ down to the floorboards with a sharp crack.
+ 
+\end_layout
+
+\begin_layout Standard
+Draco raised his voice, beginning loudly, all thunder and lightning “
+\emph on
+I am
+\emph default
+ Draco Malfoy, and I… I...”
+\end_layout
+
+\begin_layout Standard
+His voice trailed off.
+ Draco lowered his gaze.
+ He fell silent.
+ He let his shoulders slump slightly, as though the wind had been taken
+ from his sails.
+ He stood like that, and held it.
+ Waited.
+\end_layout
+
+\begin_layout Standard
+“Lord Malfoy?” asked Gregory, hesitantly.
+\end_layout
+
+\begin_layout Standard
+“No,” said Draco.
+\end_layout
+
+\begin_layout Standard
+Gregory drew a sharp breath.
+\end_layout
+
+\begin_layout Standard
+Draco raised his eyes again, glancing at Gregory.
+ “No,” he said again.
+ “This is too important.
+ It is too important for grandstanding.”
+\end_layout
+
+\begin_layout Standard
+Then he met Carrow’s eyes with a steady gaze, and his voice was quiet.
+ “No speeches, no grandeur, no orders.
+ I tell you here tonight, Amycus Carrow, that this is the sticking point
+ for a hundred generations of wizardkind.
+ If we fail, then the world will be a darker and sadder place.” Draco thought
+ of a silver light he’d once seen… a pure glow that had overturned so many
+ lies with its very existence, filling him with such an argent awe that
+ it changed his world in a heartbeat.
+ He imagined that light gone forever, and let that sorrow fill his voice.
+ “If we fail -- if we let one trick slip by or fall short by an ounce of
+ wit, then our world will become a Muggle-made thing of immortal monsters.
+ We are confronting an existential threat: a looming power that might not
+ only end us, but end everything we hold dear.”
+\end_layout
+
+\begin_layout Standard
+He shook his head.
+ “So no threats and no foolishness.
+ If you don't have the mettle to hold to your place and do your part, even
+ when it harms your pride, well -- go, and may your chains sit lightly upon
+ you.” He raised his cane -- a mere symbol and a powerless prop, but wasn't
+ persuasion the mightiest thing of all? -- and he pointed it at Carrow.
+ “But if you have honour, and you’re with us… then you are 
+\emph on
+with us
+\emph default
+, and you will 
+\emph on
+heed your place
+\emph default
+.”
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Apophasis
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Before he’d even finished speaking, Carrow had fallen to one knee.
+ “I can offer nothing but my apology and my fealty, Lord Malfoy.”
+\end_layout
+
+\begin_layout Standard
+Gregory looked as satisfied as the kneazle that caught the cracklebit.
+ He crossed his arms, and a smile lurked at the corner of his mouth.
+ He looked a foot taller.
+ He looked like faith fulfilled.
+ 
+\end_layout
+
+\begin_layout Standard
+“Master,” said Dobby, emerging from behind a different curtain.
+ “Your visitors are here.”
+\end_layout
+
+\begin_layout Standard
+“Let them in,” said Draco, without taking his gaze off of Carrow.
+ Dobby disappeared back behind the curtain once more.
+ Draco lowered his cane.
+ “Goyle, go meet them.”
+\end_layout
+
+\begin_layout Standard
+Goyle left, his face revealing barely-disguised triumph.
+ The story of this moment would travel.
+ Draco smiled.
+\end_layout
+
+\begin_layout Standard
+Carrow and Draco were alone.
+ There was only the quiet hiss of steam, rising dangerously from twin dragon
+ heads, to keep them company.
+\end_layout
+
+\begin_layout Standard
+“Bah,” said Carrow, rising off of his knee and standing up again.
+ He snatched out his wand and as he waggled it, almost too fast to follow,
+ the warm crackle of wards settled on around them.
+ Privacy screens, above and beyond the ones that already layered the Manor.
+\end_layout
+
+\begin_layout Standard
+Draco didn't say anything -- didn't rub it in.
+ There was no need.
+\end_layout
+
+\begin_layout Standard
+“Try that again, Malfoy,” he said, glowering, “and you will get a rather
+ different reaction.
+ Goyle will be spreading the story of how you lost an ear, instead.”
+\end_layout
+
+\begin_layout Standard
+Draco watched him coolly.
+ “And damage everything we've been building? You have more discipline than
+ that.”
+\end_layout
+
+\begin_layout Standard
+“Maybe.
+ But also too much discipline to be afraid to upset the applecart, if need
+ be,” replied Carrow.
+\end_layout
+
+\begin_layout Standard
+“Before you do, be quite certain it’s worth it.
+ One only gets one chance at ruining plans like these.”
+\end_layout
+
+\begin_layout Standard
+“Plans like these? Your mother is setting up some small circle of idiots
+ to take a fall, sucking some Cappadocian money with them as they go, eh?
+ Helping build up the Honourable to draw in all the enemy?” said Carrow.
+ He stabbed a finger at Draco.
+ “Or is it a cover for your own efforts to set up an independent base of
+ power?”
+\end_layout
+
+\begin_layout Standard
+“I’m not above a fall-back plan, Mad-eye,” said Draco, “because I am not
+ an idiot.
+ If something happens to Harry, or he goes too far, or anything else… well,
+ I don't intend to wager everything on one game of pitch-and-toss.
+ But my fall-back lies in the Honourable: they are my ‘independent’ base
+ of power, if need be, not some momentary troop of patsies.
+ That is why the Honourable are loyal to me, personally.
+ Harry knows that.
+ You know that.
+ And you both understand it, too, I think.” He fixed Carrow with a harsh
+ look.
+ “Don't pretend to purity.
+ I know you have your own private plans.”
+\end_layout
+
+\begin_layout Standard
+Not that he 
+\emph on
+knew
+\emph default
+, really, but there could not be a safer assumption.
+\end_layout
+
+\begin_layout Standard
+“There’s a difference between preparation and betrayal,” said Carrow, in
+ a most un-Carrow-like growl.
+ “Which are you at, I wonder?”
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+Continue
+\emph default
+ to wonder,” pronounced Draco, curtly.
+\end_layout
+
+\begin_layout Standard
+“Aye,” said Carrow, slowly.
+ “Well.
+ You may believe you can bludger Potter in the back, if you get the opportunity.
+ And maybe you’re right.
+ He’s clever, but soft.
+ He trusts you.
+ But I don't.” Carrow gave Draco a hard stare, and his very face was a reminder
+ of his capacity for subterfuge.
+ “But be careful thinking you can play a deeper game than me, boy.
+ Many have tried...
+ and gotten no deeper than six feet.”
+\end_layout
+
+\begin_layout Standard
+“Lord Draco Malfoy,” said Gregory, opening the door across the room, “of
+ the Noble and Most Ancient House of Malfoy, Britain’s last and best defender
+ of the honour of wizardkind and the fate of magic.”
+\end_layout
+
+\begin_layout Standard
+Draco turned to regard the door, cane in hand, and his face slid into a
+ courteous smile of welcome.
+ Three men with hard faces but indifferent grooming stepped into the room
+ ahead of Gregory.
+ They had the weighty air of importance.
+ One of them wore a brooch of emeralds-and-alicorn, while another openly
+ carried an old wand of the Slavic style, two feet long and bladed.
+ They all wore the red woollen cloaks of Russian domovoi: the decision-makers
+ of one of the great peoples in the wizarding world, no less magisterial
+ than the Wizengamot.
+ These were men who had held lives in their hands, who had scrutinized their
+ subjects down to the curve of their soul, who had begun and ended wars
+ as they saw fit.
+\end_layout
+
+\begin_layout Standard
+Now they were come to Malfoy Manor.
+\end_layout
+
+\begin_layout Standard
+Carrow and Goyle walked over to stand beside Draco.
+ Draco’s smile broadened.
+\end_layout
+
+\begin_layout Standard
+“Please, gentlemen,” he said.
+ “Sit wherever you like.”
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1149 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master significantDigits_eng.lyx
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "tgpagella" "default"
+\font_sans "tgheros" "default"
+\font_typewriter "tgcursor" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf true
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing onehalf
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.85in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Commentarii De Bello
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+crad
+\noun default
+: Now you understand that these are the deadly years for wizards.
+ [Throws 
+\noun on
+karl
+\noun default
+’s bloodstained necklace onto the ground in front of 
+\noun on
+erin
+\noun default
+.] The metamorphosis of the world has begun… no more the plaything of the
+ tall and beautiful!
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+[The remaining 
+\noun on
+attendant
+\noun default
+ takes notice, abandoning the corpse of his friend.
+ He jumps up and down with joy, yelling and grimacing with savagery and
+ waving his torch.]
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+erin
+\noun default
+: The Lady O’Bruinan will save me.
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+crad
+\noun default
+: [Strikes her across the face with a bloody hand.
+ It leaves a mark of blood across her face.
+ The blood is a symbol of violence.] Fool! I have destroyed Sontag, and should
+ the aged Lady appear in my arena, here, I shall show her a taste of armageddon…
+ as I did your mad lover!
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+[
+\noun on
+exses
+\noun default
+ enters from stage right with a clamour of thunder, clad all in gold.
+ In her left hand is a wand, and in her right is a spear.]
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+exses
+\noun default
+: I am come! I have seen the terrors you have wrought upon my people of
+ Sontag, and I have brought my vengeance!
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+[
+\noun on
+crad
+\noun default
+ and 
+\noun on
+attendant
+\noun default
+ cower back from 
+\noun on
+exses
+\noun default
+.
+ 
+\noun on
+crad
+\noun default
+ seizes 
+\noun on
+attendant
+\noun default
+ and pushes him at 
+\noun on
+exses
+\noun default
+.
+ She strikes him down with her spear, and there is another clamour of thunder.]
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+erin
+\noun default
+: My Lady! I never lost hope!
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+crad
+\noun default
+: No, no, no!
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+[
+\noun on
+crad
+\noun default
+ wails and strips off his necklace of wizard teeth, flinging it to the ground.
+ It lands next to 
+\noun on
+karl
+\noun default
+’s necklace.]
+\end_layout
+
+\begin_layout Description
+
+\emph on
+\noun on
+exses
+\noun default
+: Yes! I will bring the goblins low for their crimes, a deserved punishment
+ for their deeds! [She raises her spear, holding it high.] Thus do I condemn
+ them: let them scrape in metal and toil in tin! Let them fear to raise
+ their heads, lest those heads be struck from their shoulders! The blood
+ of Sontag demands it – and let all know their just reward for such bloody
+ deeds as have been done this day!
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+[
+\noun on
+crad
+\noun default
+ collapses, wailing.
+ 
+\noun on
+erin
+\noun default
+ inclines her head, and leans down to pick up 
+\noun on
+karl
+\noun default
+’s necklace.
+ She pauses, and then brings her delicate foot down upon 
+\noun on
+crad
+\noun default
+’s necklace, ruining it.
+ 
+\noun on
+all
+\noun default
+ exit.]
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+[The stage darkens, and a spotlight focuses on 
+\noun on
+crad
+\noun default
+’s necklace.
+ It is a symbol of hubris.]
+\end_layout
+
+\begin_layout Quotation
+— “The Last Days of Exses O’Bruinan,” by S.
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+Leigh, as staged in the 1979 London production.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+John Snow Center for Medicine and Tower School of Doubt (The Tower)
+\begin_inset Newline newline
+\end_inset
+
+May 19
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1999
+\begin_inset Newline newline
+\end_inset
+
+The same day
+\end_layout
+
+\begin_layout Standard
+“There,” said Meldh, lifting his hand from Harry’s wrist.
+ “Think back, and see if you can remember anything.”
+\end_layout
+
+\begin_layout Standard
+Harry shut his eyes, standing silently.
+ It was very quiet in the blank span of corridor where they stood, near
+ the rear of the Tower – there were no distractions.
+\end_layout
+
+\begin_layout Standard
+After a while, Harry opened his eyes again.
+ “No, sir.
+ I can’t remember anything about where Voldemort might be.
+ And I seem to remember all about the Tower departments, otherwise.
+ There’s no obvious gap that might provide a clue.” He paused.
+ “Thank you, sir, for leaving me with everything else.”
+\end_layout
+
+\begin_layout Standard
+“It seemed cruel to take all of that away from you,” said Meldh, nodding.
+\end_layout
+
+\begin_layout Standard
+“Thank you, sir,” said Harry, smiling.
+ His smile faded, though, as he said hesitantly, “Sir, before we go back
+ to the others, I think we should talk about your succession to my place
+ – at least in the broad strokes, so I can begin thinking about how to help.
+ I know that you believe the Lethe Touch to be infallible, but there’s no
+ reason to risk it.
+ It’s basic information hygiene.”
+\end_layout
+
+\begin_layout Standard
+Meldh waved a hand, dismissively.
+ “There is no concern.
+ I will take your identity and you will become a new person.
+ We will alter the trajectory you have chosen for the world, using the tools
+ you have put at my command.”
+\end_layout
+
+\begin_layout Standard
+“No, sir,” Harry said, shaking his head.
+ “There are serious problems there.
+ For one, the new terminal values you’ve given us are too…” He fumbled for
+ words.
+ “There’s too much internal conflict, sir.
+ It shows on our faces, and it will lead to strange behavior at some point.
+ It will be like an Asimov story with the Three Laws… outside observers
+ will be able to deduce from aberrant behavior that there are new underlying
+ rules.
+ Many people are very loyal to me, but no one is 
+\emph on
+absolutely
+\emph default
+ loyal, to the extent where my will and wishes are their most important
+ goals.”
+\end_layout
+
+\begin_layout Standard
+“We have taken dozens of your allies here, but I have set up a pressure
+ within them,” Meldh said.
+ “They are enchanted in the same fashion as yourself, but there is a capacity
+ for release by recasting the Touch and adding –”
+\end_layout
+
+\begin_layout Standard
+“No!” said Harry, abruptly, holding up his hand.
+ “I don’t need to know! Information hygiene.” Sheepishly, he lowered his
+ hand, smiling a bit.
+ “Sorry, sir, but there’s no need to tell me the command word… it can’t
+ possibly help.
+ Yes, you can trust me absolutely, right now, but what if I were to get
+ free somehow? The best weapon you’d have in that situation would be your
+ control of almost all of my closest friends… I’m going to be substantially
+ weaker if any attack on you risks killing Draco or Moody – or even if your
+ death would just leave all of my friends as your servants, forever.”
+\end_layout
+
+\begin_layout Standard
+“Do not worry, Mr.
+ Potter,” said Meldh, kindly.
+ “There is no risk that you will go free.
+ No one has ever defeated the Lethe Touch by sheer willpower, and there
+ is no spell known to you or any of your allies that could dispel the enchantmen
+t.
+ We now possess the only real trust that can ever exist between two people.”
+\end_layout
+
+\begin_layout Standard
+“What about my Unbreakable Vow, sir?” asked Harry.
+ “It’s an obvious problem… what if you ask me to do something that might
+ destroy the world?”
+\end_layout
+
+\begin_layout Standard
+Meldh folded his hands in his sleeves.
+ “You will not be able to comply, of course.
+ But the results would be the same if I asked you to fetch me a Lethifold’s
+ smile– you could not do it, but neither would the Touch fail.
+ I spent some time examining your mind, Mr.
+ Potter, and I assure you that there is no power known to you that poses
+ a threat to me.”
+\end_layout
+
+\begin_layout Standard
+Harry fell silent, and leaned back against the wall of the corridor.
+ Meldh waited, patiently.
+ After a time, Harry spoke up again, saying, “When I think about possible
+ contingency plans for something like this, it seems obvious I would have
+ prepared something and stored the memory in a Pensieve, or just erased
+ it with such care as to leave no traces.
+ Of course, if I thought of a contingency once, I should be able to think
+ of it again, so it would also be necessary to erase the memories that led
+ me to the plan in the first place.”
+\end_layout
+
+\begin_layout Standard
+“Then we’re no better off for the wondering,” said Meldh, chuckling mildly.
+ “You cannot worry or defend against the unknown, since it can take any
+ shape.
+ The key to great strength is defending against every known, whether it
+ appears a threat or not, and staying 
+\emph on
+hidden
+\emph default
+ from the unknown.”
+\end_layout
+
+\begin_layout Standard
+“I disagree, sir.
+ It’s possible to plan for the unknown – you can make a path for it or put
+ in place some contingency that embraces a host of possibilities.
+ And I am fairly sure that I must have at least 
+\emph on
+tried
+\emph default
+ to do so.
+ The way magic works, it was never an outlandish idea that someone old and
+ powerful might show up and take offense.
+ I knew for certain that people like Nicholas Flamel were out there.
+ Given the long history of the world and the fact that magic was once much
+ more powerful, it was actually more likely than not that there would be
+ some immortals out there.” Harry shrugged.
+ “I should have perhaps even foreseen you yourself, sir.
+ The inventor of the Horcrux spell? It seems obvious, in retrospect.
+ Maybe I 
+\emph on
+did
+\emph default
+ foresee it, actually.”
+\end_layout
+
+\begin_layout Standard
+Meldh looked amused.
+ “You and Voldemort share the same opinion of your abilities.
+ You will forgive me for saying that I do not, Mr.
+ Potter.
+ My victory was not a difficult one, and cost scarcely even a pawn’s worth
+ of trouble.”
+\end_layout
+
+\begin_layout Standard
+Harry shrugged.
+ “That seems suspicious to me, sir.” Then he opened his mouth, as though
+ to go on speaking, but made no sound.
+ He grimaced and shook his head, accidentally rapping it against the wall
+ and wincing.
+\end_layout
+
+\begin_layout Standard
+Meldh watched him, and replied to the unaskable question.
+ “No, Mr.
+ Potter,” he said gently.
+ “I do not think it is necessary to kill you now, out of fear of some possible
+ trap you’ve laid.
+ Rather, I will need your help.
+\end_layout
+
+\begin_layout Standard
+“Once I take my place as the new Mr.
+ Potter, you will be by my side in some altered shape, as an adjunct and
+ adviser,” he said.
+ “I will release all others – they will continue to serve ‘you,’ and the
+ Tower will move in a new direction to 
+\emph on
+decisively
+\emph default
+ end magic.
+ Your Muggle knowledge will be turned to proper ends… without your foolishness.”
+ He chortled, amiably.
+ “Some things can even be done immediately, to help stave off the end of
+ the world and its people.
+ There is at least one new ritual we may enact, based on your knowledge.
+ To think what you would have let go to waste – for the sake of some distant
+ bits of fire!”
+\end_layout
+
+\begin_layout Standard
+Harry looked at the ground, his face uncomfortable.
+ “Sir, I considered it to be immoral, especially when there are alternatives
+ that don’t increase entropy in the universe so much.
+ And…” Harry fumbled over his words clumsily, as though many ideas were
+ fighting for expression at the same time.
+ “And many stars have the possibility of life, either now or in the future,
+ and that risk is so apocalyptically bad that it overwhelms any benefit
+ to an individual life here, and when we reach the second type on the Kardashev
+ scale we’ll then be confronted with a loss of useful energy on a scale
+ of… of… well, I don’t even know how to make a comparison! Obviously it
+ would be like sacrificing our own Sun, but… well, it would be like a wiping
+ out every scrap of phoenix flame that ever existed and could ever exist,
+ all to save one person.”
+\end_layout
+
+\begin_layout Standard
+His voice wasn’t rising, but it was filled with strange tension, as though
+ he weren’t arguing with Meldh, but were arguing with himself.
+ He kept talking, though, fumbling through in a rush.
+ “And we might not even need to do that! The Advancement Agency has made
+ amazing strides in only a few years.
+ With reconfiguring parts alone, they’ll raise life expectancy.
+ The prostate, the heart, the optic nerve, the retina, the spine, the knees,
+ the teeth… there are all sorts of design fixes that will reduce the chances
+ of morbidity.
+ Making them a part of the standard rejuvenation and putting in greater
+ security – even perhaps with the aid of the Touch, sir – will put us well
+ ahead of the curve on a new Moore’s Law of lifespan.”
+\end_layout
+
+\begin_layout Standard
+“No,” said Meldh, flatly...
+ that short and curt blade of a word.
+ “We will not wait, not when the new ritual will be so simple to devise
+ – with some little study of your Muggle knowledge about the stars.
+ Not one more minute, as the saying goes.”
+\end_layout
+
+\begin_layout Standard
+Harry choked a little in his throat, then hung his head, and made no reply.
+ He stared at the floor.
+\end_layout
+
+\begin_layout Standard
+“To think I feared to come here, considering it an unwarranted risk,” marveled
+ Meldh, shaking his head and gesturing down the corridor.
+ “Come.
+ We must arrange for the death of the fallen bishop, Bellatrix Black, and
+ take what actions are necessary to suborn the absentee goblins, and set
+ them, too, on the correct path.” He smiled at the thought.
+ “Then I have some preparations to make before I step outside of this Tower
+ to consult with my allies.”
+\end_layout
+
+\begin_layout Standard
+Harry began moving obediently, and they began walking back to the meeting
+ room.
+ Meldh glanced at him, and spoke, his voice kind.
+ “The new immortals of the world, the ones that we choose to aid us in our
+ cause, will have cause to praise my risk and your losses, Mr.
+ Potter.
+ There are endless stars in the sky… more than enough for every witch and
+ wizard we might select.”
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+On the shores of the lake of teeth, where the black hills end, Tír inna
+ n-Óc
+\begin_inset Newline newline
+\end_inset
+
+May 19
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1999
+\begin_inset Newline newline
+\end_inset
+
+Later that day
+\end_layout
+
+\begin_layout Standard
+Whispering teeth.
+\end_layout
+
+\begin_layout Standard
+Fractal shadows.
+\end_layout
+
+\begin_layout Standard
+Desolation.
+\end_layout
+
+\begin_layout Standard
+“You have succeeded… well done,” said the third figure – Nell.
+ Her congratulations were light and pleasant, but none the more convincing
+ for that.
+\end_layout
+
+\begin_layout Standard
+“Thank you,” said the first figure – Meldh.
+ “We have swept the board.”
+\end_layout
+
+\begin_layout Standard
+The second figure said nothing, only watching them both.
+\end_layout
+
+\begin_layout Standard
+“You have Touched the boy-king… will you leave him in charge?” asked Nell.
+\end_layout
+
+\begin_layout Standard
+“No,” said Meldh.
+ “I will take his shape and his identity.
+ He has built a formidable apparatus, and I think that few threats now exist
+ that could stand against it.”
+\end_layout
+
+\begin_layout Standard
+“You do not think that you might be, perhaps, overconfident? Is your control
+ already so sure?” asked Nell.
+\end_layout
+
+\begin_layout Standard
+Meldh paused and did not reply for a time.
+ The second figure, silent still, turned a face of slithering shadow to
+ regard him, watching intently.
+\end_layout
+
+\begin_layout Standard
+“My pride prompts me to deny you, but 
+\emph on
+mirgo que n'a qu'un trpu est bientôt prise
+\emph default
+… yes, perhaps you are correct,” said Meldh, finally.
+ “Mr.
+ Potter himself said as much to me, not an hour ago.
+ I had thought to use the goblins as an excuse to change policy, but even
+ a goblin army may not be sufficient to rouse enough alarm and stem the
+ suspicion of his allies.”
+\end_layout
+
+\begin_layout Standard
+“If you require further assistance, then you shall have it,” said the second
+ figure.
+\end_layout
+
+\begin_layout Standard
+“We are gambling a great deal,” agreed Nell.
+ “You shall have every support we can offer.”
+\end_layout
+
+\begin_layout Standard
+“Then so be it,” said Meldh.
+ “I will not turn away one ounce of assistance.
+ And for my part, I find that I will not have need of the Stone of the Long
+ Song, so long as you would still be willing to lend its power on occasion,
+ Madame.”
+\end_layout
+
+\begin_layout Standard
+“Of course,” said Nell, and the shadows writhed in some distant imitation
+ of a smile.
+\end_layout
+
+\begin_layout Standard
+“No,” said the second figure.
+ “That shall not be sufficient.
+ Now is not the time for conservative policies.
+ We must take this opportunity to act.
+ Our hand is in play – we will make it a fist.
+ Now is the time to act.
+ We will do as we have not done in many years.
+ Sontag once thrived and threatened, rich on the concentrated lore of the
+ Peverells, and made a perfect plum to be plucked.
+ You fear preparations against you? Let us swamp them in violence.”
+\end_layout
+
+\begin_layout Standard
+“Is that not hasty?” asked Meldh.
+\end_layout
+
+\begin_layout Standard
+Even Nell seemed startled by the proposition.
+ “I will commit all to the enterprise, if necessary, but I think –”
+\end_layout
+
+\begin_layout Standard
+“We will raise mighty forces.
+ Armies.
+ I will act with all puissance at my command,” said the second figure, as
+ though the others had not spoken.
+ “Not only the goblins, strong with the restored knowledge of their ancient
+ will-work.
+ Also the visc and lejis of this place will take breath again, driven by
+ the gaunt-horrors.
+ I will break the cycle of the unsleeping, and bring forth your long-vanished
+ terrasque and basilisks.
+ Muggles in their hordes will take the eaters on themselves.
+ They will march, we will sacrifice many… and take the opportunity to wipe
+ away the magics of London, Boston, and Hangzhou.”
+\end_layout
+
+\begin_layout Standard
+“I am not sure that…” said Nell, hesitantly.
+ “We have not acted on such a scale since…” She shook her head, darkness
+ swirling.
+ “Never.
+ This is audacity truly worthy of Merlin.
+ And unspeakably risky.”
+\end_layout
+
+\begin_layout Standard
+“Thus shall it be, Perenelle du Marais,” said the second figure.
+ He did not wait for a reply, but turned to Meldh, and stated, “Thus shall
+ it be, Heraclius Hero.
+ We will sweep the world with discord and blood, crush a thousand artifacts
+ and burn a thousand scrolls, and raise such fear as has never been seen.”
+\end_layout
+
+\begin_layout Standard
+There was a desperately long pause, when none of them moved.
+ They were not the sort to act in haste, despite the brutal decisiveness
+ they could bring to a conversation.
+ All Three waited, patiently, for each of the others to think through and
+ come to terms with the new shape of the world to come.
+\end_layout
+
+\begin_layout Standard
+Tentatively, Nell said, “In the face of such a threat, those remaining wizards
+ will unite behind the Tower.
+ Behind you.” She looked back at Meldh.
+\end_layout
+
+\begin_layout Standard
+“Behind 
+\emph on
+us
+\emph default
+,” corrected Meldh, mildly.
+ “And I think we will have no resistance, then, in a push to redouble the
+ Statute of Secrecy’s strictures and limit the scope and growth of magic.
+ The plan will need further thought to arrange all of the pieces, but there
+ will be resources to spare, now that I have mastered the Tower.”
+\end_layout
+
+\begin_layout Standard
+“You disposed of Bellatrix Black and Voldemort,” said the second figure
+ – a question that was not really a question.
+\end_layout
+
+\begin_layout Standard
+“I have made arrangements for the death of the Black woman, but there are...
+ complications with Voldemort.
+ I actually have much to say to you about Horcruxes at another time.
+ I have sealed Voldemort away, however, and erased all memory of his hiding
+ place.
+ It will suffice, I think,” said Meldh.
+\end_layout
+
+\begin_layout Standard
+“Kill Potter, as well,” said the second figure.
+ “Whatever his lore, the risk is too great.
+ And we need no more 
+\emph on
+complications
+\emph default
+.”
+\end_layout
+
+\begin_layout Standard
+“As you wish, although the odd patterns of his brain have been fruitful,”
+ said Meldh, untroubled.
+ “I will strip his mind of what else might be gleaned, and then end him.”
+ He inclined his head, gently.
+ “I will send signal for our next meeting presently, after concluding such
+ matters.
+ We will plan for our war and arrange our pieces.”
+\end_layout
+
+\begin_layout Standard
+“Yes,” said the second figure.
+ “Consider, each of you, the utmost of your might.
+ We will spare no energy or lore in the conflict to come.
+ Victory must be certain for us to take such a risk.”
+\end_layout
+
+\begin_layout Standard
+All three departed, each their separate ways.
+\end_layout
+
+\begin_layout Standard
+Whispering teeth.
+\end_layout
+
+\begin_layout Standard
+Fractal shadows.
+\end_layout
+
+\begin_layout Standard
+Desolation.
+\end_layout
+
+\begin_layout Standard
+Tír inna n-Óc endured.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+John Snow Center for Medicine and Tower School of Doubt (The Tower)
+\begin_inset Newline newline
+\end_inset
+
+May 19
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1999
+\begin_inset Newline newline
+\end_inset
+
+The afternoon of the same day
+\end_layout
+
+\begin_layout Standard
+Upon his return to the Tower, Meldh appeared tired.
+ He walked with heavy feet out of the annex next to the Receiving Room,
+ where he’d performed the ritual.
+ His fingers were still bloody, wet with the necessary components of a trip
+ to the land of the Unseelie.
+\end_layout
+
+\begin_layout Standard
+For a moment, the assured and calm wizard was gone.
+ He looked the same… dusky skin, dark eyes, broad lips.
+ But he looked weary and battered, and it was enough to bring a worried
+ Moody to his side with gruff but concerned questions.
+ Meldh waved away the Tower’s spymaster, and stepped through the golden
+ oval of the Tower entrance.
+ Harry waited just inside, frowning and unhappy, accompanied by Diggory.
+ Both young men looked immensely relieved to see their master alive, though
+ their worried glances at each other showed their distress at his state.
+\end_layout
+
+\begin_layout Standard
+“Sir, we’re holding some people in Material Methods,” said Diggory, speaking
+ first.
+ He and Harry walked along with Meldh down the corridor, slowly, towards
+ the clinic.
+ “Madame Bones, Percy Weasley, Councilor Reg Hig, and seven aurors reporting
+ for their normal shifts.
+ All stunned and waiting for you.
+ And there is regular Tower business… people to heal.”
+\end_layout
+
+\begin_layout Standard
+“Good, good,” said Meldh, vaguely.
+ “Harry shall go and attend to healing.
+ But I must rest.
+ Keep the prisoners stunned and secured for now.
+ All else is well?”
+\end_layout
+
+\begin_layout Standard
+“Ackle and Curd have both sent away emissaries from Minister N’goma,” said
+ Harry, studying Meldh closely.
+ “And Hermione Granger sent a message to let me know she’d be here this
+ evening.
+ All is well with your allies?”
+\end_layout
+
+\begin_layout Standard
+“Fine,” said Meldh.
+ He sighed, heavily.
+ “Ah, but… forgive my weariness, but there is such 
+\emph on
+violence
+\emph default
+ in the offing, Mr.
+ Potter.
+ I confess that I did not anticipate it, and the very thought makes me ache
+ for my garden and my home and my temple.
+ I fear I will not see them for a great while, and that is not a discomfort
+ I have needed to endure for many years.” He shook his head.
+ Harry touched him on the arm, reassuringly, and the older wizard glanced
+ down at the hand and smiled a small smile.
+\end_layout
+
+\begin_layout Standard
+“Sir, I’m sorry, but we should prepare for Granger,” said Diggory, breaking
+ in on the moment.
+ “She is resourceful and her Returned are insane.”
+\end_layout
+
+\begin_layout Standard
+“I am too tired, young man,” said Meldh.
+ “Mr.
+ Potter, make plans accordingly.” He sighed again.
+ “I must rest.
+ There will be war soon, and the world will shake because of it.
+ A great and fearsome god calls for blood.
+ That is not something I have seen for centuries.
+ I must rest and think.”
+\end_layout
+
+\begin_layout Standard
+Harry took hold of Diggory’s arm, restraining him, and they stopped in their
+ tracks.
+ Meldh continued on, moving slowly.
+ He vanished from sight into the clinic.
+\end_layout
+
+\begin_layout Standard
+“This is for the best, Cedric,” said Harry.
+ “I’m not sure that he would be able to appreciate the threat that Hermione
+ could present, but we do.
+ Let’s make a plan.”
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+I think we are in rats’ alley
+\end_layout
+
+\begin_layout Standard
+\noindent
+Where the dead men lost their bones.
+\end_layout
+
+\begin_layout Standard
+\noindent
+“What is that noise?”
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+The wind under the door.
+\end_layout
+
+\begin_layout Standard
+\noindent
+“What is that noise now? What is the wind doing?”
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+Nothing again nothing.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+“Do
+\end_layout
+
+\begin_layout Standard
+\noindent
+You know nothing? Do you see nothing? Do you remember
+\end_layout
+
+\begin_layout Standard
+\noindent
+Nothing?”
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+I remember
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+Those are pearls that were his eyes.
+\end_layout
+
+\begin_layout Standard
+\noindent
+“Are you alive, or not? Is there nothing in your head?”
+\end_layout
+
+\begin_layout Standard
+—
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+The Waste Land,” T.S.
+ Eliot
+\end_layout
+
+\end_body
+\end_document
