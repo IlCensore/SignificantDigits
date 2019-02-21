@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -266,14 +266,14 @@ Finally, Hermione got out of her seat, her chair scraping the floor.
  Gently, she leaned her head forward until it rested against the stone.
  She stood motionless for a moment, then turned her head until her cheek
  lay against the wall and Harry could see her eyes once more.
- She stared distantly at nothing -- at memories.
+ She stared distantly at nothing – at memories.
 \end_layout
 
 \begin_layout Standard
 “I'm not sure what to do.
  Or what to feel,” she said.
  Her voice was so quiet that Harry could barely hear her.
- “It's not your fault -- either of you.
+ “It's not your fault – either of you.
  You can't help it, and you can't really be blamed.
  It doesn't seem 
 \emph on
@@ -300,7 +300,7 @@ week
  since he admitted about going easy on you, Draco.
  He admitted to exactly as much as he thought he needed to admit, and nothing
  else.
- He didn't say anything about working with you or Alastor -- oh, Merlin,
+ He didn't say anything about working with you or Alastor – oh, Merlin,
  
 \emph on
 Alastor
@@ -314,7 +314,7 @@ Alastor
 \emph on
 Imperiused
 \emph default
- you, Harry -- what we'd do if you'd actually 
+ you, Harry – what we'd do if you'd actually 
 \emph on
 already
 \emph default
@@ -345,7 +345,7 @@ Harry glanced over at Draco, eyebrows raised.
 
 \begin_layout Standard
 “How did I figure out that you two were working together from the start?
- That the break between you was a hoax -- a trick you were playing on all
+ That the break between you was a hoax – a trick you were playing on all
  the 
 \emph on
 dupes
@@ -363,7 +363,7 @@ Draco nodded.
 
 \begin_layout Standard
 “Boston,” she snapped.
- “The body of Tarleton Gest -- and by the way, Draco, ‘Tarleton' and ‘Kemp?'
+ “The body of Tarleton Gest – and by the way, Draco, ‘Tarleton' and ‘Kemp?'
  Why would you advertise that your spies were actors? It was blind luck
  that no one else with a decent education noticed that.”
 \end_layout
@@ -398,7 +398,7 @@ worked
  the Honourable to centralize his opposition, and they'll think they're
  the clever ones who see the real truth.
  A small few might put two and two together and deduce that Alastor was
- Amycus Carrow from the start -- or whatever other fallback deception you've
+ Amycus Carrow from the start – or whatever other fallback deception you've
  arranged for them, to preserve the ultimate secret.
  Maybe I'm missing one… maybe there are more levels beyond that.
  There was redundancy upon redundancy, and it all worked.”
@@ -431,7 +431,7 @@ Hermione laughed again.
  eyes again, and looked at Harry.
  “And that's what you're thinking, right? You're thinking that my feelings
  don't matter even a tiny little bit, not when compared to anyone's life
- -- not when compared to the lives of entire nations.
+ – not when compared to the lives of entire nations.
  And you're right about that, too.”
 \end_layout
 
@@ -650,8 +650,8 @@ He walked over to the lump of stone and stared at it for a long moment,
 \begin_layout Standard
 
 \emph on
-Hermione touched her wand to a half-burnt piece of wood -- the remains of
- a table, perhaps -- and it slid fluidly into the form of a new and shiny
+Hermione touched her wand to a half-burnt piece of wood – the remains of
+ a table, perhaps – and it slid fluidly into the form of a new and shiny
  metal stool.
  She sat on it.
 \end_layout
@@ -675,7 +675,7 @@ They all thought for five minutes.
 \emph on
 “Artifacts of power are the key, I think,” said Draco.
  “Father once spent a full year trying to bribe his way to the last of Satomi's
- Dogs -- the one Grindelwald didn't get, that they have in Cyprus.”
+ Dogs – the one Grindelwald didn't get, that they have in Cyprus.”
 \end_layout
 
 \begin_layout Standard
@@ -703,12 +703,12 @@ They all thought for five minutes.
 \emph default
 Undoubted Redoubtables
 \emph on
-.” Harry gave her a worried glance at this -- she seldom needed to double-check
- her recollections, was this a problem with her new body? -- but she was
+.” Harry gave her a worried glance at this – she seldom needed to double-check
+ her recollections, was this a problem with her new body? – but she was
  already moving on.
  “With the Interdict ensuring that uncommon or powerful spells are gradually
  lost over time, any old device is usually going to be pretty impressive
- in our eyes -- able to beat out any modern wizard's best efforts.
+ in our eyes – able to beat out any modern wizard's best efforts.
  If we got our hands on the Arch, then we wouldn't even need to worry.
  Those sorts of devices are… elemental forces.”
 \end_layout
@@ -719,9 +719,9 @@ Undoubted Redoubtables
 “Even the greatest artifact can be defeated by a counter-artifact that is
  lesser, but specialized,” said Harry, echoing Voldemort's words from last
  year.
- “Not that you're wrong about any of that, of course -- and there is one
+ “Not that you're wrong about any of that, of course – and there is one
  thing we particularly need, I think, if we're ever going to rescue the
- Headmaster -- but it's not sufficient.
+ Headmaster – but it's not sufficient.
  We need to try to ensure that we control everything… not just every aspect
  of security, but every aspect of our attackers, too.”
 \end_layout
@@ -748,7 +748,7 @@ Draco scuffed the toe of his boot along the stone near his foot, where the
 
 \emph on
 “It would mean that we wouldn't need to worry so much.
- We could concentrate on the real villains -- the people who want to hurt
+ We could concentrate on the real villains – the people who want to hurt
  others.
  Not the people who…” He paused.
  He needed to talk around the fate of Draco's father.
@@ -978,7 +978,7 @@ done with it
  You were right… you can do anything you want.
  You can keep putting together the Science Program.
  You can go into the Wizengamot and take your father's seat.
- You can do -- literally -- anything you want to do.”
+ You can do – literally – anything you want to do.”
 \end_layout
 
 \begin_layout Standard
@@ -1099,7 +1099,7 @@ was
  work to keep quiet.
  On another level, we'll do some clumsy bribery of a few reliably corrupt
  politicians… these bribes won't work since those sorts of folks won't stay
- ‘bought' -- but both things working together should be enough to put Draco
+ ‘bought' – but both things working together should be enough to put Draco
  in solid command.”
 \end_layout
 
@@ -1115,7 +1115,7 @@ was
 
 \begin_layout Standard
 Draco picked his cane up from the ground.
- He stared down at the head of it -- a silver snake.
+ He stared down at the head of it – a silver snake.
  “Do we even want to do that? Shouldn't we be trying to change things… with
  more ambition?”
 \end_layout
@@ -1161,10 +1161,10 @@ Somehow, he'd never altered the curve of any of these patterns.
 \begin_layout Standard
 “I don't think I should be in charge anymore,” he said, and his voice was
  even quieter.
- “I think -- whatever we do -- we should bring in more people.
+ “I think – whatever we do – we should bring in more people.
  Bones, Moody, or maybe Luna.” Glancing at Draco, he added, “Or Shacklebolt
  or Goyle… I know they've done well and true over these past few years.
- It was a fine line to walk -- being the bad guys without being bad -- but
+ It was a fine line to walk – being the bad guys without being bad – but
  they never seemed to stumble.”
 \end_layout
 
@@ -1196,7 +1196,7 @@ So many years now of being in charge of everything, and working with Hermione
  while never letting her get at the deepest levels of planning, and not
  being able to ask either of them about things… all those years gone by,
  and now maybe it will be like it was.
- You can never go back again -- not really -- but there's no reason we can't
+ You can never go back again – not really – but there's no reason we can't
  find that same… rhythm.
  That same pattern of working together.
 \end_layout
@@ -1283,7 +1283,7 @@ Security at Hogwarts and at the Tower was at a higher alert than it had
  in the magical world were here, representing a gathering of power unmatched
  since the Sontag Summit of 1939.
  Yet by unspoken agreement, there were few intrigues.
- Everyone -- from neonate healer to veteran counselor -- knew that too much
+ Everyone – from neonate healer to veteran counselor – knew that too much
  hung in the balance.
  The Honourable and the Tower were meeting for the first time in years,
  and if anything disturbed their efforts at peace… well, the entire globe
@@ -1296,8 +1296,8 @@ The powerful of the world stood and chatted and hoped.
 \end_layout
 
 \begin_layout Standard
-But despite all the tension and all the security -- or maybe because of
- it -- when the enemy began arriving in the Receiving Room, shrugging off
+But despite all the tension and all the security – or maybe because of
+ it – when the enemy began arriving in the Receiving Room, shrugging off
  the stunning effects of Safety Pole and Safety Stick, no one was ready.
  Haggard and vicious men appeared, clad in rags of black, and began to kill.
  Anyone.
@@ -1306,7 +1306,7 @@ But despite all the tension and all the security -- or maybe because of
 
 \begin_layout Standard
 No one was ready for the wild woman who arrived by some unknown spell of
- staggering puissance -- a chariot of fire, that erupted into being in the
+ staggering puissance – a chariot of fire, that erupted into being in the
  center of the room.
  She shrieked with hellish laughter as she began casting her curses.
 \end_layout

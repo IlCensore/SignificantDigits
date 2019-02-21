@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -77,11 +77,13 @@
 \font_typewriter "tgcursor" "default"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -111,6 +113,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -125,7 +128,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -323,7 +329,7 @@ He Jin cut in after the Norden diplomat, leaning forward and pointing out
 The Westphalian agreed, nodding along with the mandarin and adding, “Our
  resources are a fraction of what they were, and it's taking everything
  we have simply to maintain the Statute of Secrecy.
- And that's not even mentioning the villains behind it all -- the ones Reg
+ And that's not even mentioning the villains behind it all – the ones Reg
  called the ‘Three.'”
 \end_layout
 
@@ -340,8 +346,8 @@ The Westphalian agreed, nodding along with the mandarin and adding, “Our
 “Our current situation has become untenable,” she continued.
  “If another attack arrived, we'd be wiped out.
  There is one member of the Three at large, assuming we have not fallen
- prey to misinformation in that regard -- I can imagine a clever group adopting
- a misleading name -- as well as a small army of Unseelie and many other
+ prey to misinformation in that regard – I can imagine a clever group adopting
+ a misleading name – as well as a small army of Unseelie and many other
  threats.
  Even with the help of new allies,” and she nodded to the Curdite who was
  there on behalf of the goblins and other Beings, “we have barely been able
@@ -394,7 +400,7 @@ Limpel Tineagar's face had been frozen into an unpleasant expression of
  punished its enemies, petrifying them into living statues and then enchanting
  their limbs so that they could be adjusted into humiliating positions.
  It seemed petty to today's scholars of history, but its effectiveness couldn't
- be discounted -- the Mysteries had maintained their hegemony over all of
+ be discounted – the Mysteries had maintained their hegemony over all of
  the Mediterranean for generations.
 \end_layout
 
@@ -422,12 +428,12 @@ That last thought was some comfort, at least, he thought as he looked at
  The great merchants and old families of Tidewater had been murdered, wiped
  out of life as thoroughly as if they'd never existed, but those Americans
  that were left would be an equal part of the new world.
- When the Council of Westphalia rose again -- and that Thing 
+ When the Council of Westphalia rose again – and that Thing 
 \emph on
 would
 \emph default
  rise again, even if Hig had to spend the rest of his life rebuilding its
- ranks and its strength -- the Americas would no longer be in the shadows,
+ ranks and its strength – the Americas would no longer be in the shadows,
  jockeying for leverage within the Confederation.
 \end_layout
 
@@ -458,7 +464,7 @@ dmle
  The atrium of the British Ministry of Magic still bore scars and ragged
  wounds on every wall and surface.
  The basics had been put back in order, but it would be a long time before
- the cosmetic damage could be repaired -- and even longer before the memories
+ the cosmetic damage could be repaired – and even longer before the memories
  would fade.
  Hig thought of Tidewater again, and shuddered.
 \end_layout
@@ -531,7 +537,7 @@ et cetera
 \end_layout
 
 \begin_layout Standard
-“Make sure you make time for yourself -- to keep a clear head,” Hig offered.
+“Make sure you make time for yourself – to keep a clear head,” Hig offered.
  “In fact, maybe you want to have dinner tonight? Take your mind off things?”
 \end_layout
 
@@ -583,7 +589,7 @@ Pip noticed their attention.
 “Well then,” said Hig, and now his smile was rather more genuine.
  “I hope you have a good evening.
  I'm sure I'll see you soon, Master Diggory.
- Let's hope for the best of luck -- in all our new beginnings.”
+ Let's hope for the best of luck – in all our new beginnings.”
 \end_layout
 
 \begin_layout Standard
@@ -628,7 +634,7 @@ Muggles are an existential threat,” Hermione said, firmly, looking around
  There was a time when wizards and witches lived among Muggles, usually
  ruling them, and it would have been impossible to try any sort of magical
  genocide.
- We need that protection again -- the protection of Muggles.”
+ We need that protection again – the protection of Muggles.”
 \end_layout
 
 \begin_layout Standard
@@ -636,7 +642,7 @@ Muggles are an existential threat,” Hermione said, firmly, looking around
  “I am surprised to hear this from you.
  You used to moderate Mr.
  Potter's approach, but now you sound more extreme than he ever did.
- What is your idea -- that we attempt to seize control? It's not even practical,
+ What is your idea – that we attempt to seize control? It's not even practical,
  even if it weren't a gross departure from our ideals.
  We are so few… do you imagine we could dominate the Muggles when they have
  as many cities as we have people?”
@@ -689,11 +695,11 @@ At the same time.
 \begin_inset space ~
 \end_inset
 
---” said Fred, cocking his head to the side.
+–” said Fred, cocking his head to the side.
 \end_layout
 
 \begin_layout Standard
-“--
+“–
 \begin_inset space ~
 \end_inset
 
@@ -873,7 +879,7 @@ Per spoke up, cautiously.
 \begin_layout Standard
 “There are so many problems that it's staggering,” Hermione allowed.
  “Every Muggle government will see magic as a weapon, so there will be a
- risk of global warfare -- in addition to the constant threat of kidnapping
+ risk of global warfare – in addition to the constant threat of kidnapping
  or blackmail.
  There are also different aspects of magic that are incredibly dangerous
  to the untrained, but any Obliviator can tell you how hard it is to completely
@@ -896,33 +902,33 @@ Per spoke up, cautiously.
  without their conscious knowledge, if it will recognize a proxy in terms
  of political representatives.
  It is also possible that some of the new spells we will acquire from our
- two captive members of the Three -- or even one of the ones we already
- possess -- could be used once we have mastered them to manipulate even
- a global population.
+ two captive members of the Three – or even one of the ones we already possess
+ – could be used once we have mastered them to manipulate even a global
+ population.
  But we may not need to resort to any of these, if we devote ourselves as
  one to this goal and find different solutions.
  There are many others, including mundane strategies like wand control.
  There were only one hundred and twelve wandmakers worldwide a month ago,
  and there must be many fewer now.
- We kept the entire world in an imperfect ignorance for centuries -- surely
+ We kept the entire world in an imperfect ignorance for centuries – surely
  if we really try, we can manage a transition without too much damage.”
 \end_layout
 
 \begin_layout Standard
 Percy was staring at her, eyes wide.
- He'd realized what she was saying -- her 
+ He'd realized what she was saying – her 
 \emph on
 true
 \emph default
- message -- before anyone else.
+ message – before anyone else.
  But he didn't seem angry.
  He seemed awed.
 \end_layout
 
 \begin_layout Standard
 “It might be hard,” Hermione added.
- “But sometimes the hardest things -- the things that seem the most impossible
- -- are the things that most need to be done.
+ “But sometimes the hardest things – the things that seem the most impossible
+ – are the things that most need to be done.
  The first step to finding a solution is rejecting the idea of impossibility.
  Then you just take the first, hard, scary step.”
 \end_layout
@@ -1252,7 +1258,11 @@ quoted Merlin
  “I'm not sure about that.
  Because I'm thinking of what Merlin's goal might really have been, and
  about a thing called the Great Filter, and…” He paused, then continued.
- “No, I think that --”
+ “No, I think that
+\begin_inset space ~
+\end_inset
+
+–”
 \end_layout
 
 \begin_layout Standard
@@ -1370,8 +1380,8 @@ She glanced at his other hand, at the decoy glove he always wore, but he
  I couldn't fight, not really.
  And I only knew one thing that had impressed anyone in the Three.
  A ritual that he saw in my mind, one I'd never actually done.
- I had it in my mind, all the principles -- I'm really not sure how to explain
- it, it just works out somehow, when you're inventing a spell -- and Meldh
+ I had it in my mind, all the principles – I'm really not sure how to explain
+ it, it just works out somehow, when you're inventing a spell – and Meldh
  had told me I was being stupid not to use it.” Harry pulled a folded parchment
  from his pocket, carefully, and handed it over to her.
  “I still think he's wrong, and I'm still not sure if it's the right thing.
@@ -1421,8 +1431,8 @@ The small family accepted no visitors, and seldom left the house.
 \begin_layout Standard
 It was a strange, new way to live: as though ambition were sated, as though
  ambition had reached its natural end.
- Surely, it was temporary -- for the gnawing of desire never rests for long
- -- but for a time, the family wanted for nothing.
+ Surely, it was temporary – for the gnawing of desire never rests for long
+ – but for a time, the family wanted for nothing.
  They were together, and they were content.
 \end_layout
 

@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -21,13 +21,18 @@
 %% new local font
 \newfontfamily\ancientEnglishFont[RawFeature={+hlig,+clig,+dlig,+cv11,+cv90,+cv04,+cv05,+cv11,+cv21,+cv27,+calt,+ccmp},Ligatures=TeX,Numbers={Proportional,OldStyle}]{Linux Libertine O}
 \newfontfamily\chapterTitleFont[RawFeature={+clig,+dlig,+hlig,+cv11,+cv90,+cv04,+cv05,+cv11,+cv21,+cv27,+calt,+ccmp},Ligatures=TeX,Numbers={Proportional,OldStyle}, UprightFeatures={SmallCapsFont={Alegreya SC}}, ItalicFeatures={SmallCapsFont={Alegreya SC}}]{Alegreya}
-\newfontfamily\droidFont{Droid Serif}
+%\newfontfamily\chapterTitleFont{Junge}
+
+%\newfontfamily\droidFont{Droid Serif}
 \newfontfamily\greekFont{GFS Porson}
 \newfontfamily\hebrewFont{Linux Libertine O}
 \newfontfamily\japaneseFont{TakaoPGothic}
 \newfontfamily\koreanFont{Baekmuk Batang}
 \newfontfamily\mainTitleFont{Alegreya SC}
 \newfontfamily\partTitleFont{Alegreya}
+%\newfontfamily\mainTitleFont{Junge}
+%\newfontfamily\partTitleFont{Junge}
+
 \newfontfamily\russianFont{EB Garamond}
 \newfontfamily\thaiFont{Norasi}
 
@@ -265,6 +270,8 @@
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -304,6 +311,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \branch Figure
 \selected 0
 \filename_suffix 0
@@ -324,7 +332,10 @@
 \tocdepth 0
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings

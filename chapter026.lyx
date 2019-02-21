@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -171,8 +171,8 @@ Harry had spent years nurturing the Honourable, building them as the only
  credible opposition with careful restraint of government forces and strategic
  deployment of his resources.
  Even the propaganda had required considerable planning, as they staged
- high-profile debates to legitimize their opponents -- though they were
- also rigged for the Tower's success, to preserve his own prestige -- even
+ high-profile debates to legitimize their opponents – though they were
+ also rigged for the Tower's success, to preserve his own prestige – even
  as he resisted applying a more general rhetorical pressure.
  Agents and double agents and triple agents infiltrated both groups, under
  the guidance of a respective spymaster (Amycus Carrow and Mad-Eye Moody).
@@ -184,13 +184,13 @@ Even when the focus turned outward to other states, Harry was confident
  he'd been in control, guiding the pell-mell chaos of a thousand disparate
  interests towards his intended goals.
  It had been difficult, briefly, when he'd worried that the Council of Westphali
-a would be too irrational -- when there was a moment that the relentless
+a would be too irrational – when there was a moment that the relentless
  drumbeat of Draco's pamphleting and scheming might unite a coalition of
  serious strength.
  But that didn't happen.
  The Americas would join the Treaty for Health and Life, to which half of
  Africa and most of Europe already belonged, while a handful of bad actors
- -- Cappadocia, Caucasus, Russia, and the Sawad states -- remained his useful
+ – Cappadocia, Caucasus, Russia, and the Sawad states – remained his useful
  idiots.
  They were the international analogue of the Malfoys and the Honourable:
  prestigious and loud enough to appear a threat, without ever actually posing
@@ -241,12 +241,12 @@ He rubbed his eyes.
  There had been a moment, long ago, when he'd realized just how poor his
  skills as a rationalist really were.
  Human beings were force multipliers, and so one of the most powerful abilities
- for any human -- or at least one who was trying to achieve something ambitious
- -- was being able to predict how other humans would act.
+ for any human – or at least one who was trying to achieve something ambitious
+ – was being able to predict how other humans would act.
  That had been the secret of Voldemort's power, more than any other bit
  of cleverness.
  The ancient lore of Salazar Slytherin, the consummate planning, the inhuman
- skill on the field of battle -- they all ultimately paled in comparison
+ skill on the field of battle – they all ultimately paled in comparison
  with Voldemort's skill at predicting the behavior of others.
  And Harry… well, Harry was doing his best, but he was worried it just wasn't
  good enough.
@@ -331,7 +331,7 @@ very
 \emph default
  good deal for the Tower, considering that it had cost Harry nothing from
  his policy preferences.
- Hermione had done well -- probably better than he could have, considering
+ Hermione had done well – probably better than he could have, considering
  Hig's lingering suspicion and her own bargaining skills, keen thinking,
  supernatural innocence, and natural beauty.
  He'd been happy to agree to it, regardless of the astronomically higher
@@ -420,7 +420,7 @@ The goblin Urg was gathering up pieces of a broken teacup with careful fingers,
 Odette Charlevoix, the French witch, was sitting quietly with her hands
  in her lap.
  He knew that her fingers were still covered in angry-looking red scars
- -- Hermione had warned him not to ask her if she wanted that fixed -- but
+ – Hermione had warned him not to ask her if she wanted that fixed – but
  she wasn't usually self-conscious about it.
  On the other hand, she'd always seemed more emotional than the rest of
  Hermione's group, who tended to be a bit deadened by their time in hell,
@@ -442,7 +442,7 @@ The Chief Warlock and Supreme Mugwump, Amelia Bones, was leaning back in
  Bones was cunning and clever when it came to politics, but the scope of
  her attentions was always limited.
  She'd been one of Dumbledore's lieutenants, and she was most comfortable
- in that role -- even though the scale of that lieutenancy encompassed manipulat
+ in that role – even though the scale of that lieutenancy encompassed manipulat
 ing national and global politics of surprising complexity.
 \end_layout
 
@@ -525,7 +525,7 @@ Hedley… ah, Kwannon.
 
 \begin_layout Standard
 “Sharp one, her,” said Moody.
- His voice sounded phlegmy and strange -- Harry had needed to move the organs
+ His voice sounded phlegmy and strange – Harry had needed to move the organs
  around some, and both lungs in the transfigured body had needed to be the
  same size to fit in the smuggled device.
  The alteration had an unexpected effect on the sound of the man's voice.
@@ -574,7 +574,7 @@ Urg and Charlevoix watched, quietly.
 “To business, though?” said Harry.
  He didn't have an agenda for this one, but there were some things they
  needed to get through.
- There was always time pressure -- in an hour he needed to be back in the
+ There was always time pressure – in an hour he needed to be back in the
  clinic, to finalize the afternoon healings.
  Every healer stuck waiting around, sustaining their transfigurations, was
  a healer not busy on a new patient.
@@ -705,8 +705,8 @@ alone
  “I mean, yes, I'm worried about them… Tineagar had spells I've never seen
  before or since.
  Mafalda told me that the last time that flaming chariot spell was reported
- -- the one that whisked Tineagar right out from among Anti-Disapparation
- Jinxes -- was seven hundred years ago.
+ – the one that whisked Tineagar right out from among Anti-Disapparation
+ Jinxes – was seven hundred years ago.
  But there's also… well, sorry, Urg? Could you?”
 \end_layout
 
@@ -796,8 +796,8 @@ This
 
 \emph on
 Then it really is time for this cold war to end.
- They're right about the Three, and their unknown threat -- if they do pose
- a threat at all -- and now the goblins… no.
+ They're right about the Three, and their unknown threat – if they do pose
+ a threat at all – and now the goblins… no.
  It's time.
 \end_layout
 
@@ -806,13 +806,13 @@ Then it really is time for this cold war to end.
  “We've pushed the Free States and Nigeria and the Americas to a decision,
  and that should carry us through the rest of Africa and the Ten Thousand.”
  Bones seemed doubtful, but she didn't disagree.
- “You've all pushed me to act -- for 
+ “You've all pushed me to act – for 
 \emph on
 years
 \emph default
  telling me that I should crack down and move hard on the Honourable.
  Well, let's do it.
- Hermione, we're going to put twenty -- no, forty aurors under your command.
+ Hermione, we're going to put twenty – no, forty aurors under your command.
  Or your Returned, or whoever you want.”
 \end_layout
 
@@ -842,7 +842,7 @@ Hermione just gave a tiny shake of her head, and he dropped it for the moment.
 \noun on
 dmle
 \noun default
- about fingerprinting -- bring in every trick you can think of, and get
+ about fingerprinting – bring in every trick you can think of, and get
  ahold of every last Honourable you can manage in the next twelve hours,”
  Harry said.
  He could hear the hardness in his own voice, and he couldn't deny that
@@ -904,15 +904,15 @@ The former auror barked a fleshy laugh.
 
 \begin_layout Standard
 “Get him in here, he can help with this.
- They have aurors and portkeys -- get them on to help with reinforcing our
+ They have aurors and portkeys – get them on to help with reinforcing our
  people at non-vital weak spots.
  And get Kraeme to arrange double the usual bubblers and Extendable Ears
- -- I want free and open communications, all day.
+ – I want free and open communications, all day.
  And get some owls to the Receiving Room and ready to go.
  Then I expect you'll have your own business to manage, and that's almost
  as important.” The ideas and orders were coming in a rush now, and Harry
- felt exhilarated -- almost breathless.
- “I want this done by evening -- I want to hit them so hard that they realize
+ felt exhilarated – almost breathless.
+ “I want this done by evening – I want to hit them so hard that they realize
  just how much we've been holding back.
  If we're going to do this, then it has to be so spectacular that we never
  have to do it again.

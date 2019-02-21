@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -212,7 +212,7 @@ It was warm outside, warmer than it had been all spring, and the Returned
 \end_layout
 
 \begin_layout Standard
-Hermione thought there was only the one peacock -- or at least, she’d only
+Hermione thought there was only the one peacock – or at least, she’d only
  ever seen one.
  It had shown up two years ago.
  Both winters since, the peacock had been seen every time the gamekeeper
@@ -255,7 +255,7 @@ Finally she bent forward and groaned, a long and low sound.
 \end_layout
 
 \begin_layout Standard
-Hermione called over, her voice quiet, “Tonks, are you --”
+Hermione called over, her voice quiet, “Tonks, are you –”
 \end_layout
 
 \begin_layout Standard
@@ -329,7 +329,7 @@ Life, the Universe, and Everything
  called Uncontrollable Utterance Ailment.
  It sometimes occurred with people of a nervous temperament when using more
  than two drops of Veritaserum, and it was one of the reasons why more than
- three drops were never given -- not even to people known to be skilled
+ three drops were never given – not even to people known to be skilled
  in Occlumency, who were able to defeat small doses.
 \end_layout
 
@@ -396,7 +396,7 @@ Urg just patted her on the back.
 Better just to get right to it
 \emph default
 , Hermione thought.
- She’d brought them together for a reason -- well, before the peacock showed
+ She’d brought them together for a reason – well, before the peacock showed
  up.
 \end_layout
 
@@ -419,11 +419,11 @@ She paused, glancing around, but they were only listening to her, attentively,
 \end_layout
 
 \begin_layout Standard
-“It seems strange to be saying this -- strange even to be 
+“It seems strange to be saying this – strange even to be 
 \emph on
 thinking
 \emph default
- this -- but that’s the truth.
+ this – but that’s the truth.
  I don’t think we can or should stop doing the right thing.
  ‘Save one life’...
  I’ll always believe that, and I’ll always try.
@@ -451,7 +451,7 @@ She sighed, and smiled a small smile, both sad and happy.
  “I love all of you.
  You are my heart.
  And there will never come a day when I won’t want you around.
- There’s no rush -- literally no rush at all, we have forever.
+ There’s no rush – literally no rush at all, we have forever.
  But it’s okay to think about yourselves, now, if you can.
  The world is on the right track.
  Things are going to be okay.”
@@ -545,7 +545,7 @@ The door pushed open, and she glanced up.
  Come in, please,” Bones said.
  She swallowed her irritation without a second thought, ensuring she looked
  calm as she stood up.
- She offered her polite smile -- no warmth, but cordiality.
+ She offered her polite smile – no warmth, but cordiality.
 \end_layout
 
 \begin_layout Standard
@@ -580,7 +580,7 @@ The door pushed open, and she glanced up.
  lifted.
  But he did also have occasion to ask me about laws in the United States
  about magical research safety.
- He wanted to know what the most restrictive law we had might be -- what
+ He wanted to know what the most restrictive law we had might be – what
  could the longest sentence someone could get in an American jail for endangerin
 g others with dangerous Transfiguration research.” Hig paused, leaning forward,
  fixing his eyes on hers.
@@ -602,7 +602,7 @@ Bones smiled, genuinely.
  anywhere in the Americas.
  All of our research is done here, in the Tower, or in Antarctica.
  As sinister as Mr.
- Potter’s question might have sounded, it’s actually a good sign -- once
+ Potter’s question might have sounded, it’s actually a good sign – once
  you know the explanation.
  I see no harm in telling you that we have a wizard locked up in Nurmengard
  whom we caught when we first began strongly pushing back against Honourable
@@ -631,7 +631,7 @@ Bones smiled, genuinely.
 Bones nodded.
  “That is the usual way, of course.
  And several of us advised Mr.
- Potter of that fact -- about the way the world really works.
+ Potter of that fact – about the way the world really works.
  At the time, he said that the law might need to change, but he wasn’t going
  to go throwing people in prison for dangerous ideas.
  He insisted on strict surveillance, instead.” She shook her head, ruefully.
@@ -805,7 +805,7 @@ The other two both ignored him for the span of a few seconds, then the older
 \end_layout
 
 \begin_layout Standard
-“Oh, the brun maska -- very very good,” said the man.
+“Oh, the brun maska – very very good,” said the man.
 \end_layout
 
 \begin_layout Standard
@@ -849,7 +849,7 @@ As though he’d been lost in thought, Rushad fluttered his eyelids, then
 
 \begin_layout Standard
 “Yaa,” said the friend, uncertainly.
- “Well --”
+ “Well –”
 \end_layout
 
 \begin_layout Standard
@@ -896,7 +896,7 @@ The friend stared back at the older man blankly for a moment, then nodded,
 
 \begin_layout Standard
 Blinking rapidly, his friend turned to him.
- “I think that --”
+ “I think that –”
 \end_layout
 
 \begin_layout Standard
@@ -913,7 +913,7 @@ Egeustimentis Ba
 
 \begin_layout Standard
 The two young men stood there.
- After some time, they both sat down back in their seats -- but slowly and
+ After some time, they both sat down back in their seats – but slowly and
  clumsily, like sleepwalkers.
  Their neighbors at another table noticed, and one young lady made a joke
  at their expense while her companion chuckled.
@@ -996,8 +996,8 @@ try
 \emph on
 \bar default
 .
- Wipe out or send away all the Muggles of Scotland -- will the flame of
- the Hebridean Black wax stronger? Purge the mudbloods of Cyprus -- does
+ Wipe out or send away all the Muggles of Scotland – will the flame of
+ the Hebridean Black wax stronger? Purge the mudbloods of Cyprus – does
  a 
 \strikeout on
 Cyprusian
@@ -1035,7 +1035,7 @@ So we must seize new ideas where we find them
 
 \emph on
 And all the better since I can see the shape of ideas yet to be realized
- -- 
+ – 
 \shape italic
 \emph default
 \bar under
@@ -1055,7 +1055,7 @@ genuine new idea of magic
 \shape default
 \emph on
 \bar default
- -- a 
+ – a 
 \shape italic
 \emph default
 \bar under

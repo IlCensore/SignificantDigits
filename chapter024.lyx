@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -276,7 +276,7 @@ Pip stood just a little bit straighter, and plastered a grim look of attentive
 Monroe
 \emph default
 's launch vehicle will reach the altitude of the intended Clarke orbit in
- less than twenty minutes, and then the satellite will kick free -- putting
+ less than twenty minutes, and then the satellite will kick free – putting
  wizards in space for the first time in history.” There was a small smattering
  of applause at this last line, and Mr.
  Potter paused to smile for a moment.
@@ -296,8 +296,8 @@ Monroe
 
 \begin_layout Standard
 “In fact, I think we'll have…” Mr.
- Potter paused a moment, glancing to someone in the crowd -- Percy Weasley,
- it looked like -- before continuing.
+ Potter paused a moment, glancing to someone in the crowd – Percy Weasley,
+ it looked like – before continuing.
  “Yes, we'll have a view of the sliceboxes in use.
  For some of you, this will be the fulfillment of years of work.
  For others, this will be where you finally learn what we've spent so much
@@ -315,7 +315,7 @@ Monroe
 \begin_layout Standard
 “Auror Kraeme, if you please?” said Mr.
  Potter, gesturing at the wall to his right.
- “We'll take a look -- a Byrd's eye view, so to speak -- at what they have
+ “We'll take a look – a Byrd's eye view, so to speak – at what they have
  ready for us way down south at the 
 \noun on
 rcp
@@ -339,7 +339,7 @@ As prompted, Kraeme cast the Twoview Charm, tapping her wand on the wall
  Potter.
  The surface shivered at the touch, and the small gaps and cracks between
  the fitted stones appeared to melt into each other, subsiding and smoothing
- until the wall -- part of the main Material Methods manufactory room --
+ until the wall – part of the main Material Methods manufactory room --
  was a slick surface of wet-gleaming liquid stone.
  Almost immediately, shapes began to bubble up from within the stone, resolving
  into a sharp-edged grey image, while the rest of the enchanted wall seemed
@@ -377,7 +377,7 @@ Other colors were starting to billow up from within the stone, grainy reds,
  it accurately reproduced the features of another wall at the other end
  of the Tower.
  One Twoview, then, was showing the audience an image of that wall, on which
- a second Twoview would produce an image -- a physical and slightly awkward
+ a second Twoview would produce an image – a physical and slightly awkward
  way of bridging the powerful enchantments that locked the Tower facility
  away from scrying and spying.
 \end_layout
@@ -400,7 +400,7 @@ The scientific prodigy Luna Lovegood, who was a year younger than Mr.
  She was rumoured to be a seer, although that story might just have come
  from her long and famous involvement with her father's newspaper.
  Pip thought that there was just a lot going on behind those big grey eyes,
- distracting her from the rest of the world -- sometimes to the point where
+ distracting her from the rest of the world – sometimes to the point where
  she absent-mindedly walked into ruddy walls.
 \end_layout
 
@@ -416,7 +416,7 @@ The scientific prodigy Luna Lovegood, who was a year younger than Mr.
 \begin_layout Standard
 “This is a model of what we have created by nesting our most powerful sliceboxes
  together.
- It takes advantage of the Elastic Law of Elasticity -- an extended space
+ It takes advantage of the Elastic Law of Elasticity – an extended space
  within another extended space loses some small and variable amount of its
  own capacity to extend space.” Ms.
  Lovegood sounded dreamy as she spoke, as if she were describing something
@@ -430,14 +430,14 @@ The view behind the witch moved away, as the sender (some poor bloke had
  away from the model.
  The Material Methods wall sank rapidly away from the audience until it
  reached the Twoview spell's maximum few meters in apparent depth, but nothing
- came into sight -- the sender wasn't looking at anything with enough detail
+ came into sight – the sender wasn't looking at anything with enough detail
  to register on the spell.
  For a moment nothing was visible on the smooth grey stone.
 \end_layout
 
 \begin_layout Standard
 Then the sender turned again, and a broad dais snapped up into view.
- Resting in the middle was a brown satchel (or maybe burgundy -- the stained-sto
+ Resting in the middle was a brown satchel (or maybe burgundy – the stained-sto
 ne colour was unclear), rather like one of the fancier dragonhide overnight
  bags.
  “And here we have it.
@@ -520,7 +520,7 @@ The Material Methods wall looked like a volcano had bloomed from the wall,
  Each scale overlaps the next, sheltering a larger area beneath.
  Each bubble of extended space adds on to the compounding space within the
  pocket.” She paused, and added, “The internal dimensions of the space --
- of the pocket -- are about the size of Diagon Alley.”
+ of the pocket – are about the size of Diagon Alley.”
 \end_layout
 
 \begin_layout Standard
@@ -536,12 +536,12 @@ That last comment drew more of a response than anything, with some of those
  “Right now, our prototype pocket world is the size of a small town.
  We're working on layering together even more of the sliceboxes and pushing
  the boundaries out enough to contain entire biomes.
- Place the exterior slicebox -- or bag, or whatever -- in a protective shell,
+ Place the exterior slicebox – or bag, or whatever – in a protective shell,
  and you have portable, self-contained worlds.”
 \end_layout
 
 \begin_layout Standard
-“A prison,” said one of the journalists -- an American witch, the one who'd
+“A prison,” said one of the journalists – an American witch, the one who'd
  written about the integration facility, Siegfried's, and the profile on
  Amycus Carrow when he had returned from his hideout on Cyprus (where he'd
  fled after his sister and her husband had been murdered by his former master,
@@ -630,7 +630,7 @@ Ms.
  “Thank you, Madame Umbridge.” He raised his hands and addressed the crowd
  again.
  “Everyone, Madame Umbridge has signaled me to let me know that we are close
- to the launch -- our main event, don't forget! Thank you, Ms.
+ to the launch – our main event, don't forget! Thank you, Ms.
  Lovegood.” The blonde witch nodded vaguely, and stepped quietly away, to
  return to her original spot.
  The Tower turned his attention to the Twoview wall, and crossed his arms
@@ -639,7 +639,7 @@ Ms.
 \noun on
 rcp
 \noun default
- image -- that enormous cone -- slumped out of existence, and the surface
+ image – that enormous cone – slumped out of existence, and the surface
  of the wall was smoothly quiescent again.
 \end_layout
 
@@ -669,7 +669,7 @@ Someone in the audience raised their hand.
  The wall was beginning to melt and shift again, and most of it was receding
  back away from the crowd.
  “The Muggles in Russia run their program out of a facility in Kazakhstan,
- though -- odd byproduct of a long-running political conflict in the Muggle
+ though – odd byproduct of a long-running political conflict in the Muggle
  world.”
 \end_layout
 
@@ -677,7 +677,7 @@ Someone in the audience raised their hand.
 One of the other journalists in the crowd spoke up.
  “Excuse me, sir… isn't that right between the Caucasus and the Ten Thousand?
  Depending on whether or not the Ten Thousand join the Independents… will
- the Ministry -- er, the Tower, that is -- will you continue to try to use
+ the Ministry – er, the Tower, that is – will you continue to try to use
  that site in the future?”
 \end_layout
 
@@ -688,7 +688,7 @@ One of the other journalists in the crowd spoke up.
  Potter frowned for a moment as he paused to think.
  To his right, the view was colouring again with chromatic streaks, and
  an object like a sausage swelled out of the wall, flanked by thin lattices.
- The lattices seemed to be bracing up the sausage -- the rocket, it must
+ The lattices seemed to be bracing up the sausage – the rocket, it must
  be, Pip realized.
  Their delicate strands looked like nothing so much as an unnaturally regular
  pair of stone spiderwebs.
@@ -706,7 +706,7 @@ One of the other journalists in the crowd spoke up.
 \end_layout
 
 \begin_layout Standard
-The squat Unspeakable -- or was she now a Tower researcher? -- still holding
+The squat Unspeakable – or was she now a Tower researcher? – still holding
  her bubbler in front of her, stepped up next to the Tower.
  She held the bubbler closer to her ear, so that she could hear what was
  being relayed to it (via Extendable Ear and a second pair of bubblers)
@@ -719,7 +719,7 @@ The squat Unspeakable -- or was she now a Tower researcher? -- still holding
 
 \begin_layout Standard
 Pip still couldn't really picture it.
- He understood everything about it -- the Tower Aurors had all gotten a
+ He understood everything about it – the Tower Aurors had all gotten a
  briefing from Umbridge and endured a question-and-answer session in which
  Gregor Nimue had asked all manner of mocking and sarcastic questions, and
  Umbridge had answered him with a murderous sweetness.
@@ -870,8 +870,8 @@ The rocket lifted up.
 
 \begin_layout Standard
 The even ground and whatever were those supporting lattices vanished a moment
- later, as the sender -- Ilya Bogdanova, Pip thought Umbridge had mentioned
- -- began flying upward to follow the rocket's path.
+ later, as the sender – Ilya Bogdanova, Pip thought Umbridge had mentioned
+ – began flying upward to follow the rocket's path.
  She must have already been on her broom, with whatever Charms she'd need
  (Warming Charm, Bubblehead Charm… others?).
 \end_layout
@@ -945,7 +945,7 @@ He folded his arms in front of him, and Pip could see something distant
 
 \begin_layout Standard
 “Today marks the first step in changing that.
- Wizardkind -- humankind itself -- will no longer be bound to one earthly
+ Wizardkind – humankind itself – will no longer be bound to one earthly
  rock.
  And more than anything else I've ever done, I'm proud of my part in that.
  That may be hard for some people to understand but… I… I could die happily,
@@ -977,7 +977,7 @@ Keep your mind on your business.
  “If everyone will just follow Auror Kraeme down the hall, we have some
  refreshments and fact-parchments available for you on the great table in
  the Conjuration Conjunction.
- Nothing conjured, despite the name, though -- don't worry, ha ha!”
+ Nothing conjured, despite the name, though – don't worry, ha ha!”
 \end_layout
 
 \begin_layout Standard
@@ -1013,7 +1013,7 @@ The young auror sighed, and turned his attention to keeping an eye on the
 Sometimes when I think about everything that's happened in my life, and
  everything I've done, and everything I am, and just how much of it began
  on a single night in 1981… I see everything in my life as a sort of arc
- -- or maybe arcs -- these long trends bending all the way through in unbroken
+ – or maybe arcs – these long trends bending all the way through in unbroken
  curves.
 
 \emph default
@@ -1053,7 +1053,7 @@ st
 
 \end_inset
 
- of October had been -- would always be -- the black line that slashed through
+ of October had been – would always be – the black line that slashed through
  and behind everything.
  The arc that defined him.
 \end_layout
@@ -1086,7 +1086,7 @@ Now he was doing great things, wonderful things.
  Now, by any measure, he had done things to be proud of.
  Even up to the standards he should reach, he could be proud.
  But at this peak… he had to remember.
- He had to remember that black arc that cut through him -- that dark underpinnin
+ He had to remember that black arc that cut through him – that dark underpinnin
 g to his world and mind.
  That dark line, curving and waiting to plunge down to the earth.
 \end_layout

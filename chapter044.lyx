@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -330,7 +330,7 @@ Harry looked around, bewildered, sweat on his brow.
 \end_layout
 
 \begin_layout Standard
-“What --” began Hermione, her voice a croak.
+“What –” began Hermione, her voice a croak.
 \end_layout
 
 \begin_layout Standard
@@ -338,7 +338,7 @@ Harry looked around, bewildered, sweat on his brow.
  “You used it, didn’t you, Hermione?” His voice was rising into an accusing,
  outraged shout.
  “I can’t believe you would be so reckless! Don’t you realize you’ve put
- us all in danger?! You’ve put the whole Tower -- all of 
+ us all in danger?! You’ve put the whole Tower – all of 
 \emph on
 England
 \emph default
@@ -455,7 +455,7 @@ She pursed her lips, and leaned forward across the table, opening the satchel.
  magical races, so it’s pretty well-understood.
  Hopkirk explained it to me.
  It can bind anyone to a contract if their names are placed in it.
- Only valid contracts -- binding two or more people, clearly stated terms,
+ Only valid contracts – binding two or more people, clearly stated terms,
  only negative consequences, and so on.
  But it’s famously impossible to evade the penalty clauses.”
 \end_layout
@@ -575,7 +575,7 @@ Now
 The Goblet of Fire… our contract
 \emph default
 , Hermione thought, blinking rapidly.
- The memory was there -- the knowledge of the contract was present, as though
+ The memory was there – the knowledge of the contract was present, as though
  it had always been lurking just out of her mind’s eye.
  
 \emph on
@@ -630,7 +630,7 @@ Fear of obliteration.
 
 \begin_layout Standard
 “It’s coming,” said Hermione.
- “And it’s already altered our past -- eating it up from the source.
+ “And it’s already altered our past – eating it up from the source.
  I think… I think it begins from the first moment of its own existence.
  Even our memories of it.
  Maybe it… I’m not sure.
@@ -677,7 +677,7 @@ Good.
 \begin_layout Standard
 Meldh said nothing, either.
  He only met her gaze with dark eyes.
- She felt a touch on her mind -- the gentlest of probing contact with another’s
+ She felt a touch on her mind – the gentlest of probing contact with another’s
  thoughts.
  Barely a whisper of Legilimency: a thin needle of attack so perfectly honed
  in its intrusive power that it seemed to have physical form.
@@ -784,7 +784,7 @@ Behind Meldh, Harry drew his wand.
 She bucked in place, kicking both legs as hard as she can, straining her
  stomach, wrenching her arms in place.
  The goblin silver didn’t yield even a little.
- But she remembered fighting Tineagar in a Tidewater basement -- remembered
+ But she remembered fighting Tineagar in a Tidewater basement – remembered
  the value of sacrifice.
  
 \emph on
@@ -839,11 +839,11 @@ The Breaking Drill Hex cleared the way, and the Swerving Stunner didn’t
 \begin_layout Standard
 The member of the Three didn’t fall.
  He staggered, red flickering energy jolting through him.
- The green creature on Harry’s chest -- 
+ The green creature on Harry’s chest – 
 \emph on
 connected somehow? a sort of magical circuit-breaker?
 \emph default
- -- whipped its head back and exploded in a shower of phosphorescent green
+ – whipped its head back and exploded in a shower of phosphorescent green
  sparks torn through with flickering red.
  In the same moment, the Ultimate Ulna also flared green and red, and burnt
  itself into ashes.
@@ -964,7 +964,7 @@ Hermione, shaking, clutched at her injured arm with the other.
 Across the cubicle, Harry was leaning on a chair, wand in hand.
  He was shaking, and there was a scorch mark on his cheek.
  Hermione supposed that had happened when that green creature had exploded
- -- taking her wand with it.
+ – taking her wand with it.
 \end_layout
 
 \begin_layout Standard
@@ -1033,11 +1033,11 @@ know
 exactly this reason
 \emph default
 , as a matter of fact.
- You cast the spell -- which is 
+ You cast the spell – which is 
 \emph on
 Egeustimentis
 \emph default
- -- and then you say something else.
+ – and then you say something else.
  But I don’t know what.”
 \end_layout
 
@@ -1161,7 +1161,7 @@ Cedric Diggory pulled back the curtain to the cubicle, flanked by a pair
 
 \emph on
 Harry still has his wand.
- I’ve got nothing -- less than nothing, only one arm.
+ I’ve got nothing – less than nothing, only one arm.
  Need to close the distance.
 \end_layout
 
@@ -1269,8 +1269,8 @@ She seized one of Cedric’s legs with her good arm.
  She had a moment to see him staring at her, horror on his face.
  Then she heaved on the leg, hauling it as hard as she could upwards and
  away from her.
- She couldn’t actually lift him off the ground that way -- his leg would
- have come off if she tried, she thought -- but he swung along the floor
+ She couldn’t actually lift him off the ground that way – his leg would
+ have come off if she tried, she thought – but he swung along the floor
  like an enormous club, smashing into the threatening auror’s legs.
  The two wizards fell into a tangle of injured limbs.
 \end_layout
@@ -1309,7 +1309,7 @@ She leapt over the auror she’d knocked out, into the main corridor of the
  The long row of white cubicles confronted her, screened off with sheets.
  She sprinted the length of the corridor in the blink of an eye, arriving
  at the other end of the general ward at the same moment as a running auror
- appeared at the door -- Hedley Kwannon.
+ appeared at the door – Hedley Kwannon.
  Kwannon’s wand was already drawn, Hermione saw.
 \end_layout
 
@@ -1332,7 +1332,7 @@ still
 \emph default
  able to bring her wand back to Pflug position.
  The auror’s wards absorbed Hermione’s curse, and Kwannon was ready to cast
- three Bertram’s Bolts, each a foot apart from the next -- avoiding the
+ three Bertram’s Bolts, each a foot apart from the next – avoiding the
  lure of the prism ward, and aiming for where her target was actually going.
  Hermione felt them sizzle past her, the dull yellow hexes missing her only
  by the grace of her speed and luck.
@@ -1374,8 +1374,8 @@ From the other side of the wall, Hermione heard Kwannon chant the first
 \begin_layout Standard
 She threw herself shoulder-first into the stone at full speed, and it yielded
  before her.
- She burst through, into a startled Kwannon -- still tracing orange symbols
- in the air -- and stunned the auror with a crackling red curse.
+ She burst through, into a startled Kwannon – still tracing orange symbols
+ in the air – and stunned the auror with a crackling red curse.
 \end_layout
 
 \begin_layout Standard
@@ -1399,8 +1399,8 @@ Hermione stepped over to the stone that moved, and gently pushed it to one
 Resting on the ledge was a wand of elder wood.
  She recognized it.
  It had once belonged to Albus Dumbledore, before it passed to Lord Voldemort.
- He in turn passed it to Harry Potter, who became -- as she understood it
- -- the rightful owner, by dint of conquest.
+ He in turn passed it to Harry Potter, who became – as she understood it
+ – the rightful owner, by dint of conquest.
 \end_layout
 
 \begin_layout Standard

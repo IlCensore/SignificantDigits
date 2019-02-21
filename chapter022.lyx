@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -218,7 +218,7 @@ Margaret Bulstrode pushed open the door to Billie's Bobbing Bubbies with
  pointed tip of a decorative glass stopper from a nearby phial.
  A very pale man with lank grey hair completed the scene, sitting at one
  of the small tables in the waiting area and eating from a ludicrously large
- bowl of apples ‘n onions -- the smell of which was filling the room with
+ bowl of apples ‘n onions – the smell of which was filling the room with
  cloying sweetness.
  Everything seemed like it was covered with a thin film of filth.
 \end_layout
@@ -243,8 +243,8 @@ out of order
 As promised, there was no Pensieve inside, only a swoop-armed Art Noveau
  chair with a threadbare cushion, and an empty metal rack where the magical
  device had once stood.
- Margaret gathered up the folds of her robe -- it was a nice once, too,
- all fresh with sharp folds -- and gingerly sat down on the chair.
+ Margaret gathered up the folds of her robe – it was a nice once, too,
+ all fresh with sharp folds – and gingerly sat down on the chair.
 \end_layout
 
 \begin_layout Standard
@@ -356,7 +356,7 @@ Erasmus, who was sitting next to Nimue, was a little more polite.
 \end_layout
 
 \begin_layout Standard
-The writer -- Sylvia de Kamp! that was her name! -- was sitting with the
+The writer – Sylvia de Kamp! that was her name! – was sitting with the
  boy at the other end of the table, and didn't appear to notice her entrance,
  keeping her eyes fixed on the young man.
  The boy had his back to Margaret, and he turned just enough so that she
@@ -435,8 +435,8 @@ Draco didn't tolerate that sort of rank stupidity.
  trust her again if she was so cavalier about such things.
  And his anger could be terrible… she'd heard rumors of punishments to traitors.
  The Windowpain Curse, for example.
- A victim who looked at the black square of a window at night -- any window,
- any night -- would be cursed to always see an apparition looking back at
+ A victim who looked at the black square of a window at night – any window,
+ any night – would be cursed to always see an apparition looking back at
  him: a pale, wide-eyed face with large and sharp teeth, staring back at
  him from the darkness.
  Nothing more… but always that.
@@ -717,7 +717,7 @@ r rushed to save his work.
 us?
 \emph default
 ” demanded Nimue.
- “It's not even a question -- can't believe 
+ “It's not even a question – can't believe 
 \emph on
 you're
 \emph default
@@ -770,7 +770,7 @@ stories
 \noun on
 dmle
 \noun default
-? One of the Weasley idiots saw her put that author fellow -- Lockhart --
+? One of the Weasley idiots saw her put that author fellow – Lockhart --
  saw her put him through a wall with her bare hands, after she found out
  some nastiness he'd been up to.
  A 
@@ -859,7 +859,7 @@ Nothing.
 Three other men burst into the room from the same door Erasmus had used.
  She recognized Geoffrey Gem and his two cronies: the suppliers of local
  Euphorics.
- Gem was a rail-thin man with terrible teeth -- all snaggly and yellow --
+ Gem was a rail-thin man with terrible teeth – all snaggly and yellow --
  and thinning hair.
  Each of the three potioneers had a smock on and was carrying a clinking
  crate of phials.

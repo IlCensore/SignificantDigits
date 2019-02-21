@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -199,7 +199,7 @@ Gamp’s Law of Transfiguration, which sets limits seemingly imposed by culture
  linguistic uniformity of high ritual and new spells alike, with onomatopoeic
  properties to incantations which range from the most ancient syllabaries
  to last week’s innovations? Wordless or wandless magics, which rely upon
- a twist of thought or frame of mind to produce the intended effect -- even
+ a twist of thought or frame of mind to produce the intended effect – even
  when that twist or frame bears not the slightest resemblance to the spoken
  spell?
 \end_layout
@@ -208,7 +208,7 @@ Gamp’s Law of Transfiguration, which sets limits seemingly imposed by culture
 
 \emph on
 Magic is a mystery by its very nature, and each field and aspect of study
- deserves its own theories -- they cannot be reconciled with each other
+ deserves its own theories – they cannot be reconciled with each other
  in some grand schema.
  In every age, and even in our own waning era, the only advancements have
  come from dedicated transfigurationists, potioneers, magizoologists, enchanters
@@ -218,7 +218,7 @@ Magic is a mystery by its very nature, and each field and aspect of study
  But try to shine light through them all, and you produce no illumination:
  only confusion.
  Try to combine these facets into a single face, and you produce no lens
- -- not even the manifold lights of Wednesday’s much-beloved stars: only
+ – not even the manifold lights of Wednesday’s much-beloved stars: only
  fragments.
 \end_layout
 
@@ -291,7 +291,7 @@ Three figures stood in the uncertain grey light, their dream-flesh composed
 
 \begin_layout Standard
 “So then,” said the first figure.
- “Our American witch and her organization are gone -- years of management,
+ “Our American witch and her organization are gone – years of management,
  wiped out by incompetence and chance.
  And now the British bishop has been captured, wasting more of our time.
  Entire 
@@ -324,7 +324,7 @@ The second figure listened silently.
  Yet there is little discussion in the British gendarmerie about changing
  their defenses.
  There is no reason not to awaken Tineagar and send her to the attack.
- We still have the wolf at Busan -- if we double the force we send, then
+ We still have the wolf at Busan – if we double the force we send, then
  they will succeed by main strength.
  There is little risk.”
 \end_layout
@@ -333,7 +333,7 @@ The second figure listened silently.
 “The risk is that we would be wasting our time, enacting the same foolish
  plan again, and we would be risking leaving the American in their hands,
  as well.
- She has much of your lore, Nell -- would you see it released back into
+ She has much of your lore, Nell – would you see it released back into
  the world, to strengthen and perpetuate the threat of magic?” Meldh’s voice
  was strident.
 \end_layout
@@ -409,10 +409,10 @@ This prompted an even longer pause.
 “You are powerful and wise, and more than capable,” offered Nell, who had
  been quiet during this exchange.
  “And you would have all of our support.
- You are the master of the Touch -- it was you who reshaped the pyromancer
+ You are the master of the Touch – it was you who reshaped the pyromancer
  we employed in our first attempt to curtail the boy, and neither of us
  could have done it better.
- If any of us must take control --” (and her tone left no doubt that it
+ If any of us must take control –” (and her tone left no doubt that it
  was as good as settled) “-- then it can be no other but you.”
 \end_layout
 
@@ -432,7 +432,7 @@ The second figure spoke reassuringly.
  “The Mirror, late of Atlantis, proves to be the means by which the Tower
  has escaped us.” Meldh and Nell both moved slightly, and had they visible
  faces rather than fractal shadow, surprise might have been evident there.
- “It is being used in a manner that is crude but effective -- a single realm
+ “It is being used in a manner that is crude but effective – a single realm
  of the boy’s choosing, with passage left unspecified.
  All may enter, and all are subject to its strictures… but it is another
  world, out of reach.
@@ -440,7 +440,7 @@ The second figure spoke reassuringly.
 \end_layout
 
 \begin_layout Standard
-Nell turned sharply at this, saying, “But --”
+Nell turned sharply at this, saying, “But –”
 \end_layout
 
 \begin_layout Standard
@@ -450,7 +450,7 @@ Nell turned sharply at this, saying, “But --”
 \begin_layout Standard
 “Very well,” said Meldh.
  “But we will act with completeness, then.
- We have our pawns in the goblins -- rouse them.
+ We have our pawns in the goblins – rouse them.
  And a secondary line within Britain.
  If I am to personally intervene, then I require everything we can bring
  to bear.
@@ -524,8 +524,8 @@ Harry sighed, and appeared to resign himself.
 \begin_layout Standard
 “Alastor and I agree that she cannot remain in Nurmengard.
  It’s not secure enough,” Bones said, glancing over at Moody.
- The handsome young man said nothing, but his roving eye -- now back where
- it belonged, after long hiatus -- whipped around to fix itself on the youthful
+ The handsome young man said nothing, but his roving eye – now back where
+ it belonged, after long hiatus – whipped around to fix itself on the youthful
  Supreme Mugwump.
  “It has taken fully a week and an entire dedicated staff to begin to engage
  her mind, and we are nowhere near the depth of penetration necessary to
@@ -612,20 +612,20 @@ might
 \end_layout
 
 \begin_layout Standard
-“It’s --” began Draco, but Moody cut him off.
+“It’s –” began Draco, but Moody cut him off.
 \end_layout
 
 \begin_layout Standard
 “The magics that Dumbledore left to help you build this place can’t be replicate
 d elsewhere,” lied the head of security, smoothly.
- “Dumbledore’s rituals prevent scrying and prevent intrusion -- they even
+ “Dumbledore’s rituals prevent scrying and prevent intrusion – they even
  make the Killing Curse as dangerous as buttermilk so long as you’re in
  the Tower.
  But we can’t do it in other places, yet.
  No place can be made as secure as the Tower.
  If you’re going to insist on soft-shoeing the interrogation process, then
  she needs to come here.
- We’ll expand -- new wing in the back.
+ We’ll expand – new wing in the back.
  You wanted that anyway.”
 \end_layout
 
@@ -771,7 +771,7 @@ Harry ignored him.
  Granger to China, I think, when she has had her rest,” said Bones, interrupting
  Harry’s train of thought.
  There was the slightest hint of judgment in her tone.
- “Now that the recent conflict has been, er, resolved --” and she gave Draco
+ “Now that the recent conflict has been, er, resolved –” and she gave Draco
  an ambiguously intent glance “-- she can begin representing the Treaty
  once more.”
 \end_layout
@@ -794,7 +794,7 @@ Hig lowered the parchment he’d been reading, and turned to stare at Draco
  “I concur with you.
  The Goddess is far and away the best envoy we could send.
  I don’t think the outcome is in doubt, now that Russia, the Sawad, New
- Zealand, and the Caucuses are all with us -- and now that all the concessions
+ Zealand, and the Caucuses are all with us – and now that all the concessions
  they demanded are in place.
  But don’t forget Cappadocia… they’re still out of the fold.
  A bad example.
@@ -843,7 +843,7 @@ The discussion hiccuped around her interjection.
 
 \begin_layout Standard
 “The goblins haven’t been able to come in to Material Methods for several
- weeks -- something political going on in Ackle, according to Urg.
+ weeks – something political going on in Ackle, according to Urg.
  Preparing for a major meeting of the Urgod Ur, I think,” said Harry, seizing
  on Luna’s words.
  “But we can prototype something on a smaller scale in the meantime.”

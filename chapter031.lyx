@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -290,7 +290,7 @@ Seven years ago
 
 \begin_layout Standard
 “Over there,” said Draco, pointing at one side of Harry's office.
- “Just eight beds -- no, ten of them.
+ “Just eight beds – no, ten of them.
  They should be appropriately simple in style, but of good quality wood.
  And keep quiet about it, would you?”
 \end_layout
@@ -448,16 +448,16 @@ He pointed at the metal box, which was nearly as tall as Harry.
  I'm going to put a larger cube of lead around it with a sliding cover,
  and only then open up this one.
  If this doesn't work, I'm going to try using plates of goblin-forged silver
- -- there are some big platters on a shelf near the Hufflepuff greenhouse
+ – there are some big platters on a shelf near the Hufflepuff greenhouse
  that look pretty fancy, and I bet they'll work.
- My hypothesis is that stray spells are to blame -- probably a particular
+ My hypothesis is that stray spells are to blame – probably a particular
  sort of spell, too.
  Charms like Verdimillious or the like.”
 \end_layout
 
 \begin_layout Standard
-“Muggleborns have been trying to get electronics to work -- mostly televisions
- -- in Hogwarts for fifty years,” said Draco, shaking his head.
+“Muggleborns have been trying to get electronics to work – mostly televisions
+ – in Hogwarts for fifty years,” said Draco, shaking his head.
  “You're wasting your time, Potter.
  Think in terms of… think in terms of opportunity costs.
  You could be doing more useful things.
@@ -472,7 +472,7 @@ He pointed at the metal box, which was nearly as tall as Harry.
  We're going to optimize the world, and that means trying to coordinate
  a thousand different things and manage the million different consequences.
  Even the transition to a post-scarcity society, someday, is something we
- have to think about now -- whether or not we even want to do it.” Harry
+ have to think about now – whether or not we even want to do it.” Harry
  shrugged.
  “But I still need some time to myself.
  I'm not sure how long I could keep it up if I locked myself in a box and
@@ -523,7 +523,7 @@ mlep
 
 \begin_layout Standard
 “Forty-seven members of the Wizengamot.
- Five seats are just out of our reach on any vote -- Lestrange, Crabbe,
+ Five seats are just out of our reach on any vote – Lestrange, Crabbe,
  Nott, Knop, and Carrow.
  Their 
 \emph on
@@ -588,7 +588,7 @@ It was an uncomfortable thing, and Harry didn't want to dwell on it, so
 
 \begin_layout Standard
 Perhaps Draco had made her other promises.
- The dark magics of legend held similar -- if less palatable -- possibilities.
+ The dark magics of legend held similar – if less palatable – possibilities.
  A Malfoy ascendant, unrestrained, could make many things happen.
  Was that what Narcissa held, in lieu of Draco's pure hopes? Or was Draco
  disconnected from her after ten years, and comfortable just leaving her
@@ -602,8 +602,8 @@ Perhaps Draco had made her other promises.
 suo jure
 \emph default
 .
- No, that's not… ah, sorry, the Noble House of Granger -- hoary with age
- -- is nineteen.
+ No, that's not… ah, sorry, the Noble House of Granger – hoary with age
+ – is nineteen.
  You have six of them by loyalty, including your own.
  You have five more by conviction or self-interest.
  Greengrass is changeable, but she goes the way the strong wind blows, and
@@ -681,7 +681,7 @@ dmle
 
 \begin_layout Standard
 At the sound of Hermione's name, Draco's face darkened.
- “You shouldn't bother her with things like that -- she doesn't need any
+ “You shouldn't bother her with things like that – she doesn't need any
  more pressure.”
 \end_layout
 
@@ -710,7 +710,7 @@ needs
  I think part of the reason she can't do it is that she's just exhausted.
  But… I'm not going to kick her out when she comes to me with plans.
  Or tell her to leave a discussion.
- When Lesath disappeared last week, she searched for hours -- and came to
+ When Lesath disappeared last week, she searched for hours – and came to
  me even later with a plan for searching the Forbidden Forest.
  How do I tell her to stay out of it?”
 \end_layout
@@ -869,7 +869,7 @@ Incarcerous
  lingered, sounding like it was calling from some great distance before
  fading away.
  The burst of gold that accompanied Kulgora's death sprayed out on the others
- -- it took off Kraeme's face like a peeler and ate an irregular pattern
+ – it took off Kraeme's face like a peeler and ate an irregular pattern
  into the stone of the walls.
  Kraeme collapsed behind Pip, blood pouring from her face, screaming.
 \end_layout
@@ -901,7 +901,7 @@ Incendio
  had scorched Pip's left arm and the side of his neck.
  He understood, now, how they'd gotten through the Receiving Room.
  There were so many of them that they must simply have swarmed the aurors.
- They were fighting like Muggles -- using brute force and superior numbers
+ They were fighting like Muggles – using brute force and superior numbers
  to overwhelm.
  Even the most skilled fighter, they had warned Pip in training, couldn't
  reliably win in close-quarters combat with more than three people.
@@ -915,11 +915,11 @@ Pip felt the Umbrella Barrier Bauble Charm set into place, although it was
  had stopped cursing, and they were already hammering on his Prismatic Shield.
  He pulled it out of suspension before it could be lost, and put his will
  behind it once more.
- Six attackers -- seven, no, 
+ Six attackers – seven, no, 
 \emph on
 eight
 \emph default
-, with more arriving every moment -- were firing curse after curse into
+, with more arriving every moment – were firing curse after curse into
  the shield.
  Three more were simply smashing the rainbow shimmer with their fists, squeezing
  into the corridor so that they could beat themselves bloody on it.
@@ -964,7 +964,7 @@ Depulsos
 
 \begin_layout Standard
 They'd keep up the teamwork until they had a chance to create another breathing
- space -- a moment to move forward and push back against the attack.
+ space – a moment to move forward and push back against the attack.
  If they could force back these lunatics to the Receiving Room, they could
  use the first door-shield.
  It didn't matter if there was an army being sent in against them, not with
@@ -974,7 +974,7 @@ They'd keep up the teamwork until they had a chance to create another breathing
 dmle
 \noun default
  to relieve them.
- Or even better -- leave it just enough ajar that they could flood the Receiving
+ Or even better – leave it just enough ajar that they could flood the Receiving
  Room with something called “halothane.” Pip didn't know exactly how it worked,
  but he'd been told its name and a rough idea of what it did, and that was
  enough to transfigure it.
@@ -1054,7 +1054,7 @@ It was Moody's plan, at its heart.
 The south corridor led to many of the smaller research stations and to the
  meeting room.
  Past those, there was Material Methods and the Survey Station and all of
- their incredibly valuable projects -- sfaironautical equipment, new weapons,
+ their incredibly valuable projects – sfaironautical equipment, new weapons,
  and the lot.
  Plus the Extension Establishment was in the rear, and at the moment it
  was filled with a crowd of worthies and valuable hostages.
@@ -1083,7 +1083,7 @@ The south corridor, on the other hand, was not designed to seal itself away
 
 \begin_layout Standard
 Draco had reacted with surprise and alarm when the abacuses began to clatter
- their alarm, and even Harry -- who had been expecting this for days --
+ their alarm, and even Harry – who had been expecting this for days --
  jumped a little.
  He sprang to his feet.
 \end_layout
@@ -1113,12 +1113,12 @@ Harry had been dropping hints in a subtle way for a long while, but had
 Bellatrix Black.
  You have some part of the lore and power he gained as the Heir of Slytherin,
  evading the Interdict of Merlin, and you have things that I need.
- But all you need -- all you could ever need -- is Tom Morfin Riddle.
+ But all you need – all you could ever need – is Tom Morfin Riddle.
  And you know that we have him.
 \end_layout
 
 \begin_layout Standard
-It must have seemed inconceivable to her -- that Voldemort could be held
+It must have seemed inconceivable to her – that Voldemort could be held
  prisoner by a stripling like Harry, and that the Tower could be impenetrable
  to every attempt to magical intrusion or scrying.
  It should have been impossible for Harry to do either, even with the assistance
@@ -1129,7 +1129,7 @@ It must have seemed inconceivable to her -- that Voldemort could be held
 \end_layout
 
 \begin_layout Standard
-Lesath had been the clue -- or reminder, perhaps, that there was an outside
+Lesath had been the clue – or reminder, perhaps, that there was an outside
  threat that they could never hope to control.
  A fallback plan for Voldemort, who would have had plans within plans within
  plans.
@@ -1181,7 +1181,7 @@ must
 “You should go to the Extension Establishment,” she replied, getting to
  her feet.
  “It will be safe.
- The Brahmins and the Siberians -- the Rakshasa -- are both there, along
+ The Brahmins and the Siberians – the Rakshasa – are both there, along
  with the Returned.
  Send Tonks here.”
 \end_layout
@@ -1222,7 +1222,7 @@ embarrassing
 
 \begin_layout Standard
 The resonator in one corner began vibrating.
- It was a fairly simple device -- a low-tech, low-magic way to communicate
+ It was a fairly simple device – a low-tech, low-magic way to communicate
  to the whole Tower in an emergency.
  The Protean Charm made any change to the source item occur in all linked
  items.
@@ -1247,7 +1247,7 @@ Time-turners were compromised? But the enchantment to block time-turning
 \begin_layout Standard
 Harry touched his wand to the table, and thin seams appeared on its surface.
  He pulled up on one, and a mirror slid up and out of a recess.
- It showed the north corridor -- a view from the clinic door.
+ It showed the north corridor – a view from the clinic door.
  There were aurors there, and they were fighting.
  He couldn't make out the identity of the defenders from their backs, but
  he could see the attackers: screaming men in ragged clothes.
@@ -1260,12 +1260,12 @@ Harry touched his wand to the table, and thin seams appeared on its surface.
 
 \begin_layout Standard
 He opened a second display.
- The south corridor was similarly defended -- two aurors fighting a holding
+ The south corridor was similarly defended – two aurors fighting a holding
  action.
  They were standing at the corner where the corridor turned; behind them
  was one wall of the Vision Verge.
- Doors to other departments were all visible -- Advancement Agency, Ypsilanti
- Yard, the Survey Station -- although the attackers seemed to have no interest
+ Doors to other departments were all visible – Advancement Agency, Ypsilanti
+ Yard, the Survey Station – although the attackers seemed to have no interest
  in any of them.
  They were charging down the hall, pell-mell.
 \end_layout
@@ -1320,7 +1320,7 @@ New attackers appeared at the end of the hall, and the aurors brandished
  went unnoticed, and the shrieking men, covered with scars, gave themselves
  terrible wounds on the first few razor-wires.
  The aurors assisted with the confusion, one of them putting up wards while
- the other -- it was Auror Kwannon, Harry could see now -- laid waste with
+ the other – it was Auror Kwannon, Harry could see now – laid waste with
  Cutting Curses.
 \end_layout
 
@@ -1330,8 +1330,8 @@ The illusion didn't last long.
  then snarled something and jabbed a finger at the corridor.
  Kwannon took him down during the pause, lashing him with wide wounds that
  brought the attacker to his knees, but the damage was done.
- Five other attackers -- as many as could wield their wands abreast in the
- corridor -- began to fire curses at the walls and aurors from afar.
+ Five other attackers – as many as could wield their wands abreast in the
+ corridor – began to fire curses at the walls and aurors from afar.
  Those behind them howled and gibbered, climbing on each other to gain a
  narrow window through which to fling a curse at Kwannon and the other auror.
 \end_layout
@@ -1364,7 +1364,7 @@ Individually, the tanks of cyanogen chloride were not very large.
  the walls, behind the firing nozzles of the razor-wire pitons, they'd wanted
  to work with small quantities.
  The gas caused choking, a burning sensation on any affected skin, blindness,
- and -- quite rapidly -- death.
+ and – quite rapidly – death.
  It didn't need to be inhaled: any contact with the skin would burn and
  bite and sicken.
  Even with transfiguration protocols in place, they'd been worried about
@@ -1408,7 +1408,7 @@ Harry glanced over his shoulder to see Tonks and Hyori arrive at the meeting
  Tonks was just beginning to make the change to Harry's appearance.
  She looked pale, but determined.
  Hyori looked as blankly belligerent as usual, her wand ready in her hand.
- Hermione was in a hushed conversation with them both -- telling them about
+ Hermione was in a hushed conversation with them both – telling them about
  all the traps, including the final one.
  No danger there: they were both battle-hardened and trustworthy.
 \end_layout
@@ -1449,7 +1449,7 @@ astoundingly
  she was going to make it this far.
  And she probably had tricks he didn't know about, and plans of her own,
  and everything else.
- Was it really so important that he confront her -- that he look her in
+ Was it really so important that he confront her – that he look her in
  the eye and speak to her?
 \end_layout
 
@@ -1483,7 +1483,7 @@ Is this cowardice?
 
 \begin_layout Standard
 “Just…” he started, but he couldn't think of anything good to say.
- He couldn't think of anything that had enough weight -- that sounded right.
+ He couldn't think of anything that had enough weight – that sounded right.
 \end_layout
 
 \begin_layout Standard
@@ -1598,7 +1598,7 @@ Aurors at the end of the corridor.
 Curses.
  Moving slowly, in slow motion.
  Fighting fighting fighting.
- Obvious attack and supporting attack -- direct and tricky, jam and butter.
+ Obvious attack and supporting attack – direct and tricky, jam and butter.
  Twirl to the side and bring up a shield, use Bartolomeo's Reckoning, easy
  to cast while moving, redirect the tricky attack and avoid the direct.
  Move with grace and speed and death.
@@ -1626,7 +1626,7 @@ Curses.
 \begin_layout Standard
 Other attacks moving in, but they're slow, and easy to break out of their
  rhythm.
- That was the key to good music -- playing with life, rather than plodding
+ That was the key to good music – playing with life, rather than plodding
  along to ¾ time like a fool.
  She danced to the side and whipped her wand down, sending the Bloodfoot
  Curse at one of the aurors.
@@ -1646,7 +1646,7 @@ Unsuccessful, both aurors alive, but that was all right.
  at the space before her, wrapping specific thoughts like gloved fingers
  into the world and dragged them downward.
  A burden of hard air curved over her, slowing an incoming red curse --
- a stunner a stunner dollies using stunners! -- and then laughed another
+ a stunner a stunner dollies using stunners! – and then laughed another
  spell of fire downrange at the aurors.
  The flames licked and slid down the corridor.
  Someone underfoot was screaming and screaming.
@@ -1675,7 +1675,7 @@ Unsuccessful, both aurors alive, but that was all right.
 Avada Kedavra
 \emph default
 ,” she sang, and sent a green bolt down the corridor.
- Her target -- the female one -- was off-balance and had her wand down from
+ Her target – the female one – was off-balance and had her wand down from
  deflecting the fire.
  Elemental defense required broad gestures.
  She couldn't hope to react in time.
@@ -1730,8 +1730,8 @@ knew just knew
 The Sigil of Cold Earth, traced in red fire.
  The ancient name of a bitter creature, spoken six times.
  Was she calling some part of that creature, or was there only one in the
- world? One beautiful bitter beast, feeding on her sacrifice -- she willed
- the sacrifice, felt the bite of burning in her breast -- one bitter burning
+ world? One beautiful bitter beast, feeding on her sacrifice – she willed
+ the sacrifice, felt the bite of burning in her breast – one bitter burning
  beast.
  
 \emph on

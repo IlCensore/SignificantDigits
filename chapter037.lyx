@@ -75,7 +75,7 @@
 \font_typewriter tgcursor
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
@@ -171,7 +171,7 @@ He looked up wearily from a thick ledger, squinting at Pip.
 \begin_layout Standard
 “Auror Philip Pirrip, here to pick up some portkeys,” said Pip, his smile
  dimming slightly at the reception.
- He rather thought people would be recognizing him at this point -- that
+ He rather thought people would be recognizing him at this point – that
  word would have gotten around.
  He knew he was only one of a dozen people on similar errands today, but
  still...
@@ -208,7 +208,7 @@ The official put a velvet sack on the desk.
  He opened it and checked inside, just for a quick count of the grimy old
  envelopes inside.
  There were four, sure enough.
- One of the envelopes was open -- it looked to have an old biro inside.
+ One of the envelopes was open – it looked to have an old biro inside.
 \end_layout
 
 \begin_layout Standard
@@ -218,7 +218,7 @@ The official put a velvet sack on the desk.
 
 \begin_layout Standard
 “Just checking,” Pip said, uncomfortably.
- “After that thing the Weasley twins did, it just --”
+ “After that thing the Weasley twins did, it just –”
 \end_layout
 
 \begin_layout Standard
@@ -263,7 +263,7 @@ Yu’s Library, The Court of Rubies, Hangzhou
  Harry Potter-Evans-Verres.” He did his absolute best to project an image
  of power and foreign might, tilting his chin upward and slightly to the
  side.
- It was a haughty look, he thought -- the look of someone who had looked
+ It was a haughty look, he thought – the look of someone who had looked
  death in the eye and triumphed.
 \end_layout
 
@@ -435,7 +435,7 @@ I bet that if you do the sequence wrong, or choose the wrong little drawer,
 \end_layout
 
 \begin_layout Standard
-The librarian slowly and gently pulled out something from the hole -- a
+The librarian slowly and gently pulled out something from the hole – a
  book.
  No, part of a book.
  The ragged edges of torn binding showed that it was just a few dozen pages
@@ -1007,7 +1007,7 @@ Pip fell into step next to the Cypriot as she led the way out of the Hold.
  world, the Cappadocians had seized the opportunity to attack their ancient
  enemy once more.
  Even at this hour, three goblins were at work repairing a column.
- The wizard who owned them stood nearby -- an immediate reminder that this
+ The wizard who owned them stood nearby – an immediate reminder that this
  was a barbaric country in some ways.
  It was scarcely believable that the bloody slavers here considered themselves
  British.
@@ -1029,7 +1029,7 @@ Pip fell into step next to the Cypriot as she led the way out of the Hold.
 \begin_layout Standard
 Their path took them down the streets of Magical Cyprus, walking on smooth
  stones that had seen thousands of years of foot-traffic.
- There were few others on the streets -- a single vendor selling aromatic
+ There were few others on the streets – a single vendor selling aromatic
  snacks of roasted nut-and-fruit pastries; a pair of young women out for
  a romantic stroll, arm in arm; and a collared goblin carrying a caged owl.
 \end_layout
@@ -1037,10 +1037,10 @@ Their path took them down the streets of Magical Cyprus, walking on smooth
 \begin_layout Standard
 “Your master thinks he already knows everything, I think,” said the Cypriot.
  She stopped at the door of a grand home of green stone.
- It was very British in appearance -- looked rather like pictures Pip had
- seen of Malfoy Manor, in fact -- with the exception of the elegant minaret
+ It was very British in appearance – looked rather like pictures Pip had
+ seen of Malfoy Manor, in fact – with the exception of the elegant minaret
  that rose from the roof peak.
- A crest was worked in gold into the stone above the door -- three arms
+ A crest was worked in gold into the stone above the door – three arms
  bendwise couped.
 \end_layout
 
@@ -1117,7 +1117,7 @@ There was a quiet scraping sound from above.
 
 \begin_layout Standard
 The owner of the voice made his way to them.
- The steps sounded wrong -- a thump and a scrape -- and the reason became
+ The steps sounded wrong – a thump and a scrape – and the reason became
  apparent as speaker came down the stairs, into the lights at the front
  entrance.
  It was a goblin, and he had only one leg.

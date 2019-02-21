@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}\usepackage{fmtcount}
@@ -70,16 +72,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman tgpagella
-\font_sans tgheros
-\font_typewriter tgcursor
-\font_math auto
+\font_roman "tgpagella" "default"
+\font_sans "tgheros" "default"
+\font_typewriter "tgcursor" "default"
+\font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -109,6 +113,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -123,7 +128,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -178,14 +186,14 @@ The Ineluctable Modality of the Visible
 
 \emph on
 “First, telling the greatest falsehood about the most important things doesn't
- make a fine story -- I mean Hesiod telling us about how Uranus behaved,
+ make a fine story – I mean Hesiod telling us about how Uranus behaved,
  how Cronus punished him for it, and how he was in turn punished by his
  own son.
  Even if that were true, it should be passed over in silence, not told to
  foolish young people.
- And if, for some reason, it has to be told, only a very few people -- pledged
+ And if, for some reason, it has to be told, only a very few people – pledged
  to secrecy and after sacrificing not just a pig but something great and
- scarce -- should hear it, so that their number is kept as small as possible.”
+ scarce – should hear it, so that their number is kept as small as possible.”
 \end_layout
 
 \begin_layout Quotation
@@ -196,7 +204,7 @@ The Ineluctable Modality of the Visible
 \end_layout
 
 \begin_layout Quotation
---- Plato, 
+— Plato, 
 \emph on
 The Republic
 \emph default
@@ -254,7 +262,7 @@ The same day
  computer screen.
  Auror Kraeme, nearby, kept a close eye on Draco.
  She was leaning with her back against a large metal cabinet, arms folded
- -- but eyes sharp.
+ – but eyes sharp.
 \end_layout
 
 \begin_layout Standard
@@ -354,7 +362,7 @@ The Lord Malfoy nodded, and went on.
 \begin_layout Standard
 “Yes,” said Draco.
  “A visible success to explain the new money, and I’ll whisper in a few
- confidential ears that it’s really Cappadocian gold -- payment for steering
+ confidential ears that it’s really Cappadocian gold – payment for steering
  things their way, here.”
 \end_layout
 
@@ -374,7 +382,7 @@ The Lord Malfoy nodded, and went on.
 \begin_layout Standard
 It was subtle and quiet, but those words were question and concern and accusatio
 n, all at once.
- It wasn't like Harry to forget about innocent bystanders -- and whatever
+ It wasn't like Harry to forget about innocent bystanders – and whatever
  their ideology, the Carrow sisters were certainly innocent of anything
  that might merit dragging them through any more ugliness.
 \end_layout
@@ -382,7 +390,7 @@ n, all at once.
 \begin_layout Standard
 “You’re right, of course,” said Harry, shaking his head.
  He rubbed his forehead, sighing.
- “I’m distracted -- not at my optimum self today.”
+ “I’m distracted – not at my optimum self today.”
 \end_layout
 
 \begin_layout Standard
@@ -412,7 +420,7 @@ n, all at once.
  his eyes.
  “Yes, I've been getting plenty of sleep.
  There’s just been a lot to keep track of.
- Managing the Tower and Britain -- and well, the world -- just keeps getting
+ Managing the Tower and Britain – and well, the world – just keeps getting
  more complicated, especially without Hermione around.” Draco pursed his
  lips, and Harry rushed on.
  “It’s been good to rely on you, of course… but uniting the Treaties hasn't
@@ -445,7 +453,7 @@ am
 
 \begin_layout Standard
 “A book about Merlin,” said Harry.
- “It’s given me some ideas, but nothing I can use -- unless I decide I’d
+ “It’s given me some ideas, but nothing I can use – unless I decide I’d
  really enjoy the entropic heat death of the universe.”
 \end_layout
 
@@ -513,6 +521,10 @@ year
  was wrong about the problem.
  We have to keep tight control over things for right now.
  It’s too dangerous for everyone, otherwise.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -543,7 +555,7 @@ Healer Owen Wilifred frowned.
 \begin_layout Standard
 He glanced down at the patient, who was lying unconscious, immobile, and
  safely stunned.
- An older man of indeterminate ethnicity -- Asia or India or someplace.
+ An older man of indeterminate ethnicity – Asia or India or someplace.
  Clearly never rejuvenated, and no external symptoms.
  But when Owen moved his wand lower on the patient’s abdomen, he kept seeing
  the same thing: absolutely perfect internal organs, without a single flaw
@@ -575,8 +587,8 @@ Owen considered the possibilities.
  specimen who had never had any sort of trauma, despite what appeared to
  be at least six decades of life.
  That was very unlikely, though.
- It was also possible that the man -- Mr.
- Khan, by his intake parchment -- had been seriously hurt and had received
+ It was also possible that the man – Mr.
+ Khan, by his intake parchment – had been seriously hurt and had received
  magical healing to most of his body.
  But that usually left traces; skele-grow, for example, left bones with
  a distinctive (if harmless) spiral pattern of nonlamellar and lamellar.
@@ -612,7 +624,7 @@ At this point, Owen really couldn't go any further without waking up the
  The Tower enchantments required Harry’s express touch before any healing
  transfiguration would become permanent, so if Owen didn't get this solved
  and the healing done quickly, he’d be stuck with Mr.
- Khan until the next scheduled pass -- three more hours.
+ Khan until the next scheduled pass – three more hours.
 \end_layout
 
 \begin_layout Standard
@@ -646,7 +658,7 @@ A bored-looking auror came striding on down past the rows of cubicles, nodding.
 
 \begin_layout Standard
 “He’s a bit funny in his guts.
- I think he might have been an earlier rejuvenation -- back before the Tower
+ I think he might have been an earlier rejuvenation – back before the Tower
  moved to this facility.
  I've heard about them… you were here then, right?” said Owen, handing over
  the sparse file that they’d started on Mr.
@@ -667,7 +679,7 @@ A bored-looking auror came striding on down past the rows of cubicles, nodding.
 \begin_layout Standard
 Owen did so, after making sure a privacy spell was on and that Madagascar
  had raised the basic safety wards.
- That was just standard -- some people didn't react well to waking up from
+ That was just standard – some people didn't react well to waking up from
  the stunning effect of the Safety Stick or Safety Poles.
  A majority awoke as calmly though they were waking from a nap, but some
  people become disoriented and alarmed.
@@ -676,7 +688,7 @@ Owen did so, after making sure a privacy spell was on and that Madagascar
 \begin_layout Standard
 The patient opened his eyes, gently, and blinked a moment.
  He tilted his head and took in the healer and the auror, then glanced around.
- A flicker of some expression passed over his face -- not the usual fear
+ A flicker of some expression passed over his face – not the usual fear
  or uncertainty or pain, but instead a shadow of apprehension.
  But it was gone as quickly as it came.
 \end_layout
@@ -695,7 +707,7 @@ Owen smiled.
  In the Tower.
  My name is Wilifred Owen.
  I’m a healer here.
- This is Harry Madagascar -- he works here with me.
+ This is Harry Madagascar – he works here with me.
  We wanted to ask you a few questions, but if you need a moment to get oriented,
  take your time.”
 \end_layout
@@ -743,7 +755,7 @@ Owen frowned, shaking his head.
 \end_inset
 
  He stepped forward again, lifting his wand.
- Behind him, he heard Madagascar move to one side -- finding a good angle
+ Behind him, he heard Madagascar move to one side – finding a good angle
  for a clear view.
  “Tell me, have you been here before, sir?” Owen set his wand on Mr.
  Khan’s chest, and stared at the blank white wall of the cubicle as he focused
@@ -783,7 +795,7 @@ While they were there, Mr.
  Owen distantly observed the process, and found it interesting.
  It was as though Mr.
  Khan were simultaneously very large and very small, peering down from a
- great height at Owen’s mind -- even as he moved within it.
+ great height at Owen’s mind – even as he moved within it.
  Owen’s mind, Owen noted, was a ceaselessly sliding mass of a thousand thousand
  thin layers of slippery jelly, undulating and quivering as they slithered
  into and over each other.
@@ -819,7 +831,7 @@ Owen agreed it was probably best that Mr.
  Khan set up a way for him to forget about the whole thing.
  Mr.
  Khan set up a pressure in Owen’s mind, waiting to be released by a command
- word -- thoughts and impulses forced out of place and bent into tension,
+ word – thoughts and impulses forced out of place and bent into tension,
  ready to spring out along a chosen path.
  He would leave only the one pressure, Mr.
  Khan explained, because he didn't want to hurt Owen.
@@ -860,6 +872,10 @@ Owen turned around.
  Let me get another healer to consult.
  We have some excellent people on staff here at the Tower, and we’ll do
  what it takes to sort everything out.”
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -902,7 +918,7 @@ In the situation with the rumor, the number of people who have heard the
 \end_layout
 
 \begin_layout Quotation
---- Patrick Honner, “Exponential Outbreaks: The Mathematics of Epidemics.
+— Patrick Honner, “Exponential Outbreaks: The Mathematics of Epidemics.
 \begin_inset Quotes erd
 \end_inset
 
